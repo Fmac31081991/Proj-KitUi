@@ -44,7 +44,7 @@ O botão **Exportar** produz um kit completo do estilo ativo, com as fontes inco
 
 | Entrada | Conteúdo |
 | :--- | :--- |
-| `index.html` | Catálogo navegável com instruções de interface e regras completas de layout, 29 padrões (demonstração, HTML e componentes usados/compatíveis), 38 componentes de referência, galeria com os ícones do acervo (473 na versão validada) e tabela com todos os tokens. Tem busca local para componentes, padrões e ícones. |
+| `index.html` | Catálogo navegável com instruções de interface e regras completas de layout, 29 padrões (demonstração, HTML e componentes usados/compatíveis), 39 componentes de referência, galeria com os ícones do acervo (473 na versão validada) e tabela com todos os tokens. Tem busca local para componentes, padrões e ícones. |
 | `kit.css` | CSS canônico integral com as variáveis `--k-*` resolvidas no topo e as fontes do acervo local em `data:`. |
 | `tokens.json` | Mapa completo das variáveis, separado por cores, forma, espaço, tipografia, efeitos, palco e textura. |
 | `README.md` | Guia com instruções de interface, regras completas de layout, papéis de cor, tabela de padrões com componentes usados/compatíveis, tabela de componentes, lista dos ícones por categoria (473 na versão validada) e sugestões de combinação. |

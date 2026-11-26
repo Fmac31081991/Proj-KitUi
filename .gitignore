@@ -33,3 +33,10 @@ KitUi-Backup-*.rar
 # Os README.md das pastas importados/ continuam versionados.
 KitUi/tabs_n_buttons/*/importados/*
 !KitUi/tabs_n_buttons/*/importados/README.md
+
+# Planejamento e referência interna (fora do produto)
+/pedidos-em-aberto.md
+/WORKTREE.md
+/Guia Kit.txt
+/icones-faltantes.md
+/kit-fluent.zip

@@ -131,6 +131,9 @@
 
   function renderCanvas() {
     const kit = els.kit;
+    /* O equalizador pode estar com o ruído de teste ligado: parar antes de
+       trocar o HTML evita áudio órfão preso a um nó removido do DOM. */
+    if (window.KIT_EQ && window.KIT_EQ.stopAll) window.KIT_EQ.stopAll();
     kit.className = 'kit';
     kit.style.zoom = state.zoom;
 

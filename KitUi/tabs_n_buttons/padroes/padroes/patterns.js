@@ -1105,7 +1105,7 @@
       }).join('') + '</div>' +
       '<div class="k-row k-row--between"><span class="k-small k-muted">1–4 de 128</span><div class="k-pagination">' +
       '<button class="k-page" type="button" disabled>' + icon('previous', 'k-icon--sm') + '</button><button class="k-page is-active" type="button">1</button><button class="k-page" type="button">2</button><button class="k-page" type="button">3</button><button class="k-page" type="button">' + icon('next', 'k-icon--sm') + '</button></div></div></div></div></div>' +
-      '<div class="k-window__foot"><span class="k-window__status"><span class="k-dot"></span>Busca em 29 padrões e 38 componentes</span><span class="k-small k-mono">⌘K</span></div></div>'
+      '<div class="k-window__foot"><span class="k-window__status"><span class="k-dot"></span>Busca em 29 padrões e 39 componentes</span><span class="k-small k-mono">⌘K</span></div></div>'
     );
   }
 

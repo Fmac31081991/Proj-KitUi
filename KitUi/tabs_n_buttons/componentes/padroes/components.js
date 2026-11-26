@@ -160,6 +160,91 @@
       '<div class="k-btn-rules__row"><strong>Ícones</strong><span>Sem tamanho fixo: o compacto não exibe ícone; nos outros dois o ícone é calculado a partir da fonte aplicada (<code>--k-btn-icon-sm</code> e <code>--k-btn-icon</code>).</span></div>' +
     '</div>';
 
+  /* Frequency Ranger / Equalizador Gráfico. Três resoluções com as mesmas
+     frequências centrais pedidas; o Q aproximado de cada resolução também é
+     usado pelo motor Web Audio em padroes/equalizer.js. */
+  const EQ_SPECS = [
+    {
+      id: 'eq6', label: '6 bandas', sub: 'Ajuste rápido e musical', q: 0.95,
+      spacing: '~1,5 oitava · Q 0,9–1,0',
+      bands: [
+        { l: '100', hz: 100 }, { l: '250', hz: 250 }, { l: '630', hz: 630 },
+        { l: '1.6k', hz: 1600 }, { l: '4k', hz: 4000 }, { l: '10k', hz: 10000 },
+      ],
+    },
+    {
+      id: 'eq15', label: '15 bandas', sub: 'Padrão ISO 2/3 de oitava', q: 2.1,
+      spacing: '2/3 de oitava · Q ≈ 2,1',
+      bands: [
+        { l: '25', hz: 25 }, { l: '40', hz: 40 }, { l: '63', hz: 63 }, { l: '100', hz: 100 },
+        { l: '160', hz: 160 }, { l: '250', hz: 250 }, { l: '400', hz: 400 }, { l: '630', hz: 630 },
+        { l: '1k', hz: 1000 }, { l: '1.6k', hz: 1600 }, { l: '2.5k', hz: 2500 }, { l: '4k', hz: 4000 },
+        { l: '6.3k', hz: 6300 }, { l: '10k', hz: 10000 }, { l: '16k', hz: 16000 },
+      ],
+    },
+    {
+      id: 'eq31', label: '31 bandas', sub: 'Padrão ISO 1/3 de oitava · cirúrgico', q: 4.3,
+      spacing: '1/3 de oitava · Q ≈ 4,3',
+      bands: [
+        { l: '20', hz: 20 }, { l: '25', hz: 25 }, { l: '31.5', hz: 31.5 }, { l: '40', hz: 40 },
+        { l: '50', hz: 50 }, { l: '63', hz: 63 }, { l: '80', hz: 80 }, { l: '100', hz: 100 },
+        { l: '125', hz: 125 }, { l: '160', hz: 160 }, { l: '200', hz: 200 }, { l: '250', hz: 250 },
+        { l: '315', hz: 315 }, { l: '400', hz: 400 }, { l: '500', hz: 500 }, { l: '630', hz: 630 },
+        { l: '800', hz: 800 }, { l: '1k', hz: 1000 }, { l: '1.25k', hz: 1250 }, { l: '1.6k', hz: 1600 },
+        { l: '2k', hz: 2000 }, { l: '2.5k', hz: 2500 }, { l: '3.15k', hz: 3150 }, { l: '4k', hz: 4000 },
+        { l: '5k', hz: 5000 }, { l: '6.3k', hz: 6300 }, { l: '8k', hz: 8000 }, { l: '10k', hz: 10000 },
+        { l: '12.5k', hz: 12500 }, { l: '16k', hz: 16000 }, { l: '20k', hz: 20000 },
+      ],
+    },
+  ];
+
+  function eqFader(b, i) {
+    return '<div class="k-eq__band">' +
+      '<output class="k-eq__db" data-eq-dbout>0,0</output>' +
+      '<div class="k-eq__track" role="slider" tabindex="0" aria-orientation="vertical" aria-label="' + b.l + ' Hz" aria-valuemin="-12" aria-valuemax="12" aria-valuenow="0" aria-valuetext="0,0 dB" data-eq-track data-eq-hz="' + b.hz + '" data-eq-db="0">' +
+        '<span class="k-eq__grid"></span><span class="k-eq__fill" data-eq-fill></span>' +
+        '<span class="k-eq__detent"></span><span class="k-eq__thumb" data-eq-thumb></span>' +
+      '</div>' +
+      '<span class="k-eq__freq">' + b.l + '</span>' +
+      '</div>';
+  }
+
+  function eqMarkup(spec) {
+    return '<section class="k-eq k-eq--' + spec.id + '" data-eq-root data-eq-spec="' + spec.id + '" data-eq-range="12" data-eq-bypass="false" data-eq-out="0">' +
+      '<header class="k-eq__head">' +
+        '<div class="k-eq__title"><strong>' + spec.label + '</strong><small>' + spec.sub + '</small></div>' +
+        '<div class="k-eq__tools">' +
+          '<div class="k-eq__segment" role="group" aria-label="Alcance dos faders">' +
+            '<button class="k-btn k-btn--sm" type="button" data-eq-act="range" data-eq-value="6">±6 dB</button>' +
+            '<button class="k-btn k-btn--sm is-active" type="button" data-eq-act="range" data-eq-value="12">±12 dB</button>' +
+          '</div>' +
+          '<button class="k-btn k-btn--sm" type="button" data-eq-act="bypass" aria-pressed="false">Bypass</button>' +
+          '<button class="k-btn k-btn--sm" type="button" data-eq-act="reset">Reset / Flat</button>' +
+          '<label class="k-eq__out"><span>Output</span>' +
+            '<input class="k-range" type="range" min="-12" max="12" step="0.5" value="0" data-eq-out-input aria-label="Ganho de saída">' +
+            '<output data-eq-out-out>0,0 dB</output></label>' +
+          '<button class="k-btn k-btn--sm k-btn--primary" type="button" data-eq-act="listen" aria-pressed="false">Ouvir</button>' +
+        '</div>' +
+      '</header>' +
+      '<div class="k-eq__body">' +
+        '<div class="k-eq__scale" aria-hidden="true" data-eq-scale><span>+12</span><span>+6</span><span>0</span><span>-6</span><span>-12</span></div>' +
+        '<div class="k-eq__rack">' + spec.bands.map(eqFader).join('') + '</div>' +
+      '</div>' +
+      '</section>';
+  }
+
+  const EQ_RULES_CARD =
+    '<div class="k-eq-rules">' +
+      '<div class="k-eq-rules__head"><p class="k-eq-rules__meta">Três resoluções · faders verticais com detent em 0 dB · DSP peaking em cascata</p></div>' +
+      '<div class="k-eq-rules__row"><strong>6 bandas</strong><span>100 / 250 / 630 / 1.6k / 4k / 10k Hz. Espaçamento de ~1,5 oitava, Q largo e suave (0,9–1,0): ajuste rápido e musical.</span></div>' +
+      '<div class="k-eq-rules__row"><strong>15 bandas</strong><span>25 / 40 / 63 / 100 / 160 / 250 / 400 / 630 / 1k / 1.6k / 2.5k / 4k / 6.3k / 10k / 16k Hz. ISO 2/3 de oitava, Q ≈ 2,1.</span></div>' +
+      '<div class="k-eq-rules__row"><strong>31 bandas</strong><span>20 a 20k Hz em 1/3 de oitava, Q ≈ 4,3: correção cirúrgica. A escala é a ISO completa (20, 25, 31.5, 40, 50, 63, 80, 100, 125, 160, 200, 250, 315, 400, 500, 630, 800, 1k, 1.25k, 1.6k, 2k, 2.5k, 3.15k, 4k, 5k, 6.3k, 8k, 10k, 12.5k, 16k, 20k).</span></div>' +
+      '<div class="k-eq-rules__row"><strong>Faders</strong><span>Lineares e verticais, com imã suave no centro: valores dentro de 0,35 dB viram exatamente 0 dB. Arraste, setas, Home/End e leitura por leitor de tela (`role="slider"`).</span></div>' +
+      '<div class="k-eq-rules__row"><strong>Alcance</strong><span>A chave alterna ±6 dB (ajuste fino) e ±12 dB (amplo). Ao reduzir o alcance, os valores acima do novo limite são comprimidos para ele; a escala acompanha.</span></div>' +
+      '<div class="k-eq-rules__row"><strong>Controles</strong><span>Bypass desvia o sinal da cadeia de filtros; Reset/Flat zera todas as bandas; Output Gain/Trim compensa o volume na saída, em dB.</span></div>' +
+      '<div class="k-eq-rules__row"><strong>DSP</strong><span>Um filtro <code>peaking</code> por banda, em cascata (série), na frequência central e no Q da resolução. Com todos os faders em 0 dB a cadeia é transparente: a resposta é plana. <b>Ouvir</b> liga um ruído de teste local e silencioso só para conferir o efeito; nada é gravado.</span></div>' +
+    '</div>';
+
   const components = [
     /* ---------------- Ações ---------------- */
     {
@@ -378,6 +463,18 @@
             '<span class="k-slider__thumb" style="left:12%"></span><span class="k-slider__thumb" style="left:80%"></span></div>' +
             '<div class="k-slider__scale"><span>R$ 0</span><span>R$ 600</span></div></div>'
         ),
+    },
+    {
+      id: 'equalizer',
+      group: 'Formulários',
+      title: 'Equalizador Gráfico',
+      desc: 'Frequency Ranger com faders verticais em três resoluções (6, 15 e 31 bandas), detent em 0 dB, chave ±6/±12 dB, Bypass, Reset/Flat e Output Gain. Filtros peaking em cascata, com resposta plana quando todas as bandas estão zeradas.',
+      code: eqMarkup(EQ_SPECS[0]),
+      demo: () =>
+        block('6 bandas · ajuste rápido', eqMarkup(EQ_SPECS[0])) +
+        block('15 bandas · ISO 2/3 de oitava', eqMarkup(EQ_SPECS[1])) +
+        block('31 bandas · ISO 1/3 de oitava', eqMarkup(EQ_SPECS[2])) +
+        block('Informação técnica', EQ_RULES_CARD),
     },
     {
       id: 'datetime',
@@ -1324,6 +1421,7 @@
     components,
     groups: ['Ações', 'Formulários', 'Exibição', 'Navegação', 'Feedback', 'Tipografia'],
     all: components,
+    EQ_SPECS,
     icon,
     esc,
     block,
