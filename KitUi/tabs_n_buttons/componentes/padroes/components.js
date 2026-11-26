@@ -105,8 +105,8 @@
 
   /* Demonstração dos botões: cada variante aparece em uma linha horizontal com
      os cinco estados. Ordem: todos os compactos, depois medianos, depois grandes.
-     Compacto = sem negrito e sem ícone; Mediano = ícone 15 px; Grande = ícone 18 px
-     (proporções de Salvar alterações). */
+     A geometria de cada passo vem da menor fonte aplicada ao estilo: a mesma
+     referência de --k-type-1/2/3 comanda altura, paddings e ícone. */
   const BTN_VARIANTS = [
     { label: 'Salvar',   variant: 'k-btn--primary',   icon: 'save' },
     { label: 'Cancelar', variant: 'k-btn--secondary', icon: 'copy' },
@@ -150,14 +150,14 @@
   const BTN_RULES_CARD =
     '<div class="k-btn-rules">' +
       '<div class="k-btn-rules__head">' +
-        '<p class="k-btn-rules__meta">Três tamanhos de botão · três tamanhos de fonte · dois tamanhos de ícone</p>' +
+        '<p class="k-btn-rules__meta">Três tamanhos de botão · geometria derivada da menor fonte aplicada ao estilo</p>' +
       '</div>' +
-      '<div class="k-btn-rules__row"><strong>Compacto</strong><span>Altura 24 px (<code>--k-control-h - 16px</code>), fonte = menor visível (<code>--k-fs-compact</code>, 11,5 px por padrão), peso 400, sem ícone e sem sombra. Mínimo para exibir o texto.</span></div>' +
-      '<div class="k-btn-rules__row"><strong>Mediano</strong><span>Altura 32 px (<code>--k-control-h - 8px</code>), fonte = mínimo × 1,09 (<code>--k-fs-sm</code>, 12,5 px por padrão), peso 500, ícone 15 px.</span></div>' +
-      '<div class="k-btn-rules__row"><strong>Grande</strong><span>Altura 40 px (<code>--k-control-h</code>), padrão. Fonte = mínimo × 1,30 (<code>--k-fs</code>, 15 px por padrão), peso 500, ícone 18 px. Proporções de “Salvar alterações”; é o maior botão permitido.</span></div>' +
-      '<div class="k-btn-rules__row"><strong>Fontes</strong><span>Cada fonte entra no acervo com um menor visível definido pelo Kit UI; em Propriedades a pessoa pode redefini-lo ao aplicar a fonte ao estilo. A sequência é proporcional: 1 = mínimo, 2 = mínimo × 1,09 e 3 = mínimo × 1,30. O padrão é 11,5 / 12,5 / 15 px.</span></div>' +
-      '<div class="k-btn-rules__row"><strong>Estilo extraído</strong><span>Ao menos um dos tamanhos além do compacto deve corresponder ao tamanho original do estilo extraído, para manter compatibilidade visual. Se o estilo extraído já for próximo do menor tamanho possível, não se cria um compacto menor: as variantes sobem de tamanho.</span></div>' +
-      '<div class="k-btn-rules__row"><strong>Ícones</strong><span>Nenhum no compacto; 15 px no mediano e 18 px no grande.</span></div>' +
+      '<div class="k-btn-rules__row"><strong>Compacto</strong><span>Altura e paddings calculados do tamanho vertical da menor fonte aplicada (<code>--k-btn-h-compact</code>, <code>--k-btn-pad-*</code>). Fonte = menor visível (<code>--k-fs-compact</code>, 11,5 px por padrão), peso 400, sem ícone e sem sombra.</span></div>' +
+      '<div class="k-btn-rules__row"><strong>Mediano</strong><span>A mesma referência no passo intermediário da fonte (<code>--k-btn-h-sm</code>). Fonte = mínimo × 1,09 (<code>--k-fs-sm</code>, 12,5 px por padrão), peso 500; o ícone acompanha a fonte (<code>--k-btn-icon-sm</code>).</span></div>' +
+      '<div class="k-btn-rules__row"><strong>Grande</strong><span>A mesma referência no passo alto (<code>--k-btn-h</code>). Fonte = mínimo × 1,30 (<code>--k-fs</code>, 15 px por padrão), peso 500, ícone proporcional (<code>--k-btn-icon</code>). Classe base, proporções de “Salvar alterações”; é o maior botão permitido.</span></div>' +
+      '<div class="k-btn-rules__row"><strong>Fonte aplicada</strong><span>A referência é a fonte do estilo. Ao escolher outra fonte, seu menor visível pode ser redefinido nas configurações da própria fonte; ao clicar em <code>Aplicar</code> em Propriedades, esse valor em px passa a comandar a sequência: 1 = mínimo, 2 = mínimo × 1,09, 3 = mínimo × 1,30 (padrão 11,5 / 12,5 / 15 px). Altura, margens, paddings e ícones dos botões derivam do mesmo valor.</span></div>' +
+      '<div class="k-btn-rules__row"><strong>Estilo extraído</strong><span>Ao menos um dos passos além do compacto deve manter compatibilidade visual com o estilo extraído. Se o estilo extraído já for próximo do menor tamanho possível, não se cria um compacto menor: as variantes sobem de tamanho.</span></div>' +
+      '<div class="k-btn-rules__row"><strong>Ícones</strong><span>Sem tamanho fixo: o compacto não exibe ícone; nos outros dois o ícone é calculado a partir da fonte aplicada (<code>--k-btn-icon-sm</code> e <code>--k-btn-icon</code>).</span></div>' +
     '</div>';
 
   const components = [
@@ -166,7 +166,7 @@
       id: 'button',
       group: 'Ações',
       title: 'Botões',
-      desc: 'Cinco variantes em três tamanhos. Cada linha mostra os estados normal, hover, foco, pressionado e desativado: primeiro os compactos, depois os medianos e os grandes. Regras técnicas no bloco inferior.',
+      desc: 'Cinco variantes em três tamanhos. Cada linha mostra os estados normal, hover, foco, pressionado e desativado: primeiro os compactos, depois os medianos e os grandes. A geometria acompanha a menor fonte aplicada ao estilo; regras técnicas no bloco inferior.',
       code:
         '<button class="k-btn k-btn--primary k-btn--compact" type="button">Salvar</button>\n' +
         '<button class="k-btn k-btn--secondary k-btn--sm" type="button">' + icon('copy', 'k-icon--sm') + 'Cancelar</button>\n' +

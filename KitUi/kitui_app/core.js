@@ -410,6 +410,30 @@
     t['--k-type-1'] = t['--k-fs-compact'];
     t['--k-type-2'] = t['--k-fs-sm'];
     t['--k-type-3'] = t['--k-fs'];
+
+    /* Geometria dos botões derivada da menor fonte aplicada ao estilo.
+       O tamanho vertical em px da fonte (--k-fs-compact) é a referência:
+       altura, paddings e ícones acompanham essa medida. A escala das fontes
+       já é proporcional ao mesmo mínimo (×1,09 e ×1,30), de modo que um
+       aumento percentual no mínimo se replica nos botões compacto, mediano
+       e grande na mesma proporção. */
+    const btnMin = parseFloat(t['--k-fs-compact']) || FONT_DEFAULT_MIN;
+    const btnFactor = btnMin / FONT_DEFAULT_MIN;
+    const btnPx = (base) => +(base * btnFactor).toFixed(2) + 'px';
+    const ctlH = parseFloat(t['--k-control-h']) || 40;
+    const padY = parseFloat(t['--k-pad-y']) || 9;
+    const padX = parseFloat(t['--k-pad-x']) || 16;
+    t['--k-btn-h-compact'] = btnPx(ctlH - 16);
+    t['--k-btn-h-sm'] = btnPx(ctlH - 8);
+    t['--k-btn-h'] = btnPx(ctlH);
+    t['--k-btn-pad-y-compact'] = btnPx(2);
+    t['--k-btn-pad-x-compact'] = btnPx(6);
+    t['--k-btn-pad-y-sm'] = btnPx(padY - 2);
+    t['--k-btn-pad-x-sm'] = btnPx(padX - 4);
+    t['--k-btn-pad-y'] = btnPx(padY);
+    t['--k-btn-pad-x'] = btnPx(padX);
+    t['--k-btn-icon-sm'] = btnPx(15);
+    t['--k-btn-icon'] = btnPx(18);
     Object.keys(o.colors || {}).forEach((k) => {
       t[k] = o.colors[k];
     });

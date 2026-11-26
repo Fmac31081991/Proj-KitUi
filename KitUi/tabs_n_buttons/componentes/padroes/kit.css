@@ -109,8 +109,8 @@
   align-items: center;
   justify-content: center;
   gap: var(--k-sp-2);
-  min-height: var(--k-control-h);
-  padding: var(--k-pad-y) var(--k-pad-x);
+  min-height: var(--k-btn-h, var(--k-control-h));
+  padding: var(--k-btn-pad-y, var(--k-pad-y)) var(--k-btn-pad-x, var(--k-pad-x));
   border: var(--k-bw) solid var(--k-border);
   border-radius: var(--k-radius-md);
   background: var(--k-surface);
@@ -197,22 +197,23 @@
   border-color: var(--k-primary);
 }
 .k-btn--icon {
-  width: var(--k-control-h);
+  width: var(--k-btn-h, var(--k-control-h));
   padding: 0;
   flex: none;
 }
 .k-btn--sm {
-  min-height: calc(var(--k-control-h) - 8px);
-  padding: calc(var(--k-pad-y) - 2px) calc(var(--k-pad-x) - 4px);
+  min-height: var(--k-btn-h-sm, calc(var(--k-control-h) - 8px));
+  padding: var(--k-btn-pad-y-sm, calc(var(--k-pad-y) - 2px)) var(--k-btn-pad-x-sm, calc(var(--k-pad-x) - 4px));
   font-size: var(--k-fs-sm);
 }
-/* Tamanhos de ícone: nenhum no compacto, 15 px no mediano e 18 px no grande.
-   O botão grande é a própria classe base, com as proporções de Salvar alterações. */
-.k-btn .k-icon { width: var(--k-icon-size, 18px); height: var(--k-icon-size, 18px); }
-.k-btn--sm .k-icon { width: var(--k-icon-size-sm, 15px); height: var(--k-icon-size-sm, 15px); }
+/* Ícones e geometria acompanham a menor fonte aplicada ao estilo: a mesma
+   referência que comanda altura e paddings também escala o ícone. O botão
+   grande é a própria classe base, com as proporções de Salvar alterações. */
+.k-btn .k-icon { width: var(--k-btn-icon, var(--k-icon-size, 18px)); height: var(--k-btn-icon, var(--k-icon-size, 18px)); }
+.k-btn--sm .k-icon { width: var(--k-btn-icon-sm, var(--k-icon-size-sm, 15px)); height: var(--k-btn-icon-sm, var(--k-icon-size-sm, 15px)); }
 .k-btn--compact {
-  min-height: calc(var(--k-control-h) - 16px);
-  padding: 2px 6px;
+  min-height: var(--k-btn-h-compact, calc(var(--k-control-h) - 16px));
+  padding: var(--k-btn-pad-y-compact, 2px) var(--k-btn-pad-x-compact, 6px);
   font-size: var(--k-fs-compact, calc(var(--k-fs-sm) - 1px));
   font-weight: 400;
   line-height: 1.2;
@@ -242,8 +243,8 @@
 .k-btn-rules__row span { color: var(--k-muted); }
 .k-btn-demo-row { gap: 6px; }
 .k-btn-demo-row + .k-btn-demo-row { margin-top: 10px; }
-.k-btn-demo-row .k-btn:not(.k-btn--icon):not(.k-btn--compact) { padding-inline: 12px; }
-.k-btn-demo-row .k-btn--sm:not(.k-btn--icon) { padding-inline: 10px; }
+.k-btn-demo-row .k-btn:not(.k-btn--icon):not(.k-btn--compact) { padding-inline: calc(var(--k-btn-pad-x, var(--k-pad-x)) * .75); }
+.k-btn-demo-row .k-btn--sm:not(.k-btn--icon) { padding-inline: calc(var(--k-btn-pad-x-sm, calc(var(--k-pad-x) - 4px)) * .83); }
 /* @end */
 
 /* ---------- campos ---------- */
