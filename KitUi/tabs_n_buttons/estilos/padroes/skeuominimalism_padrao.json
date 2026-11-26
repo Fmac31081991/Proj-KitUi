@@ -1,0 +1,38 @@
+{
+  "id": "skeuominimalism",
+  "name": "Skeuominimalismo",
+  "family": "Padrão",
+  "note": "Respiro minimalista com um detalhe tátil pontual.",
+  "swatch": [
+    "#A8A29E",
+    "#FAFAF9",
+    "#292524"
+  ],
+  "font": "Instrument Sans",
+  "radius": "soft",
+  "density": "regular",
+  "tokens": {
+    "--k-bg": "#FAFAF9",
+    "--k-surface": "#FFFFFF",
+    "--k-surface-2": "#F1F0EE",
+    "--k-text": "#292524",
+    "--k-muted": "#78716C",
+    "--k-border": "#E7E5E4",
+    "--k-primary": "#57534E",
+    "--k-on-primary": "#FFFFFF",
+    "--k-accent": "#A8A29E",
+    "--k-on-accent": "#FFFFFF",
+    "--k-radius-sm": "8px",
+    "--k-radius-md": "14px",
+    "--k-radius-lg": "20px",
+    "--k-gap": "22px",
+    "--k-pad": "26px",
+    "--k-section-pad": "38px",
+    "--k-shadow-sm": "0 1px 2px rgba(41,37,36,.06)",
+    "--k-shadow-md": "0 12px 30px rgba(41,37,36,.10)",
+    "--k-shadow-inset": "inset 0 1px 0 rgba(255,255,255,.9), inset 0 -2px 4px rgba(120,113,108,.18)",
+    "--k-btn-shadow": "inset 0 1px 0 rgba(255,255,255,.9), inset 0 -2px 3px rgba(120,113,108,.18)",
+    "--k-field-inset": "inset 0 2px 4px rgba(120,113,108,.12)",
+    "--k-stage-bg": "linear-gradient(180deg, #F5F4F2, #EDEAE6)"
+  }
+}

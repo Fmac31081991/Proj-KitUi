@@ -1,0 +1,36 @@
+{
+  "id": "khop-pastel",
+  "name": "Khop Pastel",
+  "family": "Padrão",
+  "note": "Pastéis menta e creme com acento coral.",
+  "swatch": [
+    "#6EB799",
+    "#ECDBBD",
+    "#C94E3E"
+  ],
+  "font": "Nunito",
+  "radius": "round",
+  "density": "regular",
+  "tokens": {
+    "--k-bg": "#C2F1D1",
+    "--k-surface": "#D7F6E1",
+    "--k-surface-2": "#C2EACB",
+    "--k-text": "#65271F",
+    "--k-muted": "#8F826F",
+    "--k-border": "#B1CDB1",
+    "--k-primary": "#C94E3E",
+    "--k-on-primary": "#FFFFFF",
+    "--k-accent": "#D26868",
+    "--k-on-accent": "#FFFFFF",
+    "--k-danger": "#DC2626",
+    "--k-on-danger": "#FFFFFF",
+    "--k-success": "#059669",
+    "--k-on-success": "#FFFFFF",
+    "--k-focus": "#C94E3E",
+    "--k-stage-bg": "#C2ECCD",
+    "--k-radius-xs": "8px",
+    "--k-radius-sm": "12px",
+    "--k-radius-md": "16px",
+    "--k-radius-lg": "22px"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "neutral-blue-sage",
+  "name": "Neutral Blue Sage",
+  "family": "Padrão",
+  "note": "Neutros azulados e sálvia, clima calmo.",
+  "swatch": [
+    "#49606E",
+    "#FDFFF4",
+    "#98AA9A"
+  ],
+  "font": "Manrope",
+  "radius": "soft",
+  "density": "regular",
+  "tokens": {
+    "--k-bg": "#FDFFF4",
+    "--k-surface": "#FEFFF8",
+    "--k-surface-2": "#F5F7ED",
+    "--k-text": "#2A3843",
+    "--k-muted": "#899293",
+    "--k-border": "#D7DBD4",
+    "--k-primary": "#2A3843",
+    "--k-on-primary": "#FFFFFF",
+    "--k-accent": "#49606E",
+    "--k-on-accent": "#FFFFFF",
+    "--k-danger": "#DC2626",
+    "--k-on-danger": "#FFFFFF",
+    "--k-success": "#059669",
+    "--k-on-success": "#FFFFFF",
+    "--k-focus": "#2A3843",
+    "--k-stage-bg": "#F7F9EF"
+  }
+}

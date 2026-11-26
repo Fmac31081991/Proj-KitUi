@@ -1,0 +1,37 @@
+{
+  "id": "spatial",
+  "name": "Design Espacial",
+  "family": "Padrão",
+  "note": "Janelas flutuantes, profundidade 3D e vidro etéreo.",
+  "swatch": [
+    "#8EC5FF",
+    "#F2F7FF",
+    "#3D5A80"
+  ],
+  "font": "Sora",
+  "radius": "pill",
+  "density": "comfortable",
+  "tokens": {
+    "--k-bg": "rgba(238,245,255,.68)",
+    "--k-surface": "rgba(255,255,255,.58)",
+    "--k-surface-2": "rgba(196,219,255,.55)",
+    "--k-text": "#16243D",
+    "--k-muted": "#546B8C",
+    "--k-border": "rgba(255,255,255,.75)",
+    "--k-primary": "#3D7FE8",
+    "--k-on-primary": "#FFFFFF",
+    "--k-accent": "#8EC5FF",
+    "--k-radius-sm": "16px",
+    "--k-radius-md": "24px",
+    "--k-radius-lg": "36px",
+    "--k-bw": "1px",
+    "--k-blur": "24px",
+    "--k-saturate": "1.6",
+    "--k-pad": "28px",
+    "--k-section-pad": "40px",
+    "--k-shadow-sm": "0 8px 30px rgba(40,80,140,.14)",
+    "--k-shadow-md": "0 30px 80px rgba(40,80,140,.28)",
+    "--k-shadow-inset": "inset 0 1px 0 rgba(255,255,255,.95)",
+    "--k-stage-bg": "linear-gradient(160deg, #BFD8F5 0%, #E8D9F7 45%, #D8F2EC 100%)"
+  }
+}

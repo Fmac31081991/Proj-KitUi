@@ -1,0 +1,40 @@
+{
+  "id": "retro-y2k",
+  "name": "Retrô / Vaporwave / Y2K",
+  "family": "Padrão",
+  "note": "Anos 1990 e 2000: neon, cromado, pixel e janelas duras.",
+  "swatch": [
+    "#FF00A8",
+    "#00F0FF",
+    "#2B0A52"
+  ],
+  "font": "Press Start 2P",
+  "radius": "sharp",
+  "density": "compact",
+  "tokens": {
+    "--k-bg": "#1A0033",
+    "--k-surface": "#2C0B52",
+    "--k-surface-2": "#421070",
+    "--k-text": "#F5E9FF",
+    "--k-muted": "#C9A8E8",
+    "--k-border": "#00F0FF",
+    "--k-primary": "#FF00A8",
+    "--k-on-primary": "#FFFFFF",
+    "--k-accent": "#00F0FF",
+    "--k-on-accent": "#1A0033",
+    "--k-radius-xs": "0px",
+    "--k-radius-sm": "0px",
+    "--k-radius-md": "2px",
+    "--k-radius-lg": "4px",
+    "--k-bw": "2px",
+    "--k-fs": "13px",
+    "--k-fs-sm": "11px",
+    "--k-lh": "1.6",
+    "--k-weight-strong": "700",
+    "--k-track": ".06em",
+    "--k-shadow-sm": "3px 3px 0 #00F0FF",
+    "--k-shadow-md": "8px 8px 0 #FF00A8",
+    "--k-btn-shadow": "3px 3px 0 #00F0FF",
+    "--k-stage-bg": "linear-gradient(180deg, #2B0A52 0%, #5B1B8A 55%, #FF6BD6 100%)"
+  }
+}

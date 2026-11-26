@@ -1,0 +1,35 @@
+{
+  "id": "fluent",
+  "name": "Fluent Design",
+  "family": "Padrão",
+  "note": "Luz, profundidade, acrílico e materiais translúcidos.",
+  "swatch": [
+    "#0F6CBD",
+    "#F3F6FA",
+    "#E8F2FF"
+  ],
+  "font": "Segoe UI Variable",
+  "radius": "soft",
+  "density": "regular",
+  "tokens": {
+    "--k-bg": "#F3F6FA",
+    "--k-surface": "rgba(255,255,255,.72)",
+    "--k-surface-2": "rgba(232,242,255,.75)",
+    "--k-text": "#1B2838",
+    "--k-muted": "#5B6B7F",
+    "--k-border": "rgba(255,255,255,.8)",
+    "--k-primary": "#0F6CBD",
+    "--k-accent": "#7F56D9",
+    "--k-radius-sm": "6px",
+    "--k-radius-md": "12px",
+    "--k-radius-lg": "18px",
+    "--k-bw": "1px",
+    "--k-blur": "14px",
+    "--k-saturate": "1.4",
+    "--k-shadow-sm": "0 2px 8px rgba(15,60,120,.08)",
+    "--k-shadow-md": "0 16px 40px rgba(15,60,120,.16)",
+    "--k-shadow-inset": "inset 0 1px 0 rgba(255,255,255,.9)",
+    "--k-btn-shadow": "0 2px 6px rgba(15,108,189,.18)",
+    "--k-stage-bg": "linear-gradient(135deg, #DDEBFF 0%, #F6D9FF 50%, #D9F6F2 100%)"
+  }
+}

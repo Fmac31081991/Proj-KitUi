@@ -1,0 +1,37 @@
+{
+  "id": "maximalism",
+  "name": "Maximalismo",
+  "family": "Padrão",
+  "note": "Camadas, texturas, cores vibrantes e informação densa.",
+  "swatch": [
+    "#FF2E88",
+    "#FFD400",
+    "#001B44"
+  ],
+  "font": "Bricolage Grotesque",
+  "radius": "round",
+  "density": "compact",
+  "tokens": {
+    "--k-bg": "#180038",
+    "--k-surface": "#2A0A55",
+    "--k-surface-2": "#3D1170",
+    "--k-text": "#FFF3FF",
+    "--k-muted": "#D9B8F5",
+    "--k-border": "#FF2E88",
+    "--k-primary": "#FF2E88",
+    "--k-on-primary": "#180038",
+    "--k-accent": "#FFD400",
+    "--k-on-accent": "#180038",
+    "--k-radius-sm": "14px",
+    "--k-radius-md": "22px",
+    "--k-radius-lg": "32px",
+    "--k-bw": "3px",
+    "--k-shadow-sm": "4px 4px 0 #FFD400",
+    "--k-shadow-md": "10px 10px 0 #00E5FF",
+    "--k-btn-shadow": "4px 4px 0 #FFD400",
+    "--k-btn-shadow-hover": "6px 6px 0 #00E5FF",
+    "--k-track": ".02em",
+    "--k-weight-strong": "800",
+    "--k-stage-bg": "radial-gradient(60% 50% at 10% 10%, #FF2E88 0%, transparent 55%), radial-gradient(60% 50% at 90% 85%, #00E5FF 0%, transparent 55%), #180038"
+  }
+}

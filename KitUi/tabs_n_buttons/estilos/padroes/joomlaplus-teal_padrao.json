@@ -1,0 +1,32 @@
+{
+  "id": "joomlaplus-teal",
+  "name": "JoomlaPlus Teal",
+  "family": "Padrão",
+  "note": "Azul petróleo com teal e superfícies claras.",
+  "swatch": [
+    "#263C54",
+    "#6DC3B6",
+    "#FFFFFF"
+  ],
+  "font": "Manrope",
+  "radius": "soft",
+  "density": "regular",
+  "tokens": {
+    "--k-bg": "#FFFFFF",
+    "--k-surface": "#FFFFFF",
+    "--k-surface-2": "#F6F7F8",
+    "--k-text": "#263C54",
+    "--k-muted": "#8894A1",
+    "--k-border": "#D8DCE0",
+    "--k-primary": "#263C54",
+    "--k-on-primary": "#FFFFFF",
+    "--k-accent": "#6DC3B6",
+    "--k-on-accent": "#1A1A1A",
+    "--k-danger": "#DC2626",
+    "--k-on-danger": "#FFFFFF",
+    "--k-success": "#059669",
+    "--k-on-success": "#FFFFFF",
+    "--k-focus": "#263C54",
+    "--k-stage-bg": "#F8F9FA"
+  }
+}

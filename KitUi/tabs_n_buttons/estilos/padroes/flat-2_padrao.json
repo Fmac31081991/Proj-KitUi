@@ -1,0 +1,33 @@
+{
+  "id": "flat-2",
+  "name": "Flat 2.0",
+  "family": "Padrão",
+  "note": "Formas planas com sombras suaves e microinterações.",
+  "swatch": [
+    "#3D7BFF",
+    "#F5F7FB",
+    "#1F2937"
+  ],
+  "font": "DM Sans",
+  "radius": "soft",
+  "density": "regular",
+  "tokens": {
+    "--k-bg": "#F4F6FA",
+    "--k-surface": "#FFFFFF",
+    "--k-surface-2": "#EAEFF7",
+    "--k-text": "#1F2937",
+    "--k-muted": "#6B7280",
+    "--k-border": "#DDE3ED",
+    "--k-primary": "#3D7BFF",
+    "--k-accent": "#00B8A9",
+    "--k-radius-sm": "8px",
+    "--k-radius-md": "14px",
+    "--k-radius-lg": "20px",
+    "--k-shadow-sm": "0 1px 3px rgba(31,41,55,.08)",
+    "--k-shadow-md": "0 8px 24px rgba(31,41,55,.12)",
+    "--k-btn-shadow": "0 2px 4px rgba(61,123,255,.2)",
+    "--k-btn-shadow-hover": "0 6px 16px rgba(61,123,255,.28)",
+    "--k-btn-hover-transform": "translateY(-3px)",
+    "--k-stage-bg": "linear-gradient(160deg, #EAF0FB 0%, #F7F9FC 100%)"
+  }
+}

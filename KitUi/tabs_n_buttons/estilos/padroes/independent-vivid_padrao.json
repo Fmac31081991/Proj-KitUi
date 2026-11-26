@@ -1,0 +1,32 @@
+{
+  "id": "independent-vivid",
+  "name": "Independent Vivid",
+  "family": "Padrão",
+  "note": "Contraste forte com roxo, vermelho e amarelo.",
+  "swatch": [
+    "#1C3345",
+    "#DC364A",
+    "#F4DC32"
+  ],
+  "font": "Sora",
+  "radius": "soft",
+  "density": "regular",
+  "tokens": {
+    "--k-bg": "#F4DC32",
+    "--k-surface": "#F8E87A",
+    "--k-surface-2": "#EED336",
+    "--k-text": "#54019B",
+    "--k-muted": "#9C646C",
+    "--k-border": "#D7B545",
+    "--k-primary": "#54019B",
+    "--k-on-primary": "#FFFFFF",
+    "--k-accent": "#F4DC32",
+    "--k-on-accent": "#1A1A1A",
+    "--k-danger": "#DC2626",
+    "--k-on-danger": "#FFFFFF",
+    "--k-success": "#059669",
+    "--k-on-success": "#FFFFFF",
+    "--k-focus": "#54019B",
+    "--k-stage-bg": "#EFD535"
+  }
+}

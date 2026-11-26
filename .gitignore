@@ -1,0 +1,35 @@
+# Metadados e configuração de editores
+*.orig
+*.rej
+*.swp
+*.swo
+~$*
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependências, logs e arquivos temporários
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+*.tmp
+*.temp
+
+# Ambiente e segredos
+.env
+.env.*
+
+# Backups locais do projeto (não são código-fonte)
+KitUi-Backup-*.zip
+KitUi-Backup-*.rar
+
+# Conteúdo importado em tempo de execução pelos usuários.
+# Os README.md das pastas importados/ continuam versionados.
+KitUi/tabs_n_buttons/*/importados/*
+!KitUi/tabs_n_buttons/*/importados/README.md

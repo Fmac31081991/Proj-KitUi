@@ -1,0 +1,36 @@
+{
+  "id": "happy-mom-blush",
+  "name": "Happy Mom Blush",
+  "family": "Padrão",
+  "note": "Tons suaves de menta, creme e rosa.",
+  "swatch": [
+    "#73B9B1",
+    "#DAD8A8",
+    "#DE3F7F"
+  ],
+  "font": "Nunito",
+  "radius": "round",
+  "density": "regular",
+  "tokens": {
+    "--k-bg": "#DAD8A8",
+    "--k-surface": "#E7E6C6",
+    "--k-surface-2": "#DAD2A6",
+    "--k-text": "#6F2040",
+    "--k-muted": "#9F736F",
+    "--k-border": "#C7B795",
+    "--k-primary": "#DE3F7F",
+    "--k-on-primary": "#FFFFFF",
+    "--k-accent": "#73B9B1",
+    "--k-on-accent": "#1A1A1A",
+    "--k-danger": "#DC2626",
+    "--k-on-danger": "#FFFFFF",
+    "--k-success": "#059669",
+    "--k-on-success": "#FFFFFF",
+    "--k-focus": "#DE3F7F",
+    "--k-stage-bg": "#DAD3A7",
+    "--k-radius-xs": "8px",
+    "--k-radius-sm": "12px",
+    "--k-radius-md": "16px",
+    "--k-radius-lg": "22px"
+  }
+}

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kit UI — catálogo de estilos e componentes</title>
+<meta name="description" content="Catálogo de estilos de interface, componentes e ícones vetoriais com temas por tokens, em HTML e CSS puros.">
+<link rel="stylesheet" href="kitui_interface/fontes/fonts.css">
+<link rel="stylesheet" href="kitui_interface/estilos/shell.css">
+<link rel="stylesheet" href="tabs_n_buttons/componentes/padroes/kit.css">
+</head>
+<body>
+
+<div class="stage" id="stage">
+  <div class="app" id="app">
+
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand__mark" id="brandMark" data-ic="component" aria-hidden="true"></span>
+        <span class="brand__name">kit<span>ui</span></span>
+      </div>
+
+      <nav class="rail" id="rail" aria-label="Seções">
+        <button class="rail__btn" type="button" data-tab="styles" title="Asset: estilos">Estilos</button>
+        <button class="rail__btn" type="button" data-tab="icons" title="Asset: ícones">Ícones</button>
+        <button class="rail__btn" type="button" data-tab="fonts" title="Asset: fontes">Fontes</button>
+        <button class="rail__btn" type="button" data-tab="emojis" title="Asset: emojis">Emojis</button>
+        <button class="rail__btn" type="button" data-tab="textures" title="Asset: texturas">Texturas</button>
+        <button class="rail__btn" type="button" data-tab="stages" title="Asset: fundos">Fundos</button>
+        <span class="rail__sep" aria-hidden="true" title="Assets | Consulta e teste"></span>
+        <button class="rail__btn" type="button" data-tab="components" title="Consulta e teste: componentes">Componentes</button>
+        <button class="rail__btn" type="button" data-tab="patterns" title="Consulta e teste: padrões">Padrões</button>
+        <button class="rail__btn" type="button" data-tab="tokens" title="Consulta e teste: tokens">Tokens</button>
+      </nav>
+
+      <div class="topbar__sp"></div>
+
+      <div class="topbar__tools">
+        <button class="iconbtn iconbtn--sm" id="inspectorToggle" type="button" title="Propriedades" data-ic="sidebar"></button>
+
+        <button class="btn-ghost" id="importBtn" type="button" title="Importar estilos e ativos">
+          <span data-ic="download"></span>Importar
+        </button>
+
+        <button class="btn-accent" id="exportBtn" type="button" title="Exportar HTML, CSS, JSON ou ZIP">
+          <span data-ic="export"></span>Exportar
+        </button>
+      </div>
+    </header>
+
+    <aside class="panel">
+      <div class="panel__search" id="panelSearch">
+        <span class="panel__search-icon" data-ic="search" aria-hidden="true"></span>
+        <input id="panelQuery" type="search" placeholder="Buscar na lista…" autocomplete="off" spellcheck="false" aria-label="Buscar na lista">
+        <button class="panel__search-clear" id="panelQueryClear" type="button" title="Limpar busca" aria-label="Limpar busca" data-ic="close" hidden></button>
+      </div>
+      <div class="fswrap">
+        <div class="fakescroll panel__body" id="panelBody"></div>
+        <div class="fsbar" aria-hidden="true"><i></i></div>
+      </div>
+    </aside>
+
+    <main class="canvas">
+      <div class="fswrap canvas__body">
+        <div class="fakescroll viewport" id="viewport">
+          <div class="kit" id="kit"></div>
+        </div>
+        <div class="fsbar" aria-hidden="true"><i></i></div>
+      </div>
+
+      <div class="canvas__float" role="group" aria-label="Zoom e visualização">
+        <button type="button" id="zoomOut" title="Reduzir zoom" aria-label="Reduzir zoom">−</button>
+        <button type="button" id="resetZoom" class="canvas__zoom" title="Restaurar zoom para 80%" aria-label="Restaurar zoom para 80%">80%</button>
+        <button type="button" id="zoomIn" title="Ampliar zoom" aria-label="Ampliar zoom">+</button>
+        <span class="canvas__float-sep" aria-hidden="true"></span>
+        <button type="button" id="gridBtn" title="Sobrepor grade de 8 pontos" aria-label="Sobrepor grade de 8 pontos" data-ic="grid-and-snaps"></button>
+        <button type="button" id="orientBtn" title="Alternar paisagem / retrato" aria-label="Alternar paisagem / retrato" data-ic="rotate"></button>
+        <span class="canvas__float-sep" aria-hidden="true"></span>
+        <button type="button" id="uiToggle" class="canvas__hide" title="Ocultar interface do Kit UI" aria-label="Ocultar interface do Kit UI"></button>
+      </div>
+    </main>
+
+    <aside class="inspector">
+      <div class="inspector__head"><span>Propriedades</span></div>
+      <div class="fswrap">
+        <div class="fakescroll inspector__body" id="inspectorBody"></div>
+        <div class="fsbar" aria-hidden="true"><i></i></div>
+      </div>
+    </aside>
+
+    <footer class="statusbar" id="statusbar"></footer>
+
+    <div class="scrim" id="scrim"></div>
+    <div class="sheet" id="sheet"></div>
+    <div class="app-toast" id="appToast" role="status"></div>
+
+  </div>
+</div>
+
+<script src="kitui_interface/icones/icons.js"></script>
+<script src="tabs_n_buttons/icones/icons-data.js"></script>
+<script src="tabs_n_buttons/estilos/tokens.js"></script>
+<script src="tabs_n_buttons/estilos/importar.js"></script>
+<script src="tabs_n_buttons/fontes/fonts.js"></script>
+<script src="tabs_n_buttons/texturas/padroes/textures.js"></script>
+<script src="tabs_n_buttons/fundos/padroes/stages.js"></script>
+<script src="tabs_n_buttons/emojis/padroes/emojis.js"></script>
+<script src="tabs_n_buttons/componentes/padroes/components.js"></script>
+<script src="tabs_n_buttons/padroes/padroes/patterns.js"></script>
+<script src="tabs_n_buttons/componentes/padroes/kit-css.js"></script>
+<script src="tabs_n_buttons/export/zipper.js"></script>
+<script src="kitui_app/core.js"></script>
+<script src="kitui_interface/estruturas/interface_actions.js"></script>
+<script src="tabs_n_buttons/estilos/interface_actions.js"></script>
+<script src="tabs_n_buttons/componentes/interface_actions.js"></script>
+<script src="tabs_n_buttons/padroes/interface_actions.js"></script>
+<script src="tabs_n_buttons/icones/interface_actions.js"></script>
+<script src="tabs_n_buttons/emojis/interface_actions.js"></script>
+<script src="tabs_n_buttons/texturas/interface_actions.js"></script>
+<script src="tabs_n_buttons/fundos/interface_actions.js"></script>
+<script src="tabs_n_buttons/tokens/interface_actions.js"></script>
+<script src="tabs_n_buttons/fontes/interface_actions.js"></script>
+<script src="tabs_n_buttons/export/exportar.js"></script>
+<script src="kitui_app/app.js"></script>
+</body>
+</html>

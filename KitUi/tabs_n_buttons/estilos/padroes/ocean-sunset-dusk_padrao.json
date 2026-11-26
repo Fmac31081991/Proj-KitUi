@@ -1,0 +1,32 @@
+{
+  "id": "ocean-sunset-dusk",
+  "name": "Ocean Sunset Dusk",
+  "family": "Padrão",
+  "note": "Pôr do sol oceânico com areia e terracota.",
+  "swatch": [
+    "#4B5C56",
+    "#F2D299",
+    "#D84F2F"
+  ],
+  "font": "DM Sans",
+  "radius": "soft",
+  "density": "regular",
+  "tokens": {
+    "--k-bg": "#F2D299",
+    "--k-surface": "#F7E2BD",
+    "--k-surface-2": "#EBCD96",
+    "--k-text": "#4B5C56",
+    "--k-muted": "#969174",
+    "--k-border": "#D4BD8D",
+    "--k-primary": "#D84F2F",
+    "--k-on-primary": "#FFFFFF",
+    "--k-accent": "#E89456",
+    "--k-on-accent": "#1A1A1A",
+    "--k-danger": "#DC2626",
+    "--k-on-danger": "#FFFFFF",
+    "--k-success": "#059669",
+    "--k-on-success": "#FFFFFF",
+    "--k-focus": "#D84F2F",
+    "--k-stage-bg": "#EDCE97"
+  }
+}

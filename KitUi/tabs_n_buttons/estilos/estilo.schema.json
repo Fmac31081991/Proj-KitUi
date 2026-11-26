@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kitui.estilo.schema.json",
+  "title": "Estilo do Kit UI",
+  "description": "Um arquivo por estilo. Padrões terminam em _padrao.json; importados em _import.json.",
+  "type": "object",
+  "required": ["id", "name", "family", "tokens"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]{1,42}$",
+      "description": "Slug usado como identificador e como início do nome do arquivo."
+    },
+    "name": { "type": "string", "minLength": 1, "maxLength": 48 },
+    "family": { "enum": ["Padrão", "Importado"] },
+    "note": { "type": "string", "maxLength": 160 },
+    "swatch": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": { "type": "string", "maxLength": 60 }
+    },
+    "font": { "type": ["string", "null"], "maxLength": 80 },
+    "radius": { "enum": ["sharp", "soft", "round", "pill"] },
+    "density": { "enum": ["compact", "regular", "comfortable"] },
+    "tokens": {
+      "type": "object",
+      "description": "Mapa de variáveis CSS --k-* com os valores efetivos do estilo.",
+      "propertyNames": { "pattern": "^--k-[a-z0-9-]+$" },
+      "additionalProperties": { "type": "string", "maxLength": 400 },
+      "minProperties": 1
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "source": { "type": "string" },
+        "importedAt": { "type": "string" },
+        "elements": { "type": ["integer", "number", "null"] }
+      }
+    }
+  },
+  "additionalProperties": false
+}

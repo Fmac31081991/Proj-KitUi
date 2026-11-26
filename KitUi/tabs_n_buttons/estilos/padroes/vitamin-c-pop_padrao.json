@@ -1,0 +1,32 @@
+{
+  "id": "vitamin-c-pop",
+  "name": "Vitamin C Pop",
+  "family": "Padrão",
+  "note": "Azul profundo com lima e laranja vibrante.",
+  "swatch": [
+    "#274359",
+    "#C4DB4C",
+    "#E1731A"
+  ],
+  "font": "Sora",
+  "radius": "soft",
+  "density": "regular",
+  "tokens": {
+    "--k-bg": "#F7E23B",
+    "--k-surface": "#FAEC80",
+    "--k-surface-2": "#EFDC3C",
+    "--k-text": "#274359",
+    "--k-muted": "#858B4C",
+    "--k-border": "#D2C540",
+    "--k-primary": "#E1731A",
+    "--k-on-primary": "#FFFFFF",
+    "--k-accent": "#F7E23B",
+    "--k-on-accent": "#1A1A1A",
+    "--k-danger": "#DC2626",
+    "--k-on-danger": "#FFFFFF",
+    "--k-success": "#059669",
+    "--k-on-success": "#FFFFFF",
+    "--k-focus": "#E1731A",
+    "--k-stage-bg": "#F1DD3C"
+  }
+}

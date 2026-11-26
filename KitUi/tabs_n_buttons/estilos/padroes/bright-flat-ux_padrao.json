@@ -1,0 +1,36 @@
+{
+  "id": "bright-flat-ux",
+  "name": "Bright Flat UX",
+  "family": "Padrão",
+  "note": "Brilhante e flat com lima, coral e azul acinzentado.",
+  "swatch": [
+    "#D9EA60",
+    "#C24B4A",
+    "#2E3643"
+  ],
+  "font": "Sora",
+  "radius": "sharp",
+  "density": "regular",
+  "tokens": {
+    "--k-bg": "#FFFFFF",
+    "--k-surface": "#FFFFFF",
+    "--k-surface-2": "#F7F7F7",
+    "--k-text": "#2E3643",
+    "--k-muted": "#8C9098",
+    "--k-border": "#D9DBDD",
+    "--k-primary": "#C94E3E",
+    "--k-on-primary": "#FFFFFF",
+    "--k-accent": "#D9EA60",
+    "--k-on-accent": "#1A1A1A",
+    "--k-danger": "#DC2626",
+    "--k-on-danger": "#FFFFFF",
+    "--k-success": "#059669",
+    "--k-on-success": "#FFFFFF",
+    "--k-focus": "#C94E3E",
+    "--k-stage-bg": "#F9F9F9",
+    "--k-radius-xs": "0px",
+    "--k-radius-sm": "2px",
+    "--k-radius-md": "4px",
+    "--k-radius-lg": "6px"
+  }
+}

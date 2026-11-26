@@ -1,0 +1,36 @@
+{
+  "id": "flat-sage-dark",
+  "name": "Flat Sage Dark",
+  "family": "Padrão",
+  "note": "Verde sálvia sobre base escura flat.",
+  "swatch": [
+    "#70A55F",
+    "#2E373E",
+    "#D5D5D5"
+  ],
+  "font": "Manrope",
+  "radius": "sharp",
+  "density": "regular",
+  "tokens": {
+    "--k-bg": "#D5D5D5",
+    "--k-surface": "#E4E4E4",
+    "--k-surface-2": "#CECECF",
+    "--k-text": "#293239",
+    "--k-muted": "#767B7F",
+    "--k-border": "#B6B8B9",
+    "--k-primary": "#70A55F",
+    "--k-on-primary": "#FFFFFF",
+    "--k-accent": "#293239",
+    "--k-on-accent": "#FFFFFF",
+    "--k-danger": "#DC2626",
+    "--k-on-danger": "#FFFFFF",
+    "--k-success": "#059669",
+    "--k-on-success": "#FFFFFF",
+    "--k-focus": "#70A55F",
+    "--k-stage-bg": "#D0D0D0",
+    "--k-radius-xs": "0px",
+    "--k-radius-sm": "2px",
+    "--k-radius-md": "4px",
+    "--k-radius-lg": "6px"
+  }
+}

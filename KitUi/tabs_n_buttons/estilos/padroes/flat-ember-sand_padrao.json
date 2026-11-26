@@ -1,0 +1,36 @@
+{
+  "id": "flat-ember-sand",
+  "name": "Flat Ember Sand",
+  "family": "Padrão",
+  "note": "Areia clara, carvão e brasas quentes.",
+  "swatch": [
+    "#222B32",
+    "#EAE8D5",
+    "#C24B4A"
+  ],
+  "font": "Manrope",
+  "radius": "sharp",
+  "density": "regular",
+  "tokens": {
+    "--k-bg": "#EAE8D5",
+    "--k-surface": "#F1F0E4",
+    "--k-surface-2": "#E2E0CE",
+    "--k-text": "#222B32",
+    "--k-muted": "#7C807B",
+    "--k-border": "#C6C6B8",
+    "--k-primary": "#C97745",
+    "--k-on-primary": "#FFFFFF",
+    "--k-accent": "#C24B4A",
+    "--k-on-accent": "#FFFFFF",
+    "--k-danger": "#DC2626",
+    "--k-on-danger": "#FFFFFF",
+    "--k-success": "#059669",
+    "--k-on-success": "#FFFFFF",
+    "--k-focus": "#C97745",
+    "--k-stage-bg": "#E4E2D0",
+    "--k-radius-xs": "0px",
+    "--k-radius-sm": "2px",
+    "--k-radius-md": "4px",
+    "--k-radius-lg": "6px"
+  }
+}

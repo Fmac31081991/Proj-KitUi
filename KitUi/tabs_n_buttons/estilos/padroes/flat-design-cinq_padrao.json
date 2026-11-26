@@ -1,0 +1,36 @@
+{
+  "id": "flat-design-cinq",
+  "name": "Flat Design Cinq",
+  "family": "Padrão",
+  "note": "Paleta flat de cinco cores com azul ardósia.",
+  "swatch": [
+    "#414E5F",
+    "#73B19C",
+    "#C34A4F"
+  ],
+  "font": "Manrope",
+  "radius": "sharp",
+  "density": "regular",
+  "tokens": {
+    "--k-bg": "#E6C85A",
+    "--k-surface": "#EFDB94",
+    "--k-surface-2": "#DFC35A",
+    "--k-text": "#414E5F",
+    "--k-muted": "#8B855D",
+    "--k-border": "#C8B25B",
+    "--k-primary": "#C97745",
+    "--k-on-primary": "#FFFFFF",
+    "--k-accent": "#C34A4F",
+    "--k-on-accent": "#FFFFFF",
+    "--k-danger": "#DC2626",
+    "--k-on-danger": "#FFFFFF",
+    "--k-success": "#059669",
+    "--k-on-success": "#FFFFFF",
+    "--k-focus": "#C97745",
+    "--k-stage-bg": "#E1C45A",
+    "--k-radius-xs": "0px",
+    "--k-radius-sm": "2px",
+    "--k-radius-md": "4px",
+    "--k-radius-lg": "6px"
+  }
+}

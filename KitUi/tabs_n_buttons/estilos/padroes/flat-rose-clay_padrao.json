@@ -1,0 +1,32 @@
+{
+  "id": "flat-rose-clay",
+  "name": "Flat Rose Clay",
+  "family": "Padrão",
+  "note": "Rosa terroso, creme e acentos quentes.",
+  "swatch": [
+    "#924E65",
+    "#F3F3F3",
+    "#C06D65"
+  ],
+  "font": "DM Sans",
+  "radius": "soft",
+  "density": "regular",
+  "tokens": {
+    "--k-bg": "#F3F3F3",
+    "--k-surface": "#F7F7F7",
+    "--k-surface-2": "#EFECED",
+    "--k-text": "#492733",
+    "--k-muted": "#968389",
+    "--k-border": "#D4CED0",
+    "--k-primary": "#C06D65",
+    "--k-on-primary": "#FFFFFF",
+    "--k-accent": "#924E65",
+    "--k-on-accent": "#FFFFFF",
+    "--k-danger": "#DC2626",
+    "--k-on-danger": "#FFFFFF",
+    "--k-success": "#059669",
+    "--k-on-success": "#FFFFFF",
+    "--k-focus": "#C06D65",
+    "--k-stage-bg": "#F0EEEF"
+  }
+}

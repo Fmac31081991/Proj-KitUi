@@ -1,0 +1,32 @@
+{
+  "id": "warm-tone-amber",
+  "name": "Warm Tone Amber",
+  "family": "Padrão",
+  "note": "Âmbar e dourado quente com fundo claro.",
+  "swatch": [
+    "#D09521",
+    "#EDF3F1",
+    "#B95613"
+  ],
+  "font": "DM Sans",
+  "radius": "soft",
+  "density": "regular",
+  "tokens": {
+    "--k-bg": "#EDF3F1",
+    "--k-surface": "#F3F7F6",
+    "--k-surface-2": "#EBEDE8",
+    "--k-text": "#5D2B0A",
+    "--k-muted": "#9E8572",
+    "--k-border": "#D3CFC7",
+    "--k-primary": "#B95613",
+    "--k-on-primary": "#FFFFFF",
+    "--k-accent": "#CC7E1A",
+    "--k-on-accent": "#FFFFFF",
+    "--k-danger": "#DC2626",
+    "--k-on-danger": "#FFFFFF",
+    "--k-success": "#059669",
+    "--k-on-success": "#FFFFFF",
+    "--k-focus": "#B95613",
+    "--k-stage-bg": "#EBEEEA"
+  }
+}

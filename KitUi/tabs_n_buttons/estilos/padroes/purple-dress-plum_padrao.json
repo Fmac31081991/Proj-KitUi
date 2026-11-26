@@ -1,0 +1,32 @@
+{
+  "id": "purple-dress-plum",
+  "name": "Purple Dress Plum",
+  "family": "Padrão",
+  "note": "Ameixa, vinho e creme dourado.",
+  "swatch": [
+    "#69354C",
+    "#F5E4B0",
+    "#2F1C32"
+  ],
+  "font": "DM Sans",
+  "radius": "soft",
+  "density": "regular",
+  "tokens": {
+    "--k-bg": "#F5E4B0",
+    "--k-surface": "#F9EDCC",
+    "--k-surface-2": "#EDDCAB",
+    "--k-text": "#2F1C32",
+    "--k-muted": "#88766B",
+    "--k-border": "#D1C099",
+    "--k-primary": "#B14650",
+    "--k-on-primary": "#FFFFFF",
+    "--k-accent": "#69354C",
+    "--k-on-accent": "#FFFFFF",
+    "--k-danger": "#DC2626",
+    "--k-on-danger": "#FFFFFF",
+    "--k-success": "#059669",
+    "--k-on-success": "#FFFFFF",
+    "--k-focus": "#B14650",
+    "--k-stage-bg": "#EFDEAC"
+  }
+}

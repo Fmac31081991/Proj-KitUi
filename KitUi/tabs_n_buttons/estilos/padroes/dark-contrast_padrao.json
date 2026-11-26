@@ -1,0 +1,38 @@
+{
+  "id": "dark-contrast",
+  "name": "Dark Mode / High-Contrast",
+  "family": "Padrão",
+  "note": "Fundo profundo, contraste alto e acentos neon.",
+  "swatch": [
+    "#00E5A0",
+    "#05070A",
+    "#E8FFF6"
+  ],
+  "font": "Space Grotesk",
+  "radius": "sharp",
+  "density": "compact",
+  "tokens": {
+    "--k-bg": "#05070A",
+    "--k-surface": "#0C1016",
+    "--k-surface-2": "#141A22",
+    "--k-text": "#F2F7F5",
+    "--k-muted": "#9AA8A4",
+    "--k-border": "#23302E",
+    "--k-primary": "#00E5A0",
+    "--k-on-primary": "#00120C",
+    "--k-accent": "#5EEAD4",
+    "--k-on-accent": "#00120C",
+    "--k-danger": "#FF5C5C",
+    "--k-success": "#00E5A0",
+    "--k-radius-xs": "2px",
+    "--k-radius-sm": "4px",
+    "--k-radius-md": "8px",
+    "--k-radius-lg": "12px",
+    "--k-bw": "2px",
+    "--k-shadow-sm": "0 0 0 1px rgba(0,229,160,.18)",
+    "--k-shadow-md": "0 0 26px rgba(0,229,160,.22)",
+    "--k-btn-shadow": "0 0 12px rgba(0,229,160,.28)",
+    "--k-field-inset": "none",
+    "--k-stage-bg": "radial-gradient(80% 60% at 50% 0%, #0D1A17 0%, #05070A 70%)"
+  }
+}

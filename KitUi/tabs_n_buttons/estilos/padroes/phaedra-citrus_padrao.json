@@ -1,0 +1,32 @@
+{
+  "id": "phaedra-citrus",
+  "name": "Phaedra Citrus",
+  "family": "Padrão",
+  "note": "Cítrico quente com verdes suaves.",
+  "swatch": [
+    "#E0613E",
+    "#FEFDA0",
+    "#5AA28A"
+  ],
+  "font": "DM Sans",
+  "radius": "soft",
+  "density": "regular",
+  "tokens": {
+    "--k-bg": "#FEFDA0",
+    "--k-surface": "#FEFEC1",
+    "--k-surface-2": "#FDF79C",
+    "--k-text": "#70311F",
+    "--k-muted": "#B08D59",
+    "--k-border": "#E4D889",
+    "--k-primary": "#E0613E",
+    "--k-on-primary": "#FFFFFF",
+    "--k-accent": "#5AA28A",
+    "--k-on-accent": "#FFFFFF",
+    "--k-danger": "#DC2626",
+    "--k-on-danger": "#FFFFFF",
+    "--k-success": "#059669",
+    "--k-on-success": "#FFFFFF",
+    "--k-focus": "#E0613E",
+    "--k-stage-bg": "#FDF89D"
+  }
+}
