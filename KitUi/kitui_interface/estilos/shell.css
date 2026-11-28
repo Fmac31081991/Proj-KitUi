@@ -350,6 +350,7 @@ a { color: inherit; }
 .pitem.is-active { background: #1F2530; color: var(--u-text); }
 .pitem.is-active .pitem__name { font-weight: 600; }
 .pitem__name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pitem__meta { display: block; flex: none; max-width: 52%; font-size: 9px; color: var(--u-dim); text-align: right; }
 .pitem__swatch { display: flex; border-radius: 4px; overflow: hidden; flex: none; box-shadow: 0 0 0 1px rgba(255,255,255,.08); }
 .pitem__swatch i { width: 8px; height: 16px; display: block; }
 .pitem__sw3 { display: flex; gap: 2px; flex: none; }
@@ -1326,17 +1327,40 @@ a { color: inherit; }
 }
 .icon-cell.is-active span { color: var(--k-text); }
 
-/* ---------------- emojis: grade do canvas ---------------- */
+/* ---------------- emojis: grade virtual do canvas ---------------- */
 
-.emoji-groups { display: flex; flex-direction: column; gap: 18px; }
-.emoji-group__head {
+.emoji-vroot {
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  contain: layout paint style;
+  border: var(--k-bw) solid var(--k-border);
+  border-radius: var(--k-radius-md);
+  background: var(--k-surface);
+  scrollbar-width: thin;
+}
+.emoji-vroot::-webkit-scrollbar { width: 9px; }
+.emoji-vroot::-webkit-scrollbar-thumb { background: var(--k-border); border-radius: 9px; }
+.emoji-vspacer { position: relative; width: 100%; }
+.emoji-vwindow { position: absolute; top: 0; left: 0; right: 0; will-change: transform; }
+.emoji-vhead {
+  height: 92px;
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 8px;
-  margin-bottom: 7px;
-  padding-bottom: 6px;
+  padding: 0 12px;
   border-bottom: var(--k-bw) solid var(--k-border);
 }
+.emoji-vrow {
+  height: 92px;
+  display: grid;
+  grid-template-columns: repeat(var(--emoji-cols, 8), minmax(0, 1fr));
+  gap: 6px;
+  align-content: start;
+  padding: 8px;
+}
+.emoji-vhint { font-size: var(--k-fs-sm); color: var(--k-muted); }
 .emoji-group__title {
   font-size: var(--u-fs-2);
   font-weight: 700;
@@ -1345,11 +1369,6 @@ a { color: inherit; }
   color: var(--k-text);
 }
 .emoji-group__count { font-family: var(--k-font-mono); font-size: 10px; color: var(--k-muted); }
-.emoji-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(74px, 1fr));
-  gap: 6px;
-}
 .emoji-cell {
   display: flex;
   flex-direction: column;
@@ -1400,6 +1419,9 @@ a { color: inherit; }
   font-size: 68px;
   line-height: 1;
 }
+.emoji-cell__img { display: block; width: 40px; height: 40px; object-fit: contain; }
+.emoji-preview img { display: block; width: 92px; height: 92px; object-fit: contain; }
+.emoji-preview__glyph { display: block; line-height: 1; }
 
 /* ---------------- amostra tipográfica ---------------- */
 

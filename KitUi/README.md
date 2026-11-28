@@ -41,7 +41,7 @@ Na aba **Estilos**, o botão **Escuro / Claro** alterna entre o estilo original 
 | **Fontes** | Acervo tipográfico com amostras por categoria. A fonte escolhida é aplicada ao conteúdo da caixa central. |
 | **Texturas** | Padrões aplicados atrás da moldura, no palco. Podem ser filtrados por categoria e combinados com qualquer fundo. |
 | **Fundos** | Gradientes e cores do palco, independentes das texturas. A opção “Do estilo” usa o fundo definido pelo tema ativo. |
-| **Emojis** | Glifos agrupados por categoria, com inspeção e cópia do caractere. |
+| **Emojis** | Nove bibliotecas locais de SVG (Twemoji, Noto, Fluent Emoji e suas variações, OpenMoji, Emoji One e Firefox OS). A lista à esquerda escolhe a biblioteca em prévia; a caixa central mantém as 8 categorias do guia em rolagem virtual (só os itens visíveis são desenhados); a direita mostra o SVG, o Unicode/codepoint e permite copiar ou aplicar a biblioteca ao estilo atual. |
 | **Tokens** | Referência visual das variáveis `--k-*` do estilo ativo, separadas por categoria. No rodapé há uma nota não editável com as regras universais de layout e os parâmetros técnicos por estilo. |
 
 O rodapé exibe os contadores de estilos, componentes, padrões, ícones, fontes, emojis, texturas e fundos. A lista cresce conforme novos itens são adicionados ao acervo.
@@ -60,7 +60,7 @@ Cada categoria tem sua própria pasta dentro de `tabs_n_buttons/`. O projeto nã
 - `tabs_n_buttons/padroes/padroes/` — telas compostas a partir dos componentes;
 - `tabs_n_buttons/icones/` — `icons-data.js` (catálogo) e `padroes/` com um `.svg` por ícone;
 - `tabs_n_buttons/fontes/` — `fonts.css`, `fonts.js` e `padroes/` com os arquivos `.woff2`;
-- `tabs_n_buttons/emojis/padroes/` — emojis;
+- `tabs_n_buttons/emojis/` — `bibliotecas.js` (catálogo), `LICENCAS.md` e 9 pastas com 24.400 SVGs, cada uma com `README.md` e `unicode-map.json`; `padroes/emojis.js` adapta o catálogo ao núcleo;
 - `tabs_n_buttons/texturas/padroes/` — texturas do palco;
 - `tabs_n_buttons/fundos/padroes/` — fundos do palco.
 
@@ -87,13 +87,13 @@ O botão **Importar** fica no cabeçalho, à esquerda de **Exportar**. Ele usa o
 | **Estilos** | Objeto do extrator (`tabs_n_buttons/import/extract-style.js`), um `tokens.json` com `cssVariables` ou um mapa de `--k-*`. A importação grava `<id>_import.json` em `tabs_n_buttons/estilos/importados/`. |
 | **Ícones** | `{ id, label, category, svg, aliases }` — `svg` é o conteúdo interno da tag. Scripts, eventos `on*` e `javascript:` são removidos. |
 | **Fontes** | `{ id, name, stack, cat, data }` — `data` é opcional; se trouxer um data URI `font/...`, a `@font-face` é registrada na hora. |
-| **Emojis** | `{ e, name, cat, keys }` — `e` é o caractere e `name` é o nome exibido. |
+| **Emojis** | `{ e, name, cat, keys }` — itens extras do usuário; `e` é o identificador do SVG e `name` é o nome exibido. As 9 bibliotecas locais não são importadas: vêm em `tabs_n_buttons/emojis/<biblioteca>/`. |
 | **Texturas** | `{ id, name, cat, desc, tokens }` — `tokens` precisa conter `--k-texture` e pode incluir `--k-texture-size`. |
 | **Fundos** | `{ id, name, desc, tone, value }` — `value` aceita cor ou gradiente CSS local; URLs externas são rejeitadas. |
 
 Cada tipo aceita um objeto ou uma lista em `items` e tem seu próprio prompt no botão **Copiar prompt p/ IA**: estilos normalizam o JSON do extrator; ícones filtram SVGs simples e pedem confirmação; fontes e emojis organizam arquivos/caracteres entregues pelo usuário; texturas e fundos convertem CSS recebido em catálogo. Itens com o mesmo `id` são substituídos. Exceto por estilos — que gravam `<id>_import.json` em `tabs_n_buttons/estilos/importados/` pela API local —, os ativos importados ficam no `localStorage` (`kitui.assets.v1`). Eles aparecem na aba correspondente e são removidos em **Propriedades → Remover**, com confirmação; os contadores do rodapé são atualizados.
 
-O botão **Exportar** gera um kit completo do estilo ativo, com **padrões em primeiro lugar**: o `index.html` traz as regras completas de layout, os 29 padrões (cada um com os componentes usados e compatíveis), os 39 componentes de referência, os 473 ícones e a tabela de tokens; o ZIP acrescenta `kit.css`, `tokens.json`, um README detalhado, `icons/icons.json` e um `.svg` para cada ícone. Cada padrão entra uma única vez — as variantes são criadas pela IA que recebe o pacote. Toda essa lógica vive em `tabs_n_buttons/export/exportar.js`, com o escritor ZIP em `zipper.js`. O coordenador apenas delega.
+O botão **Exportar** gera um kit completo do estilo ativo, com **padrões em primeiro lugar**: o `index.html` traz as regras completas de layout, os 29 padrões (cada um com os componentes usados e compatíveis), os 39 componentes de referência, os 473 ícones e a tabela de tokens; o ZIP acrescenta `kit.css`, `tokens.json`, um README detalhado, `icons/icons.json` e um `.svg` para cada ícone. Também entram no ZIP os SVGs da biblioteca de emoji associada ao estilo em `emojis/<biblioteca>/`, o `unicode-map.json` dessa biblioteca, o `README.md` da biblioteca e `LICENCAS.md` na raiz. A biblioteca padrão é **Fluent Emoji**; a escolha é feita por estilo em **Emojis → Propriedades → Usar esta biblioteca no kit**. Cada padrão entra uma única vez — as variantes são criadas pela IA que recebe o pacote. Toda essa lógica vive em `tabs_n_buttons/export/exportar.js`, com o escritor ZIP em `zipper.js`. O coordenador apenas delega.
 
 ## Área de trabalho
 

@@ -28,11 +28,11 @@ A aplicação de exportação está toda nesta pasta:
 ```
 tabs_n_buttons/export/
 ├── README.md     ← este documento
-├── zipper.js     ← escritor ZIP (window.KIT_ZIP), carregado antes de core.js
+├── zipper.js     ← escritor ZIP (KIT_ZIP e KIT_ZIP_ASYNC/DEFLATE), carregado antes de core.js
 └── exportar.js   ← a aplicação de exportação (window.KIT_EXPORTAR)
 ```
 
-`exportar.js` gera o catálogo HTML completo, o CSS, `tokens.json`, o README do kit, o índice de ícones e o pacote ZIP; monta a folha do botão **Exportar** e concentra os manipuladores `data-act="copy-*"` / `data-act="dl-*"` em `handleAction(name, el)`, que devolve `true` quando reconhece a ação.
+`exportar.js` gera o catálogo HTML completo, o CSS, `tokens.json`, o README do kit, o índice de ícones e o pacote ZIP; monta a folha do botão **Exportar** e concentra os manipuladores `data-act="copy-*"` / `data-act="dl-*"` em `handleAction(name, el)`, que devolve `true` quando reconhece a ação. A cópia de emojis usa `<img src="emojis/<biblioteca>/<arquivo>.svg">`; a biblioteca é a associada ao estilo (`CORE.emojiLibForStyle()`), não a prévia da aba.
 
 O `index.html` carrega `exportar.js` depois de `core.js` e dos módulos de aba, antes de `app.js`. O orquestrador apenas delega: abre e fecha a folha, repassa as ações e usa `currentCode()` / `snippetCSS()` na aba de código do inspetor.
 
@@ -40,7 +40,7 @@ O botão do cabeçalho continua onde está; a mudança foi apenas de localizaç�
 
 ## O que o kit exportado contém
 
-O botão **Exportar** produz um kit completo do estilo ativo, com as fontes incorporadas e nenhuma dependência externa. O pacote prioriza **padrões**: cada um entra uma vez, com os componentes que usa e os compatíveis; as variantes são criadas pela IA destinatária. O ZIP traz 5 arquivos base e um `.svg` por ícone do acervo ativo — 473 ícones na versão validada, totalizando 478 entradas:
+O botão **Exportar** produz um kit completo do estilo ativo, com as fontes incorporadas e nenhuma dependência externa. O pacote prioriza **padrões**: cada um entra uma vez, com os componentes que usa e os compatíveis; as variantes são criadas pela IA destinatária. O ZIP traz 5 arquivos base, um `.svg` por ícone do acervo ativo (473 ícones na versão validada) e os SVGs da biblioteca de emoji do estilo com seus marcadores de licença e Unicode. Os SVGs de emoji são comprimidos com DEFLATE quando o navegador oferece `CompressionStream` — sem isso, a biblioteca padrão Fluent Emoji sozinha ocuparia cerca de 90 MB.
 
 | Entrada | Conteúdo |
 | :--- | :--- |
@@ -50,6 +50,10 @@ O botão **Exportar** produz um kit completo do estilo ativo, com as fontes inco
 | `README.md` | Guia com instruções de interface, regras completas de layout, papéis de cor, tabela de padrões com componentes usados/compatíveis, tabela de componentes, lista dos ícones por categoria (473 na versão validada) e sugestões de combinação. |
 | `icons/icons.json` | Metadados dos ícones: id, nome, categoria, aliases e arquivo correspondente. |
 | `icons/<id>.svg` | Um arquivo por ícone (473 no total), envelope 24×24, traço 2 e `currentColor`. |
+| `emojis/<biblioteca>/<arquivo>.svg` | Todos os SVGs da biblioteca associada ao estilo (padrão: Fluent Emoji, 3.126 arquivos). |
+| `emojis/<biblioteca>/unicode-map.json` | Relação SVG → Unicode/codepoint/categoria da biblioteca exportada. |
+| `emojis/<biblioteca>/README.md` | Modo de uso e licença da biblioteca exportada. |
+| `LICENCAS.md` | Licenças e créditos obrigatórios das 9 bibliotecas de emoji. |
 
 O HTML, o CSS e o README são gerados a partir dos mesmos acervos usados pela aplicação (`KIT_CORE.C.components`, `KIT_CORE.P.patterns`, `KIT_CORE.IC.icons` e `resolvedTokens()`), então o que aparece no catálogo corresponde ao que está na ferramenta.
 

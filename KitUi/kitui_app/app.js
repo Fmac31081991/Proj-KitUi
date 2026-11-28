@@ -1458,7 +1458,19 @@
       return;
     }
 
-    const emojiCat = t.closest('[data-emojicat]');    if (emojiCat) {
+    const emojiLib = t.closest('[data-emojilib]');
+    if (emojiLib) {
+      const id = emojiLib.dataset.emojilib;
+      if (!CORE.activateEmojiLib(id)) return;
+      state.emojiCat = 'all';
+      renderPanel(); renderCanvas(); renderInspector(); save();
+      els.viewport.scrollTop = 0;
+      updateFS();
+      return;
+    }
+
+    const emojiCat = t.closest('[data-emojicat]');
+    if (emojiCat) {
       state.emojiCat = emojiCat.dataset.emojicat;
       renderPanel(); renderCanvas(); updateFS();
       return;
@@ -1468,7 +1480,7 @@
     if (emojiCell) {
       state.emoji = emojiCell.dataset.emoji;
       $$('.emoji-cell').forEach((c) => c.classList.toggle('is-active', c.dataset.emoji === state.emoji));
-      renderInspector();
+      renderInspector(); save();
       return;
     }
 
@@ -1658,6 +1670,13 @@
   /* ------------------------------------------------------------------ */
 
   async function action(name, el) {
+    if (name === 'use-emoji-library') {
+      const id = el && el.dataset.lib;
+      if (!id || !CORE.setEmojiLibForStyle(id)) return toast('Biblioteca indisponível');
+      renderPanel(); renderInspector();
+      const b = ((window.KIT_EMOJI_LIBS || {}).bibliotecas || {})[id] || {};
+      return toast('Biblioteca ' + (b.nome || id) + ' aplicada ao estilo');
+    }
     if (await EXP.handleAction(name, el)) return;
     if (name === 'use-font') {
       const id = state.fontPreview || state.overrides.font || T.styleById(state.style).font;
@@ -1800,7 +1819,7 @@ Lista recebida:
     },
     emojis: {
       label: 'JSON dos emojis',
-      placeholder: '{ &quot;e&quot;: &quot;✨&quot;, &quot;name&quot;: &quot;Brilho&quot;, &quot;cat&quot;: &quot;Símbolos&quot;, &quot;keys&quot;: &quot;brilho estrela&quot; }',
+      placeholder: '{ &quot;e&quot;: &quot;✨&quot;, &quot;name&quot;: &quot;Brilho&quot;, &quot;cat&quot;: &quot;Símbolos e Bandeiras&quot;, &quot;keys&quot;: &quot;brilho estrela&quot; }',
       html: 'Um objeto ou uma lista com <code>{ e, name, cat, keys }</code>. <code>e</code> é o caractere; <code>name</code> é o nome exibido na lista.',
       prompt: `COMO USAR ESTE PROMPT
  1. Escolha os caracteres que quer catalogar (Windows, Android ou iOS).
@@ -1812,7 +1831,7 @@ Você é engenheiro de design systems. Organize caracteres emoji para o catálog
 
 Regras:
  1. Responda apenas JSON válido, no formato {"items":[...]}, sem markdown nem comentários.
- 2. Cada item: {"e":"✨","name":"Brilho","cat":"Símbolos","keys":"brilho estrela"}.
+ 2. Cada item: {"e":"✨","name":"Brilho","cat":"Símbolos e Bandeiras","keys":"brilho estrela"}.
  3. "e" é o caractere Unicode (máximo de 8 caracteres); "name" é o nome curto exibido na lista; "keys" são termos de busca separados por espaço.
  4. O Kit UI guarda caracteres, não a arte vetorial da plataforma: não tente desenhar, converter ou descrever SVG.
  5. Não invente caracteres que não foram informados e não inclua textos de páginas.

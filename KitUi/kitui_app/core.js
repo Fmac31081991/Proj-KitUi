@@ -75,8 +75,10 @@
     comp: 'button',
     pattern: 'overview',
     icon: 'component',
-    emoji: '😀',
+    emoji: 'grinning-face',
     emojiCat: 'all',
+    emojiLib: 'fluent-emoji',
+    emojiLibByStyle: {},
     font: null,
     fontPreview: null,
     queries: {},
@@ -116,6 +118,21 @@
   const secOpen = new Map();
 
   const state = load();
+
+  /* A prévia da aba Emojis não é uma escolha independente: ela começa na
+     biblioteca associada ao estilo atual, que é a que entra na exportação. */
+  (function initEmojiPreview() {
+    if (!window.KIT_EMOJI_LIBS || !E.itemsFor) return;
+    const id = state.emojiLibByStyle[state.style] || state.emojiLib;
+    const lista = E.itemsFor(id);
+    if (!lista.length) return;
+    state.emojiLib = id;
+    BASE_ASSETS.emojis = lista.slice();
+    E.items = lista.slice();
+    E.categories = BASE_ASSETS.emojiCats.slice();
+    E.meta.count = ((window.KIT_EMOJI_LIBS.bibliotecas || {})[id] || {}).total || lista.length;
+  })();
+
   const customStyles = [];
   loadCustomAssets();
 
@@ -136,9 +153,26 @@
       merged.overrides = Object.assign(base.overrides, saved.overrides || {});
       merged.overrides.colors = Object.assign({}, (saved.overrides || {}).colors || {});
       merged.queries = Object.assign({}, saved.queries || {});
+      /* Limite do antigo botão "Ver mais": substituído por rolagem virtual.
+         O filtro por categoria também saiu da interface: a grade mostra todas
+         as categorias de uma vez, então qualquer filtro antigo é descartado. */
+      delete merged.emojiLimit;
+      merged.emojiCat = 'all';
       if (!merged.emoji) merged.emoji = base.emoji;
-      if (!merged.emojiCat) merged.emojiCat = base.emojiCat;
       if (!merged.texCat) merged.texCat = base.texCat;
+      /* Emojis agora são SVGs: estado antigo guardava um caractere Unicode. */
+      var EL = window.KIT_EMOJI_LIBS || {};
+      var ELIBS = EL.bibliotecas || {};
+      if (!merged.emojiLibByStyle || typeof merged.emojiLibByStyle !== 'object') merged.emojiLibByStyle = {};
+      /* A prévia não é persistida: ao abrir, ela segue a biblioteca do estilo. */
+      merged.emojiLib = EL.padrao || 'fluent-emoji';
+      if (merged.emojiLibByStyle[merged.style] && ELIBS[merged.emojiLibByStyle[merged.style]]) {
+        merged.emojiLib = merged.emojiLibByStyle[merged.style];
+      }
+      var lista = E.itemsFor ? E.itemsFor(merged.emojiLib) : E.items;
+      if (!lista.some(function (i) { return i.e === merged.emoji; })) {
+        merged.emoji = (lista[0] || {}).e || merged.emoji;
+      }
       return merged;
     } catch (e) {
       return base;
@@ -147,11 +181,52 @@
 
   function save() {
     try {
-      /* fontPreview é prévia de leitura: nunca deve voltar do localStorage. */
+      /* Prévias de leitura nunca devem voltar do localStorage. */
       const persisted = Object.assign({}, state);
       delete persisted.fontPreview;
+      delete persisted.emojiLib;
       localStorage.setItem(STORE, JSON.stringify(persisted));
     } catch (e) {}
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* bibliotecas de emoji (9 estilos locais)                              */
+  /* ------------------------------------------------------------------ */
+
+  function emojiLibForStyle() {
+    var EL = window.KIT_EMOJI_LIBS || {};
+    var id = state.emojiLibByStyle[state.style];
+    return ((EL.bibliotecas || {})[id] ? id : (EL.padrao || 'fluent-emoji'));
+  }
+
+  function setEmojiLibForStyle(id) {
+    var EL = window.KIT_EMOJI_LIBS || {};
+    if (!(EL.bibliotecas || {})[id]) return false;
+    state.emojiLibByStyle[state.style] = id;
+    save();
+    return true;
+  }
+
+  /* Troca a biblioteca em prévia na aba Emojis; a escolha do estilo é feita
+     à parte, pelo botão do inspetor, e entra na exportação. */
+  function activateEmojiLib(id) {
+    var EL = window.KIT_EMOJI_LIBS || {};
+    var libs = EL.bibliotecas || {};
+    if (!libs[id] || !E.itemsFor) return false;
+    var lista = E.itemsFor(id);
+    if (!lista.length) return false;
+    state.emojiLib = id;
+    BASE_ASSETS.emojis = lista.slice();
+    E.categories = BASE_ASSETS.emojiCats.slice();
+    rebuildCustomAssets();
+    E.meta.count = libs[id].total || lista.length;
+    if (!lista.some(function (i) { return i.e === state.emoji; })) state.emoji = lista[0].e;
+    save();
+    return true;
+  }
+
+  function currentEmojiItem() {
+    return E.items.find(function (i) { return i.e === state.emoji; }) || E.items[0] || null;
   }
 
   /* ------------------------------------------------------------------ */
@@ -697,7 +772,7 @@
         id: slugify(name) || String(e.codePointAt(0)).slice(0, 12),
         e,
         name,
-        cat: String(raw.cat || 'Símbolos'),
+        cat: String(raw.cat || 'Símbolos e Bandeiras'),
         keys: String(raw.keys || ''),
       };
     }
@@ -1022,6 +1097,7 @@
     DEFAULTS, NUM_CFG, secOpen, state, customStyles, els,
 
     load, save,
+    emojiLibForStyle, setEmojiLibForStyle, activateEmojiLib, currentEmojiItem,
     slugify, loadCustomStyles, saveCustomStyles, seedStyles, sortStyles,
     isCustomStyle, swatchHTML,
     resolvedTokens, displayTokens, styleIsDark, tokensAreDark,

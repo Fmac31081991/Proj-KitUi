@@ -1,0 +1,5172 @@
+{
+ "2hearts": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F495",
+  "unicode": "💕"
+ },
+ "acorn": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F330",
+  "unicode": "🌰"
+ },
+ "admissiontickets": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F39F",
+  "unicode": "🎟"
+ },
+ "aerialtramway": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F6A1",
+  "unicode": "🚡"
+ },
+ "airplane": {
+  "categoria": "Viagens e Lugares",
+  "hex": "2708",
+  "unicode": "✈"
+ },
+ "alarmclock": {
+  "categoria": "Viagens e Lugares",
+  "hex": "23F0",
+  "unicode": "⏰"
+ },
+ "alien": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F47D",
+  "unicode": "👽"
+ },
+ "alienmonster": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F47E",
+  "unicode": "👾"
+ },
+ "ambulance": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F691",
+  "unicode": "🚑"
+ },
+ "americanfootball": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3C8",
+  "unicode": "🏈"
+ },
+ "americasglobe": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F30E",
+  "unicode": "🌎"
+ },
+ "anchor": {
+  "categoria": "Viagens e Lugares",
+  "hex": "2693",
+  "unicode": "⚓"
+ },
+ "anger": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F4A2",
+  "unicode": "💢"
+ },
+ "angry": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F620",
+  "unicode": "😠"
+ },
+ "anguish": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F627",
+  "unicode": "😧"
+ },
+ "ant": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F41C",
+  "unicode": "🐜"
+ },
+ "antennawithbars": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F4F6",
+  "unicode": "📶"
+ },
+ "anticlockwiseupwardsanddownwardsarrows": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F504",
+  "unicode": "🔄"
+ },
+ "aok": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F44C",
+  "unicode": "👌"
+ },
+ "aquarius": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2652",
+  "unicode": "♒"
+ },
+ "aries": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2648",
+  "unicode": "♈"
+ },
+ "arrowrightwardsdownwards": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2935",
+  "unicode": "⤵"
+ },
+ "arrowrightwardsupwards": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2934",
+  "unicode": "⤴"
+ },
+ "articulatedlorry": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F69B",
+  "unicode": "🚛"
+ },
+ "artistpalette": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3A8",
+  "unicode": "🎨"
+ },
+ "asiaaustraliaglobe": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F30F",
+  "unicode": "🌏"
+ },
+ "astonished": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F632",
+  "unicode": "😲"
+ },
+ "aubergine": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F346",
+  "unicode": "🍆"
+ },
+ "automatedtellermachine": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F3E7",
+  "unicode": "🏧"
+ },
+ "automobile": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F697",
+  "unicode": "🚗"
+ },
+ "baby": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F476",
+  "unicode": "👶"
+ },
+ "babyangel": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F47C",
+  "unicode": "👼"
+ },
+ "babybottle": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F37C",
+  "unicode": "🍼"
+ },
+ "babychick": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F424",
+  "unicode": "🐤"
+ },
+ "babysymbol": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F6BC",
+  "unicode": "🚼"
+ },
+ "backofenvelope": {
+  "categoria": "Objetos",
+  "hex": "1F582",
+  "unicode": "🖂"
+ },
+ "backwithleftwardsarrow": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F519",
+  "unicode": "🔙"
+ },
+ "bactriancamel": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F42B",
+  "unicode": "🐫"
+ },
+ "baggageclaim": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F6C4",
+  "unicode": "🛄"
+ },
+ "balloon": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F388",
+  "unicode": "🎈"
+ },
+ "ballotboldscriptx": {
+  "categoria": "Objetos",
+  "hex": "1F5F6",
+  "unicode": "🗶"
+ },
+ "ballotboxboldcheck": {
+  "categoria": "Objetos",
+  "hex": "1F5F9",
+  "unicode": "🗹"
+ },
+ "ballotboxwithboldscriptx": {
+  "categoria": "Objetos",
+  "hex": "1F5F7",
+  "unicode": "🗷"
+ },
+ "ballotboxwithcheck": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2611",
+  "unicode": "☑"
+ },
+ "ballottboxwithballott": {
+  "categoria": "Objetos",
+  "hex": "1F5F3",
+  "unicode": "🗳"
+ },
+ "ballottboxwithscriptx": {
+  "categoria": "Objetos",
+  "hex": "1F5F5",
+  "unicode": "🗵"
+ },
+ "ballottscriptx": {
+  "categoria": "Objetos",
+  "hex": "1F5F4",
+  "unicode": "🗴"
+ },
+ "banana": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F34C",
+  "unicode": "🍌"
+ },
+ "bank": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3E6",
+  "unicode": "🏦"
+ },
+ "banknotedollar": {
+  "categoria": "Objetos",
+  "hex": "1F4B5",
+  "unicode": "💵"
+ },
+ "banknoteeuro": {
+  "categoria": "Objetos",
+  "hex": "1F4B6",
+  "unicode": "💶"
+ },
+ "banknotepound": {
+  "categoria": "Objetos",
+  "hex": "1F4B7",
+  "unicode": "💷"
+ },
+ "banknoteyen": {
+  "categoria": "Objetos",
+  "hex": "1F4B4",
+  "unicode": "💴"
+ },
+ "barberpole": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F488",
+  "unicode": "💈"
+ },
+ "barchart": {
+  "categoria": "Objetos",
+  "hex": "1F4CA",
+  "unicode": "📊"
+ },
+ "baseball": {
+  "categoria": "Atividades e Esportes",
+  "hex": "26BE",
+  "unicode": "⚾"
+ },
+ "basketballandhoop": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3C0",
+  "unicode": "🏀"
+ },
+ "bath": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F6C0",
+  "unicode": "🛀"
+ },
+ "bathtub": {
+  "categoria": "Objetos",
+  "hex": "1F6C1",
+  "unicode": "🛁"
+ },
+ "battery": {
+  "categoria": "Objetos",
+  "hex": "1F50B",
+  "unicode": "🔋"
+ },
+ "beachumbrella": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3D6",
+  "unicode": "🏖"
+ },
+ "bear": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F43B",
+  "unicode": "🐻"
+ },
+ "beating-heart": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F493",
+  "unicode": "💓"
+ },
+ "beermug": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F37A",
+  "unicode": "🍺"
+ },
+ "bell": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F514",
+  "unicode": "🔔"
+ },
+ "bellcancellation": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F515",
+  "unicode": "🔕"
+ },
+ "bentobox": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F371",
+  "unicode": "🍱"
+ },
+ "bicycle": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F6B2",
+  "unicode": "🚲"
+ },
+ "bicyclist": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F6B4",
+  "unicode": "🚴"
+ },
+ "bikini": {
+  "categoria": "Objetos",
+  "hex": "1F459",
+  "unicode": "👙"
+ },
+ "billiards": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3B1",
+  "unicode": "🎱"
+ },
+ "bird": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F426",
+  "unicode": "🐦"
+ },
+ "birthdaycake": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F382",
+  "unicode": "🎂"
+ },
+ "blackclubsuit": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2663",
+  "unicode": "♣"
+ },
+ "blackdiamondsuit": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2666",
+  "unicode": "♦"
+ },
+ "blackdownpointingbackhand": {
+  "categoria": "Objetos",
+  "hex": "1F5A3",
+  "unicode": "🖣"
+ },
+ "blackdownpointingdoublearrow": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "23EC",
+  "unicode": "⏬"
+ },
+ "blackdroplet": {
+  "categoria": "Objetos",
+  "hex": "1F322",
+  "unicode": "🌢"
+ },
+ "blackfolder": {
+  "categoria": "Objetos",
+  "hex": "1F5BF",
+  "unicode": "🖿"
+ },
+ "blackhardshellfloppy": {
+  "categoria": "Objetos",
+  "hex": "1F5AA",
+  "unicode": "🖪"
+ },
+ "blackheartsuit": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2665",
+  "unicode": "♥"
+ },
+ "blacklargesquare": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2B1B",
+  "unicode": "⬛"
+ },
+ "blackleftpointingarrow": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "25C0",
+  "unicode": "◀"
+ },
+ "blackleftpointingbackhand": {
+  "categoria": "Objetos",
+  "hex": "1F59C",
+  "unicode": "🖜"
+ },
+ "blackleftpointingdoublearrow": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "23EA",
+  "unicode": "⏪"
+ },
+ "blackmediumsmallsquare": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "25FE",
+  "unicode": "◾"
+ },
+ "blackmediumsquare": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "25FC",
+  "unicode": "◼"
+ },
+ "blackmissingsmiley": {
+  "categoria": "Objetos",
+  "hex": "263B",
+  "unicode": "☻"
+ },
+ "blacknib": {
+  "categoria": "Objetos",
+  "hex": "2712",
+  "unicode": "✒"
+ },
+ "blackpennant": {
+  "categoria": "Objetos",
+  "hex": "1F3F2",
+  "unicode": "🏲"
+ },
+ "blackpushpin": {
+  "categoria": "Objetos",
+  "hex": "1F588",
+  "unicode": "🖈"
+ },
+ "blackquestionmark": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2753",
+  "unicode": "❓"
+ },
+ "blackrightpointingarrow": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "25B6",
+  "unicode": "▶"
+ },
+ "blackrightpointingbackhand": {
+  "categoria": "Objetos",
+  "hex": "1F59D",
+  "unicode": "🖝"
+ },
+ "blackrightpointingdoublearrow": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "23E9",
+  "unicode": "⏩"
+ },
+ "blackrightwardsarrow": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "27A1",
+  "unicode": "➡"
+ },
+ "blackrosette": {
+  "categoria": "Objetos",
+  "hex": "1F3F6",
+  "unicode": "🏶"
+ },
+ "blackscissors": {
+  "categoria": "Objetos",
+  "hex": "2702",
+  "unicode": "✂"
+ },
+ "blackskullcrossbones": {
+  "categoria": "Objetos",
+  "hex": "1F571",
+  "unicode": "🕱"
+ },
+ "blacksmallsquare": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "25AA",
+  "unicode": "▪"
+ },
+ "blackspadesuit": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2660",
+  "unicode": "♠"
+ },
+ "blacksquarebutton": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F532",
+  "unicode": "🔲"
+ },
+ "blacktelephone": {
+  "categoria": "Objetos",
+  "hex": "260E",
+  "unicode": "☎"
+ },
+ "blacktouchtonetelephone": {
+  "categoria": "Objetos",
+  "hex": "1F57F",
+  "unicode": "🕿"
+ },
+ "blackuniversalrecyclingsymbol": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "267B",
+  "unicode": "♻"
+ },
+ "blackuppointingbackhand": {
+  "categoria": "Objetos",
+  "hex": "1F5A2",
+  "unicode": "🖢"
+ },
+ "blackuppointingdoublearrow": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "23EB",
+  "unicode": "⏫"
+ },
+ "blackwaving": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F3F4",
+  "unicode": "🏴"
+ },
+ "blonde": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F471-200D-2640-FE0F",
+  "unicode": "👱‍♀️"
+ },
+ "blossom": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F33C",
+  "unicode": "🌼"
+ },
+ "blowfish": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F421",
+  "unicode": "🐡"
+ },
+ "bluebook": {
+  "categoria": "Objetos",
+  "hex": "1F4D8",
+  "unicode": "📘"
+ },
+ "boar": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F417",
+  "unicode": "🐗"
+ },
+ "bolt": {
+  "categoria": "Objetos",
+  "hex": "1F529",
+  "unicode": "🔩"
+ },
+ "bomb": {
+  "categoria": "Objetos",
+  "hex": "1F4A3",
+  "unicode": "💣"
+ },
+ "bookmark": {
+  "categoria": "Objetos",
+  "hex": "1F516",
+  "unicode": "🔖"
+ },
+ "bookmarktab": {
+  "categoria": "Objetos",
+  "hex": "1F4D1",
+  "unicode": "📑"
+ },
+ "books": {
+  "categoria": "Objetos",
+  "hex": "1F4DA",
+  "unicode": "📚"
+ },
+ "boot": {
+  "categoria": "Objetos",
+  "hex": "1F462",
+  "unicode": "👢"
+ },
+ "bouquet": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F490",
+  "unicode": "💐"
+ },
+ "bouquetofflowers": {
+  "categoria": "Objetos",
+  "hex": "1F395",
+  "unicode": "🎕"
+ },
+ "bow": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F647",
+  "unicode": "🙇"
+ },
+ "bowing": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F647",
+  "unicode": "🙇"
+ },
+ "bowling": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3B3",
+  "unicode": "🎳"
+ },
+ "boy": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F466",
+  "unicode": "👦"
+ },
+ "bread": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F35E",
+  "unicode": "🍞"
+ },
+ "bride": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F470-200D-2640-FE0F",
+  "unicode": "👰‍♀️"
+ },
+ "bridgeatnight": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F309",
+  "unicode": "🌉"
+ },
+ "briefcase": {
+  "categoria": "Objetos",
+  "hex": "1F4BC",
+  "unicode": "💼"
+ },
+ "brokenheart": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F494",
+  "unicode": "💔"
+ },
+ "bug": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F41B",
+  "unicode": "🐛"
+ },
+ "bullhorn": {
+  "categoria": "Objetos",
+  "hex": "1F56B",
+  "unicode": "🕫"
+ },
+ "bullhornwithsoundwaves": {
+  "categoria": "Objetos",
+  "hex": "1F56C",
+  "unicode": "🕬"
+ },
+ "bunny": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F430",
+  "unicode": "🐰"
+ },
+ "bunny-ears": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F46F",
+  "unicode": "👯"
+ },
+ "bunnyside": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F407",
+  "unicode": "🐇"
+ },
+ "bus": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F68C",
+  "unicode": "🚌"
+ },
+ "busstop": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F68F",
+  "unicode": "🚏"
+ },
+ "cactus": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F335",
+  "unicode": "🌵"
+ },
+ "calendar": {
+  "categoria": "Objetos",
+  "hex": "1F4C5",
+  "unicode": "📅"
+ },
+ "camera": {
+  "categoria": "Objetos",
+  "hex": "1F4F7",
+  "unicode": "📷"
+ },
+ "camerawithflash": {
+  "categoria": "Objetos",
+  "hex": "1F4F8",
+  "unicode": "📸"
+ },
+ "camping": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3D5",
+  "unicode": "🏕"
+ },
+ "cancellationx": {
+  "categoria": "Objetos",
+  "hex": "1F5D9",
+  "unicode": "🗙"
+ },
+ "cancer": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "264B",
+  "unicode": "♋"
+ },
+ "candle": {
+  "categoria": "Objetos",
+  "hex": "1F56F",
+  "unicode": "🕯"
+ },
+ "candy": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F36C",
+  "unicode": "🍬"
+ },
+ "capricorn": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2651",
+  "unicode": "♑"
+ },
+ "cardfilebox": {
+  "categoria": "Objetos",
+  "hex": "1F5C3",
+  "unicode": "🗃"
+ },
+ "cardindex": {
+  "categoria": "Objetos",
+  "hex": "1F4C7",
+  "unicode": "📇"
+ },
+ "cardindexdividers": {
+  "categoria": "Objetos",
+  "hex": "1F5C2",
+  "unicode": "🗂"
+ },
+ "carouselhorse": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3A0",
+  "unicode": "🎠"
+ },
+ "carpstreamer": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F38F",
+  "unicode": "🎏"
+ },
+ "cat": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F408",
+  "unicode": "🐈"
+ },
+ "catside": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F408",
+  "unicode": "🐈"
+ },
+ "cellphone": {
+  "categoria": "Objetos",
+  "hex": "1F4F1",
+  "unicode": "📱"
+ },
+ "celticcross": {
+  "categoria": "Objetos",
+  "hex": "1F548",
+  "unicode": "🕈"
+ },
+ "chartdownwardstrend": {
+  "categoria": "Objetos",
+  "hex": "1F4C9",
+  "unicode": "📉"
+ },
+ "chartupwardstrend": {
+  "categoria": "Objetos",
+  "hex": "1F4C8",
+  "unicode": "📈"
+ },
+ "chartupwardstrendyen": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F4B9",
+  "unicode": "💹"
+ },
+ "cherries": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F352",
+  "unicode": "🍒"
+ },
+ "cherryblossom": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F338",
+  "unicode": "🌸"
+ },
+ "chicken": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F414",
+  "unicode": "🐔"
+ },
+ "childrencrossing": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F6B8",
+  "unicode": "🚸"
+ },
+ "chilipepper": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F336",
+  "unicode": "🌶"
+ },
+ "chineseflag": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F1E8-1F1F3",
+  "unicode": "🇨🇳"
+ },
+ "chipmunk": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F43F",
+  "unicode": "🐿"
+ },
+ "chocolatebar": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F36B",
+  "unicode": "🍫"
+ },
+ "christmastree": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F384",
+  "unicode": "🎄"
+ },
+ "church": {
+  "categoria": "Viagens e Lugares",
+  "hex": "26EA",
+  "unicode": "⛪"
+ },
+ "cinema": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F3A6",
+  "unicode": "🎦"
+ },
+ "circledideographaccept": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F251",
+  "unicode": "🉑"
+ },
+ "circledideographadvantage": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F250",
+  "unicode": "🉐"
+ },
+ "circledideographcongratulation": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "3297",
+  "unicode": "㊗"
+ },
+ "circledideographsecret": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "3299",
+  "unicode": "㊙"
+ },
+ "circledlatincapitalletterm": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "24C2",
+  "unicode": "Ⓜ"
+ },
+ "circustent": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3AA",
+  "unicode": "🎪"
+ },
+ "cityscape": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3D9",
+  "unicode": "🏙"
+ },
+ "cityscapeatdusk": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F306",
+  "unicode": "🌆"
+ },
+ "cjkunifiedideograph-a": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F22F",
+  "unicode": "🈯"
+ },
+ "cjkunifiedideograph-b": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F23A",
+  "unicode": "🈺"
+ },
+ "cjkunifiedideograph-c": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F232",
+  "unicode": "🈲"
+ },
+ "cjkunifiedideograph-d": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F233",
+  "unicode": "🈳"
+ },
+ "cjkunifiedideograph-e": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F234",
+  "unicode": "🈴"
+ },
+ "cjkunifiedideograph-f": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F235",
+  "unicode": "🈵"
+ },
+ "cjkunifiedideograph-g": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F236",
+  "unicode": "🈶"
+ },
+ "cjkunifiedideograph-h": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F237",
+  "unicode": "🈷"
+ },
+ "cjkunifiedideograph-i": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F21A",
+  "unicode": "🈚"
+ },
+ "cjkunifiedideograph-j": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F238",
+  "unicode": "🈸"
+ },
+ "cjkunifiedideograph-k": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F239",
+  "unicode": "🈹"
+ },
+ "clamshellmobile": {
+  "categoria": "Objetos",
+  "hex": "1F581",
+  "unicode": "🖁"
+ },
+ "clap": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F44F",
+  "unicode": "👏"
+ },
+ "clapperboard": {
+  "categoria": "Objetos",
+  "hex": "1F3AC",
+  "unicode": "🎬"
+ },
+ "classicalbuilding": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3DB",
+  "unicode": "🏛"
+ },
+ "clinkingbeermugs": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F37B",
+  "unicode": "🍻"
+ },
+ "clipboard": {
+  "categoria": "Objetos",
+  "hex": "1F4CB",
+  "unicode": "📋"
+ },
+ "clock12oclock": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F55B",
+  "unicode": "🕛"
+ },
+ "clock12thirty": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F567",
+  "unicode": "🕧"
+ },
+ "clock1oclock": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F550",
+  "unicode": "🕐"
+ },
+ "clock1thirty": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F55C",
+  "unicode": "🕜"
+ },
+ "clock2oclock": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F551",
+  "unicode": "🕑"
+ },
+ "clock2thirty": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F55D",
+  "unicode": "🕝"
+ },
+ "clock3oclock": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F552",
+  "unicode": "🕒"
+ },
+ "clock3thirty": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F55E",
+  "unicode": "🕞"
+ },
+ "clock4oclock": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F553",
+  "unicode": "🕓"
+ },
+ "clock4thirty": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F55F",
+  "unicode": "🕟"
+ },
+ "clock5thirty": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F560",
+  "unicode": "🕠"
+ },
+ "clock6oclock": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F555",
+  "unicode": "🕕"
+ },
+ "clock6thirty": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F561",
+  "unicode": "🕡"
+ },
+ "clock7oclock": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F556",
+  "unicode": "🕖"
+ },
+ "clockwisedownupcircledarrows": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F503",
+  "unicode": "🔃"
+ },
+ "clockwiseleftrightarrows": {
+  "categoria": "Objetos",
+  "hex": "1F5D8",
+  "unicode": "🗘"
+ },
+ "clockwiserightwardsleftwardscirclearrows": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F501",
+  "unicode": "🔁"
+ },
+ "clockwiserightwardsleftwardscirclearrowsone": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F502",
+  "unicode": "🔂"
+ },
+ "closedbook": {
+  "categoria": "Objetos",
+  "hex": "1F4D5",
+  "unicode": "📕"
+ },
+ "closedmailboxlowered": {
+  "categoria": "Objetos",
+  "hex": "1F4EA",
+  "unicode": "📪"
+ },
+ "closedmailboxraised": {
+  "categoria": "Objetos",
+  "hex": "1F4EB",
+  "unicode": "📫"
+ },
+ "cloud": {
+  "categoria": "Animais e Natureza",
+  "hex": "2601",
+  "unicode": "☁"
+ },
+ "cocktailglass": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F378",
+  "unicode": "🍸"
+ },
+ "coldsweat": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F630",
+  "unicode": "😰"
+ },
+ "collision": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F4A5",
+  "unicode": "💥"
+ },
+ "compression": {
+  "categoria": "Objetos",
+  "hex": "1F5DC-FE0F",
+  "unicode": "🗜️"
+ },
+ "confetti": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F38A",
+  "unicode": "🎊"
+ },
+ "confounded": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F616",
+  "unicode": "😖"
+ },
+ "confused": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F615",
+  "unicode": "😕"
+ },
+ "construct": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F477",
+  "unicode": "👷"
+ },
+ "construction": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F6A7",
+  "unicode": "🚧"
+ },
+ "constructionsign": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F6A7",
+  "unicode": "🚧"
+ },
+ "contact": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F464",
+  "unicode": "👤"
+ },
+ "contact2": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F465",
+  "unicode": "👥"
+ },
+ "controlknob": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F39B",
+  "unicode": "🎛"
+ },
+ "conveniencestore": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3EA",
+  "unicode": "🏪"
+ },
+ "cookedrice": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F35A",
+  "unicode": "🍚"
+ },
+ "cookie": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F36A",
+  "unicode": "🍪"
+ },
+ "cooking": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F373",
+  "unicode": "🍳"
+ },
+ "cop": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F46E",
+  "unicode": "👮"
+ },
+ "couple": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F46B",
+  "unicode": "👫"
+ },
+ "couplekiss": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F48F",
+  "unicode": "💏"
+ },
+ "cow": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F404",
+  "unicode": "🐄"
+ },
+ "cowface": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F42E",
+  "unicode": "🐮"
+ },
+ "creditcard": {
+  "categoria": "Objetos",
+  "hex": "1F4B3",
+  "unicode": "💳"
+ },
+ "crescentmoon": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F319",
+  "unicode": "🌙"
+ },
+ "crocodile": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F40A",
+  "unicode": "🐊"
+ },
+ "crossedflags": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F38C",
+  "unicode": "🎌"
+ },
+ "crossmark": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "274C",
+  "unicode": "❌"
+ },
+ "crown": {
+  "categoria": "Objetos",
+  "hex": "1F451",
+  "unicode": "👑"
+ },
+ "crying": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F622",
+  "unicode": "😢"
+ },
+ "crystalball": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F52E",
+  "unicode": "🔮"
+ },
+ "curlyloop": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "27B0",
+  "unicode": "➰"
+ },
+ "currencyexchange": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F4B1",
+  "unicode": "💱"
+ },
+ "curryandrice": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F35B",
+  "unicode": "🍛"
+ },
+ "custard": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F36E",
+  "unicode": "🍮"
+ },
+ "customs": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F6C3",
+  "unicode": "🛃"
+ },
+ "cyclone": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F300",
+  "unicode": "🌀"
+ },
+ "daggerknife": {
+  "categoria": "Objetos",
+  "hex": "1F5E1",
+  "unicode": "🗡"
+ },
+ "dancer": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F483",
+  "unicode": "💃"
+ },
+ "dango": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F361",
+  "unicode": "🍡"
+ },
+ "darksunglasses": {
+  "categoria": "Objetos",
+  "hex": "1F576",
+  "unicode": "🕶"
+ },
+ "dash": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F4A8",
+  "unicode": "💨"
+ },
+ "deciduoustree": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F333",
+  "unicode": "🌳"
+ },
+ "decreasefontsize": {
+  "categoria": "Objetos",
+  "hex": "1F5DB",
+  "unicode": "🗛"
+ },
+ "deliverytruck": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F69A",
+  "unicode": "🚚"
+ },
+ "departmentstore": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3EC",
+  "unicode": "🏬"
+ },
+ "desert": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3DC",
+  "unicode": "🏜"
+ },
+ "desertisland": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3DD",
+  "unicode": "🏝"
+ },
+ "desktopcomputer": {
+  "categoria": "Objetos",
+  "hex": "1F5A5",
+  "unicode": "🖥"
+ },
+ "devilhorns": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F608",
+  "unicode": "😈"
+ },
+ "diamondshapewithdotinside": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F4A0",
+  "unicode": "💠"
+ },
+ "directhit": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3AF",
+  "unicode": "🎯"
+ },
+ "disappointed": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F61E",
+  "unicode": "😞"
+ },
+ "dissapointedrelief": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F625",
+  "unicode": "😥"
+ },
+ "dizzy": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F4AB",
+  "unicode": "💫"
+ },
+ "dizzyface": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F635",
+  "unicode": "😵"
+ },
+ "document": {
+  "categoria": "Objetos",
+  "hex": "1F5CE",
+  "unicode": "🗎"
+ },
+ "documenttextpicture": {
+  "categoria": "Objetos",
+  "hex": "1F5BA",
+  "unicode": "🖺"
+ },
+ "documentwithpicture": {
+  "categoria": "Objetos",
+  "hex": "1F5BB",
+  "unicode": "🖻"
+ },
+ "documentwithtext": {
+  "categoria": "Objetos",
+  "hex": "1F5B9",
+  "unicode": "🖹"
+ },
+ "dog": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F415",
+  "unicode": "🐕"
+ },
+ "dogside": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F415",
+  "unicode": "🐕"
+ },
+ "dolphin": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F42C",
+  "unicode": "🐬"
+ },
+ "donotlittersymbol": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F6AF",
+  "unicode": "🚯"
+ },
+ "door": {
+  "categoria": "Objetos",
+  "hex": "1F6AA",
+  "unicode": "🚪"
+ },
+ "doublecurlyloop": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "27BF",
+  "unicode": "➿"
+ },
+ "doubleexclaimationmark": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "203C",
+  "unicode": "‼"
+ },
+ "doughnut": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F369",
+  "unicode": "🍩"
+ },
+ "doveofpeace": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F54A",
+  "unicode": "🕊"
+ },
+ "down": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F447",
+  "unicode": "👇"
+ },
+ "downpointingredtriangle": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F53B",
+  "unicode": "🔻"
+ },
+ "downpointingsmallredtrisngle": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F53D",
+  "unicode": "🔽"
+ },
+ "dragonhead": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F432",
+  "unicode": "🐲"
+ },
+ "dragonside": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F409",
+  "unicode": "🐉"
+ },
+ "dress": {
+  "categoria": "Objetos",
+  "hex": "1F457",
+  "unicode": "👗"
+ },
+ "dromedarycamel": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F42A",
+  "unicode": "🐪"
+ },
+ "droplet": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F4A7",
+  "unicode": "💧"
+ },
+ "dvd": {
+  "categoria": "Objetos",
+  "hex": "1F4C0",
+  "unicode": "📀"
+ },
+ "ear": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F442",
+  "unicode": "👂"
+ },
+ "earofmaize": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F33D",
+  "unicode": "🌽"
+ },
+ "earofrice": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F33E",
+  "unicode": "🌾"
+ },
+ "eightpointedblackstar": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2734",
+  "unicode": "✴"
+ },
+ "eightspokedasterix": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2733",
+  "unicode": "✳"
+ },
+ "electricplug": {
+  "categoria": "Objetos",
+  "hex": "1F50C",
+  "unicode": "🔌"
+ },
+ "electrictorch": {
+  "categoria": "Objetos",
+  "hex": "1F526",
+  "unicode": "🔦"
+ },
+ "elephant": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F418",
+  "unicode": "🐘"
+ },
+ "email": {
+  "categoria": "Objetos",
+  "hex": "2709-FE0F",
+  "unicode": "✉️"
+ },
+ "emptydocument": {
+  "categoria": "Objetos",
+  "hex": "1F5CB",
+  "unicode": "🗋"
+ },
+ "emptynote": {
+  "categoria": "Objetos",
+  "hex": "1F5C5",
+  "unicode": "🗅"
+ },
+ "emptynotepad": {
+  "categoria": "Objetos",
+  "hex": "1F5C7",
+  "unicode": "🗇"
+ },
+ "emptynotepage": {
+  "categoria": "Objetos",
+  "hex": "1F5C6",
+  "unicode": "🗆"
+ },
+ "emptypage": {
+  "categoria": "Objetos",
+  "hex": "1F5CC",
+  "unicode": "🗌"
+ },
+ "emptypages": {
+  "categoria": "Objetos",
+  "hex": "1F5CD",
+  "unicode": "🗍"
+ },
+ "endwithleftwardsarrow": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F51A",
+  "unicode": "🔚"
+ },
+ "envelope": {
+  "categoria": "Objetos",
+  "hex": "2709",
+  "unicode": "✉"
+ },
+ "envelopedownarrowabove": {
+  "categoria": "Objetos",
+  "hex": "1F4E9",
+  "unicode": "📩"
+ },
+ "envelopewithlightning": {
+  "categoria": "Objetos",
+  "hex": "1F584",
+  "unicode": "🖄"
+ },
+ "europeafricaglobe": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F30D",
+  "unicode": "🌍"
+ },
+ "europeancastle": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3F0",
+  "unicode": "🏰"
+ },
+ "europeanpostoffice": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3E4",
+  "unicode": "🏤"
+ },
+ "evergreen": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F332",
+  "unicode": "🌲"
+ },
+ "exclaimationquestionmark": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2049",
+  "unicode": "⁉"
+ },
+ "expressionless": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F611",
+  "unicode": "😑"
+ },
+ "eye": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F441",
+  "unicode": "👁"
+ },
+ "eyes": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F440",
+  "unicode": "👀"
+ },
+ "factory": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3ED",
+  "unicode": "🏭"
+ },
+ "fallingleaf": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F342",
+  "unicode": "🍂"
+ },
+ "family": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F46A",
+  "unicode": "👪"
+ },
+ "fatherchristmas": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F385",
+  "unicode": "🎅"
+ },
+ "faxicon": {
+  "categoria": "Objetos",
+  "hex": "1F5B7",
+  "unicode": "🖷"
+ },
+ "faxmachine": {
+  "categoria": "Objetos",
+  "hex": "1F4E0",
+  "unicode": "📠"
+ },
+ "fearful": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F628",
+  "unicode": "😨"
+ },
+ "ferriswheel": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3A1",
+  "unicode": "🎡"
+ },
+ "filecabinet": {
+  "categoria": "Objetos",
+  "hex": "1F5C4",
+  "unicode": "🗄"
+ },
+ "filefolder": {
+  "categoria": "Objetos",
+  "hex": "1F4C1",
+  "unicode": "📁"
+ },
+ "filmframes": {
+  "categoria": "Objetos",
+  "hex": "1F39E",
+  "unicode": "🎞"
+ },
+ "filmprojector": {
+  "categoria": "Objetos",
+  "hex": "1F4FD",
+  "unicode": "📽"
+ },
+ "fire": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F525",
+  "unicode": "🔥"
+ },
+ "fireengine": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F692",
+  "unicode": "🚒"
+ },
+ "fireworks": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F386",
+  "unicode": "🎆"
+ },
+ "fireworksparkler": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F387",
+  "unicode": "🎇"
+ },
+ "firstquartermoon": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F313",
+  "unicode": "🌓"
+ },
+ "firstquartermoonface": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F31B",
+  "unicode": "🌛"
+ },
+ "fish": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F41F",
+  "unicode": "🐟"
+ },
+ "fishcakeswirl": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F365",
+  "unicode": "🍥"
+ },
+ "fishingpoleandfish": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3A3",
+  "unicode": "🎣"
+ },
+ "fistedhand": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F44A",
+  "unicode": "👊"
+ },
+ "flaginhole": {
+  "categoria": "Atividades e Esportes",
+  "hex": "26F3",
+  "unicode": "⛳"
+ },
+ "flexbicep": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F4AA",
+  "unicode": "💪"
+ },
+ "floppydisk2": {
+  "categoria": "Objetos",
+  "hex": "1F4BE",
+  "unicode": "💾"
+ },
+ "flowerplayingcards": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F3B4",
+  "unicode": "🎴"
+ },
+ "flushed": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F633",
+  "unicode": "😳"
+ },
+ "flyingenvelope": {
+  "categoria": "Objetos",
+  "hex": "1F585",
+  "unicode": "🖅"
+ },
+ "fog": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F32B",
+  "unicode": "🌫"
+ },
+ "foggy": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F301",
+  "unicode": "🌁"
+ },
+ "folder": {
+  "categoria": "Objetos",
+  "hex": "1F5C0",
+  "unicode": "🗀"
+ },
+ "footprints": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F463",
+  "unicode": "👣"
+ },
+ "forkandknife": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F374",
+  "unicode": "🍴"
+ },
+ "forkknife": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F37D",
+  "unicode": "🍽"
+ },
+ "fountain": {
+  "categoria": "Viagens e Lugares",
+  "hex": "26F2",
+  "unicode": "⛲"
+ },
+ "fourleafclover": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F340",
+  "unicode": "🍀"
+ },
+ "foxcrying": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F63F",
+  "unicode": "😿"
+ },
+ "foxgrin": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F638",
+  "unicode": "😸"
+ },
+ "foxheart": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F63B",
+  "unicode": "😻"
+ },
+ "foxkissing": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F63D",
+  "unicode": "😽"
+ },
+ "foxpouting": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F63E",
+  "unicode": "😾"
+ },
+ "foxsmiling": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F63A",
+  "unicode": "😺"
+ },
+ "foxtearofjoy": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F639",
+  "unicode": "😹"
+ },
+ "foxweary": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F640",
+  "unicode": "🙀"
+ },
+ "foxwry": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F63C",
+  "unicode": "😼"
+ },
+ "framewithpicture": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F5BC",
+  "unicode": "🖼"
+ },
+ "framewithtiles": {
+  "categoria": "Objetos",
+  "hex": "1F5BD",
+  "unicode": "🖽"
+ },
+ "framewithx": {
+  "categoria": "Objetos",
+  "hex": "1F5BE",
+  "unicode": "🖾"
+ },
+ "franceflag": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F1EB-1F1F7",
+  "unicode": "🇫🇷"
+ },
+ "frenchfries": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F35F",
+  "unicode": "🍟"
+ },
+ "friedshrimp": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F364",
+  "unicode": "🍤"
+ },
+ "frog": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F438",
+  "unicode": "🐸"
+ },
+ "frontfacingchick": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F425",
+  "unicode": "🐥"
+ },
+ "frown": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F64D",
+  "unicode": "🙍"
+ },
+ "frownmouth": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F626",
+  "unicode": "😦"
+ },
+ "fuelpump": {
+  "categoria": "Viagens e Lugares",
+  "hex": "26FD",
+  "unicode": "⛽"
+ },
+ "fullmoon": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F315",
+  "unicode": "🌕"
+ },
+ "fullmoonwithface": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F31D",
+  "unicode": "🌝"
+ },
+ "gamedie": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3B2",
+  "unicode": "🎲"
+ },
+ "gem": {
+  "categoria": "Objetos",
+  "hex": "1F48E",
+  "unicode": "💎"
+ },
+ "gemini": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "264A",
+  "unicode": "♊"
+ },
+ "ghost": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F47B",
+  "unicode": "👻"
+ },
+ "girl": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F467",
+  "unicode": "👧"
+ },
+ "girlgirl": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F46D",
+  "unicode": "👭"
+ },
+ "girlguy": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F46B",
+  "unicode": "👫"
+ },
+ "glasses": {
+  "categoria": "Objetos",
+  "hex": "1F453",
+  "unicode": "👓"
+ },
+ "gma": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F475",
+  "unicode": "👵"
+ },
+ "goat": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F410",
+  "unicode": "🐐"
+ },
+ "golfer": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F3CC-FE0F",
+  "unicode": "🏌️"
+ },
+ "gpa": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F474",
+  "unicode": "👴"
+ },
+ "graduationcap": {
+  "categoria": "Objetos",
+  "hex": "1F393",
+  "unicode": "🎓"
+ },
+ "grapes": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F347",
+  "unicode": "🍇"
+ },
+ "greatbritainflag": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F1EC-1F1E7",
+  "unicode": "🇬🇧"
+ },
+ "greenapple": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F34F",
+  "unicode": "🍏"
+ },
+ "greenbook": {
+  "categoria": "Objetos",
+  "hex": "1F4D7",
+  "unicode": "📗"
+ },
+ "grimacing": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F62C",
+  "unicode": "😬"
+ },
+ "grin": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F601",
+  "unicode": "😁"
+ },
+ "grineyes": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F601",
+  "unicode": "😁"
+ },
+ "grinsquint": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F606",
+  "unicode": "😆"
+ },
+ "grinsweat": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F605",
+  "unicode": "😅"
+ },
+ "grintears": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F602",
+  "unicode": "😂"
+ },
+ "grinwide": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F603",
+  "unicode": "😃"
+ },
+ "grinwideeyes": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F604",
+  "unicode": "😄"
+ },
+ "growingheart": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F497",
+  "unicode": "💗"
+ },
+ "guapimao": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F472",
+  "unicode": "👲"
+ },
+ "guardsman": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F482",
+  "unicode": "💂"
+ },
+ "guitar": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3B8",
+  "unicode": "🎸"
+ },
+ "guyguy": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F46C",
+  "unicode": "👬"
+ },
+ "haircut": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F487",
+  "unicode": "💇"
+ },
+ "halo": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F607",
+  "unicode": "😇"
+ },
+ "hamburger": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F354",
+  "unicode": "🍔"
+ },
+ "hammer": {
+  "categoria": "Objetos",
+  "hex": "1F528",
+  "unicode": "🔨"
+ },
+ "hampster": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F439",
+  "unicode": "🐹"
+ },
+ "hand": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "270B",
+  "unicode": "✋"
+ },
+ "handbag": {
+  "categoria": "Objetos",
+  "hex": "1F45C",
+  "unicode": "👜"
+ },
+ "handheldvideocamera": {
+  "categoria": "Objetos",
+  "hex": "1F4F9",
+  "unicode": "📹"
+ },
+ "hands": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F450",
+  "unicode": "👐"
+ },
+ "handup": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F64B",
+  "unicode": "🙋"
+ },
+ "harddisk": {
+  "categoria": "Objetos",
+  "hex": "1F5B4",
+  "unicode": "🖴"
+ },
+ "hatchingchick": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F423",
+  "unicode": "🐣"
+ },
+ "headmassage": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F486",
+  "unicode": "💆"
+ },
+ "headphone": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3A7",
+  "unicode": "🎧"
+ },
+ "heartarrow": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F498",
+  "unicode": "💘"
+ },
+ "heartblue": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F499",
+  "unicode": "💙"
+ },
+ "heartdecoration": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F49F",
+  "unicode": "💟"
+ },
+ "hearteyes": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F60D",
+  "unicode": "😍"
+ },
+ "heartgreen": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F49A",
+  "unicode": "💚"
+ },
+ "heartlefttip": {
+  "categoria": "Objetos",
+  "hex": "1F394",
+  "unicode": "🎔"
+ },
+ "heartpurple": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F49C",
+  "unicode": "💜"
+ },
+ "heartribbon": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F49D",
+  "unicode": "💝"
+ },
+ "heartyellow": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F49B",
+  "unicode": "💛"
+ },
+ "heavycheckmark": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2714",
+  "unicode": "✔"
+ },
+ "heavydivisionsign": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2797",
+  "unicode": "➗"
+ },
+ "heavydollarsign": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F4B2",
+  "unicode": "💲"
+ },
+ "heavyexclaimationmarksymbol": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2757",
+  "unicode": "❗"
+ },
+ "heavylargecircle": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2B55",
+  "unicode": "⭕"
+ },
+ "heavylatincross": {
+  "categoria": "Objetos",
+  "hex": "1F547",
+  "unicode": "🕇"
+ },
+ "heavyminussign": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2796",
+  "unicode": "➖"
+ },
+ "heavymultiplicationsymbol": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2716",
+  "unicode": "✖"
+ },
+ "heavyplussign": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2795",
+  "unicode": "➕"
+ },
+ "heels": {
+  "categoria": "Objetos",
+  "hex": "1F460",
+  "unicode": "👠"
+ },
+ "helicopter": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F681",
+  "unicode": "🚁"
+ },
+ "herb": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F33F",
+  "unicode": "🌿"
+ },
+ "hibiscus": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F33A",
+  "unicode": "🌺"
+ },
+ "high5": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F64C",
+  "unicode": "🙌"
+ },
+ "highbrightness": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F506",
+  "unicode": "🔆"
+ },
+ "highspeedtrain": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F684",
+  "unicode": "🚄"
+ },
+ "highspeedtrainbulletnose": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F685",
+  "unicode": "🚅"
+ },
+ "hocho": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F52A",
+  "unicode": "🔪"
+ },
+ "hole": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F573",
+  "unicode": "🕳"
+ },
+ "honeybee": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F41D",
+  "unicode": "🐝"
+ },
+ "honeypot": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F36F",
+  "unicode": "🍯"
+ },
+ "horizontaltrafficlight": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F6A5",
+  "unicode": "🚥"
+ },
+ "horse": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F40E",
+  "unicode": "🐎"
+ },
+ "horseface": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F434",
+  "unicode": "🐴"
+ },
+ "horseracing": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F3C7",
+  "unicode": "🏇"
+ },
+ "hospital": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3E5",
+  "unicode": "🏥"
+ },
+ "hotbeverage": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "2615",
+  "unicode": "☕"
+ },
+ "hotel": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3E8",
+  "unicode": "🏨"
+ },
+ "hotsprings": {
+  "categoria": "Viagens e Lugares",
+  "hex": "2668-FE0F",
+  "unicode": "♨️"
+ },
+ "hourglass": {
+  "categoria": "Viagens e Lugares",
+  "hex": "231B",
+  "unicode": "⌛"
+ },
+ "hourglassflowingsand": {
+  "categoria": "Viagens e Lugares",
+  "hex": "23F3",
+  "unicode": "⏳"
+ },
+ "housebuilding": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3E0",
+  "unicode": "🏠"
+ },
+ "housebuildings": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3D8",
+  "unicode": "🏘"
+ },
+ "housewithgarden": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3E1",
+  "unicode": "🏡"
+ },
+ "hundredpointssymbol": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F4AF",
+  "unicode": "💯"
+ },
+ "hushed": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F62F",
+  "unicode": "😯"
+ },
+ "icecream": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F366",
+  "unicode": "🍦"
+ },
+ "imp": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F47F",
+  "unicode": "👿"
+ },
+ "inboxtray": {
+  "categoria": "Objetos",
+  "hex": "1F4E5",
+  "unicode": "📥"
+ },
+ "incomingenvelope": {
+  "categoria": "Objetos",
+  "hex": "1F4E8",
+  "unicode": "📨"
+ },
+ "increasefontsize": {
+  "categoria": "Objetos",
+  "hex": "1F5DA",
+  "unicode": "🗚"
+ },
+ "index": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "261D",
+  "unicode": "☝"
+ },
+ "informationsource": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2139",
+  "unicode": "ℹ"
+ },
+ "inputsymbolforlatincapitalletters": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F520",
+  "unicode": "🔠"
+ },
+ "inputsymbolforlatinletters": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F524",
+  "unicode": "🔤"
+ },
+ "inputsymbolforlatinsmallletters": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F521",
+  "unicode": "🔡"
+ },
+ "inputsymbolfornumbers": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F522",
+  "unicode": "🔢"
+ },
+ "inputsymbolforsymbols": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F523",
+  "unicode": "🔣"
+ },
+ "italianflag": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F1EE-1F1F9",
+  "unicode": "🇮🇹"
+ },
+ "izakayalantern": {
+  "categoria": "Objetos",
+  "hex": "1F3EE",
+  "unicode": "🏮"
+ },
+ "jackolantern": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F383",
+  "unicode": "🎃"
+ },
+ "japaneseangrymask": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F47A",
+  "unicode": "👺"
+ },
+ "japanesecastle": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3EF",
+  "unicode": "🏯"
+ },
+ "japanesedolls": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F38E",
+  "unicode": "🎎"
+ },
+ "japanesepostoffice": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3E3",
+  "unicode": "🏣"
+ },
+ "japanesesymbolforbeginner": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F530",
+  "unicode": "🔰"
+ },
+ "japanflag": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F1EF-1F1F5",
+  "unicode": "🇯🇵"
+ },
+ "jeans": {
+  "categoria": "Objetos",
+  "hex": "1F456",
+  "unicode": "👖"
+ },
+ "key": {
+  "categoria": "Objetos",
+  "hex": "1F511",
+  "unicode": "🔑"
+ },
+ "keyboard": {
+  "categoria": "Objetos",
+  "hex": "2328",
+  "unicode": "⌨"
+ },
+ "keyboardandmouse": {
+  "categoria": "Objetos",
+  "hex": "1F5A6",
+  "unicode": "🖦"
+ },
+ "kimono": {
+  "categoria": "Objetos",
+  "hex": "1F458",
+  "unicode": "👘"
+ },
+ "kiss": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F48F",
+  "unicode": "💏"
+ },
+ "kissclosedeyes": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F61A",
+  "unicode": "😚"
+ },
+ "kisseyes": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F619",
+  "unicode": "😙"
+ },
+ "kissing": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F617",
+  "unicode": "😗"
+ },
+ "kissmark": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F48B",
+  "unicode": "💋"
+ },
+ "koala": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F428",
+  "unicode": "🐨"
+ },
+ "koreaflag": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F1F0-1F1F7",
+  "unicode": "🇰🇷"
+ },
+ "label": {
+  "categoria": "Objetos",
+  "hex": "1F3F7",
+  "unicode": "🏷"
+ },
+ "ladybeetle": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F41E",
+  "unicode": "🐞"
+ },
+ "largebluecircle": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F535",
+  "unicode": "🔵"
+ },
+ "largebluediamond": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F537",
+  "unicode": "🔷"
+ },
+ "largeorangediamond": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F536",
+  "unicode": "🔶"
+ },
+ "largeredcircle": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F534",
+  "unicode": "🔴"
+ },
+ "lastquartermoon": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F317",
+  "unicode": "🌗"
+ },
+ "lastquartermoonface": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F31C",
+  "unicode": "🌜"
+ },
+ "leaffluttering": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F343",
+  "unicode": "🍃"
+ },
+ "ledger": {
+  "categoria": "Objetos",
+  "hex": "1F4D2",
+  "unicode": "📒"
+ },
+ "left": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F448",
+  "unicode": "👈"
+ },
+ "leftangerbubble": {
+  "categoria": "Objetos",
+  "hex": "1F5EE",
+  "unicode": "🗮"
+ },
+ "lefthandphone": {
+  "categoria": "Objetos",
+  "hex": "1F57B",
+  "unicode": "🕻"
+ },
+ "leftluggage": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F6C5",
+  "unicode": "🛅"
+ },
+ "leftmagnifyingglass": {
+  "categoria": "Objetos",
+  "hex": "1F50D",
+  "unicode": "🔍"
+ },
+ "leftrightarrow": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2194",
+  "unicode": "↔"
+ },
+ "leftspeechbubble": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F5E8",
+  "unicode": "🗨"
+ },
+ "leftthoughtbubble": {
+  "categoria": "Objetos",
+  "hex": "1F5EC",
+  "unicode": "🗬"
+ },
+ "leftwardsarrowwithhook": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "21A9",
+  "unicode": "↩"
+ },
+ "leftwardsblackarrow": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2B05",
+  "unicode": "⬅"
+ },
+ "leftwritinghand": {
+  "categoria": "Objetos",
+  "hex": "1F58E",
+  "unicode": "🖎"
+ },
+ "lemon": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F34B",
+  "unicode": "🍋"
+ },
+ "leo": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "264C",
+  "unicode": "♌"
+ },
+ "leopardside": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F406",
+  "unicode": "🐆"
+ },
+ "levelslider": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F39A",
+  "unicode": "🎚"
+ },
+ "libra": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "264E",
+  "unicode": "♎"
+ },
+ "lightbulb": {
+  "categoria": "Objetos",
+  "hex": "1F4A1",
+  "unicode": "💡"
+ },
+ "lightningmood": {
+  "categoria": "Objetos",
+  "hex": "1F5F2",
+  "unicode": "🗲"
+ },
+ "lightningmoodbubble": {
+  "categoria": "Objetos",
+  "hex": "1F5F1",
+  "unicode": "🗱"
+ },
+ "lightrail": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F688",
+  "unicode": "🚈"
+ },
+ "linkedpaperclips": {
+  "categoria": "Objetos",
+  "hex": "1F587",
+  "unicode": "🖇"
+ },
+ "linksymbol": {
+  "categoria": "Objetos",
+  "hex": "1F517",
+  "unicode": "🔗"
+ },
+ "lips": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F444",
+  "unicode": "👄"
+ },
+ "lipstick": {
+  "categoria": "Objetos",
+  "hex": "1F484",
+  "unicode": "💄"
+ },
+ "lock": {
+  "categoria": "Objetos",
+  "hex": "1F512",
+  "unicode": "🔒"
+ },
+ "lockandkey": {
+  "categoria": "Objetos",
+  "hex": "1F510",
+  "unicode": "🔐"
+ },
+ "lockwithinkpen": {
+  "categoria": "Objetos",
+  "hex": "1F50F",
+  "unicode": "🔏"
+ },
+ "lollipop": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F36D",
+  "unicode": "🍭"
+ },
+ "loudlycrying": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F62D",
+  "unicode": "😭"
+ },
+ "loudspeaker": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F4E2",
+  "unicode": "📢"
+ },
+ "lovehotel": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3E9",
+  "unicode": "🏩"
+ },
+ "loveletter": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F48C",
+  "unicode": "💌"
+ },
+ "lowbrightness": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F505",
+  "unicode": "🔅"
+ },
+ "lowerleftcrayon": {
+  "categoria": "Objetos",
+  "hex": "1F58D",
+  "unicode": "🖍"
+ },
+ "lowerleftfountainpen": {
+  "categoria": "Objetos",
+  "hex": "1F58B",
+  "unicode": "🖋"
+ },
+ "lowerleftpaintbrush": {
+  "categoria": "Objetos",
+  "hex": "1F58C",
+  "unicode": "🖌"
+ },
+ "lowerleftpen": {
+  "categoria": "Objetos",
+  "hex": "1F58A",
+  "unicode": "🖊"
+ },
+ "lowerleftpencil": {
+  "categoria": "Objetos",
+  "hex": "1F589",
+  "unicode": "🖉"
+ },
+ "lowerrightwhitecircle": {
+  "categoria": "Objetos",
+  "hex": "1F53E",
+  "unicode": "🔾"
+ },
+ "mahjong": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F004",
+  "unicode": "🀄"
+ },
+ "makeupbag": {
+  "categoria": "Objetos",
+  "hex": "1F45D",
+  "unicode": "👝"
+ },
+ "man": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F468",
+  "unicode": "👨"
+ },
+ "maninbusinesssuitlevitating": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F574",
+  "unicode": "🕴"
+ },
+ "manltepiececlock": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F570",
+  "unicode": "🕰"
+ },
+ "mansshirt": {
+  "categoria": "Objetos",
+  "hex": "1F455",
+  "unicode": "👕"
+ },
+ "mapleleaf": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F341",
+  "unicode": "🍁"
+ },
+ "markschaptersymbol": {
+  "categoria": "Objetos",
+  "hex": "1F545",
+  "unicode": "🕅"
+ },
+ "maximize": {
+  "categoria": "Objetos",
+  "hex": "1F5D6",
+  "unicode": "🗖"
+ },
+ "meatonbone": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F356",
+  "unicode": "🍖"
+ },
+ "medicalmask": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F637",
+  "unicode": "😷"
+ },
+ "mediumblackcircle": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "26AB",
+  "unicode": "⚫"
+ },
+ "mediumwhitecircle": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "26AA",
+  "unicode": "⚪"
+ },
+ "megaphone": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F4E3",
+  "unicode": "📣"
+ },
+ "melon": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F348",
+  "unicode": "🍈"
+ },
+ "memo": {
+  "categoria": "Objetos",
+  "hex": "1F4DD",
+  "unicode": "📝"
+ },
+ "mensrunner": {
+  "categoria": "Objetos",
+  "hex": "1F45F",
+  "unicode": "👟"
+ },
+ "mensshoe": {
+  "categoria": "Objetos",
+  "hex": "1F45E",
+  "unicode": "👞"
+ },
+ "menssymbol": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F6B9",
+  "unicode": "🚹"
+ },
+ "meridianglobe": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F310",
+  "unicode": "🌐"
+ },
+ "metro": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F687",
+  "unicode": "🚇"
+ },
+ "microphone": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3A4",
+  "unicode": "🎤"
+ },
+ "microscope": {
+  "categoria": "Objetos",
+  "hex": "1F52C",
+  "unicode": "🔬"
+ },
+ "militarymedal": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F396",
+  "unicode": "🎖"
+ },
+ "milkyway": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F30C",
+  "unicode": "🌌"
+ },
+ "minibus": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F690",
+  "unicode": "🚐"
+ },
+ "minidisc": {
+  "categoria": "Objetos",
+  "hex": "1F4BD",
+  "unicode": "💽"
+ },
+ "minimize": {
+  "categoria": "Objetos",
+  "hex": "1F5D5",
+  "unicode": "🗕"
+ },
+ "mobilephoneoff": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F4F4",
+  "unicode": "📴"
+ },
+ "moneybag": {
+  "categoria": "Objetos",
+  "hex": "1F4B0",
+  "unicode": "💰"
+ },
+ "moneywithwings": {
+  "categoria": "Objetos",
+  "hex": "1F4B8",
+  "unicode": "💸"
+ },
+ "monkey": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F412",
+  "unicode": "🐒"
+ },
+ "monkeyface": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F435",
+  "unicode": "🐵"
+ },
+ "monkeyhear": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F649",
+  "unicode": "🙉"
+ },
+ "monkeysee": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F648",
+  "unicode": "🙈"
+ },
+ "monkeyspeak": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F64A",
+  "unicode": "🙊"
+ },
+ "monorail": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F69D",
+  "unicode": "🚝"
+ },
+ "moodbubble": {
+  "categoria": "Objetos",
+  "hex": "1F5F0",
+  "unicode": "🗰"
+ },
+ "moonviewingceremony": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F391",
+  "unicode": "🎑"
+ },
+ "motorcycle": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3CD",
+  "unicode": "🏍"
+ },
+ "mountaincableway": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F6A0",
+  "unicode": "🚠"
+ },
+ "mountainrailway": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F69E",
+  "unicode": "🚞"
+ },
+ "mountfuji": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F5FB",
+  "unicode": "🗻"
+ },
+ "mouse": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F401",
+  "unicode": "🐁"
+ },
+ "mouseside": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F401",
+  "unicode": "🐁"
+ },
+ "mouth": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F444",
+  "unicode": "👄"
+ },
+ "moviecamera": {
+  "categoria": "Objetos",
+  "hex": "1F3A5",
+  "unicode": "🎥"
+ },
+ "moyai": {
+  "categoria": "Objetos",
+  "hex": "1F5FF",
+  "unicode": "🗿"
+ },
+ "multiplemusicalnotes": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3B6",
+  "unicode": "🎶"
+ },
+ "mushroom": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F344",
+  "unicode": "🍄"
+ },
+ "musicalkeyboard": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3B9",
+  "unicode": "🎹"
+ },
+ "musicalnote": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3B5",
+  "unicode": "🎵"
+ },
+ "musicalscore": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3BC",
+  "unicode": "🎼"
+ },
+ "musicascend": {
+  "categoria": "Objetos",
+  "hex": "1F39C",
+  "unicode": "🎜"
+ },
+ "musicdescend": {
+  "categoria": "Objetos",
+  "hex": "1F39D",
+  "unicode": "🎝"
+ },
+ "nailpolish": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F485",
+  "unicode": "💅"
+ },
+ "namebadge": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F4DB",
+  "unicode": "📛"
+ },
+ "nationalpark": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3DE",
+  "unicode": "🏞"
+ },
+ "negativesquaredab": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F18E",
+  "unicode": "🆎"
+ },
+ "negativesquaredcrossmark": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "274E",
+  "unicode": "❎"
+ },
+ "negativesquaredlatincapitalletterp": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F17F",
+  "unicode": "🅿"
+ },
+ "negativesquaredlatincaptiala": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F170",
+  "unicode": "🅰"
+ },
+ "negativesquaredlatincaptialb": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F171",
+  "unicode": "🅱"
+ },
+ "negativesquaredlatincaptialo": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F17E",
+  "unicode": "🅾"
+ },
+ "neutral": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F610",
+  "unicode": "😐"
+ },
+ "newmoon": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F311",
+  "unicode": "🌑"
+ },
+ "newmoonwithface": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F31A",
+  "unicode": "🌚"
+ },
+ "newspaper": {
+  "categoria": "Objetos",
+  "hex": "1F4F0",
+  "unicode": "📰"
+ },
+ "nightwithstars": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F303",
+  "unicode": "🌃"
+ },
+ "nobicycles": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F6B3",
+  "unicode": "🚳"
+ },
+ "noentry": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "26D4",
+  "unicode": "⛔"
+ },
+ "noentrysign": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F6AB",
+  "unicode": "🚫"
+ },
+ "nogesture": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F645",
+  "unicode": "🙅"
+ },
+ "nomobilephones": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F4F5",
+  "unicode": "📵"
+ },
+ "nomouth": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F636",
+  "unicode": "😶"
+ },
+ "nonpotablewatersymbol": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F6B1",
+  "unicode": "🚱"
+ },
+ "nooneunder18symbol": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F51E",
+  "unicode": "🔞"
+ },
+ "nopedestrians": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F6B7",
+  "unicode": "🚷"
+ },
+ "nopiracy": {
+  "categoria": "Objetos",
+  "hex": "1F572",
+  "unicode": "🕲"
+ },
+ "northeastarrow": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2197",
+  "unicode": "↗"
+ },
+ "northwestarrow": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2196",
+  "unicode": "↖"
+ },
+ "nose": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F443",
+  "unicode": "👃"
+ },
+ "nosmokingsymbol": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F6AD",
+  "unicode": "🚭"
+ },
+ "notchedrightsemi3dot": {
+  "categoria": "Objetos",
+  "hex": "1F544",
+  "unicode": "🕄"
+ },
+ "note": {
+  "categoria": "Objetos",
+  "hex": "1F5C8",
+  "unicode": "🗈"
+ },
+ "notebook": {
+  "categoria": "Objetos",
+  "hex": "1F4D3",
+  "unicode": "📓"
+ },
+ "notebookdecorativecover": {
+  "categoria": "Objetos",
+  "hex": "1F4D4",
+  "unicode": "📔"
+ },
+ "notepad": {
+  "categoria": "Objetos",
+  "hex": "1F5D2",
+  "unicode": "🗒"
+ },
+ "notepage": {
+  "categoria": "Objetos",
+  "hex": "1F5C9",
+  "unicode": "🗉"
+ },
+ "nutandbolt": {
+  "categoria": "Objetos",
+  "hex": "1F529",
+  "unicode": "🔩"
+ },
+ "octopus": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F419",
+  "unicode": "🐙"
+ },
+ "oden": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F362",
+  "unicode": "🍢"
+ },
+ "officebuilding": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3E2",
+  "unicode": "🏢"
+ },
+ "ogre": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F479",
+  "unicode": "👹"
+ },
+ "okgesture": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F646",
+  "unicode": "🙆"
+ },
+ "oldkey": {
+  "categoria": "Objetos",
+  "hex": "1F5DD",
+  "unicode": "🗝"
+ },
+ "oldpersonalcomputer": {
+  "categoria": "Objetos",
+  "hex": "1F5B3",
+  "unicode": "🖳"
+ },
+ "omsymbol": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F549",
+  "unicode": "🕉"
+ },
+ "onarrowleftright": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F51B",
+  "unicode": "🔛"
+ },
+ "oncomingautomobile": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F698",
+  "unicode": "🚘"
+ },
+ "oncomingbus": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F68D",
+  "unicode": "🚍"
+ },
+ "oncomingpolicecar": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F694",
+  "unicode": "🚔"
+ },
+ "oncomingtaxi": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F696",
+  "unicode": "🚖"
+ },
+ "onebuttonmouse": {
+  "categoria": "Objetos",
+  "hex": "1F5AF",
+  "unicode": "🖯"
+ },
+ "openbook": {
+  "categoria": "Objetos",
+  "hex": "1F4D6",
+  "unicode": "📖"
+ },
+ "openfilefolder": {
+  "categoria": "Objetos",
+  "hex": "1F4C2",
+  "unicode": "📂"
+ },
+ "openfolder": {
+  "categoria": "Objetos",
+  "hex": "1F5C1",
+  "unicode": "🗁"
+ },
+ "openlock": {
+  "categoria": "Objetos",
+  "hex": "1F513",
+  "unicode": "🔓"
+ },
+ "openmailboxlowered": {
+  "categoria": "Objetos",
+  "hex": "1F4ED",
+  "unicode": "📭"
+ },
+ "openmailboxraised": {
+  "categoria": "Objetos",
+  "hex": "1F4EC",
+  "unicode": "📬"
+ },
+ "openmouth": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F62E",
+  "unicode": "😮"
+ },
+ "ophiuchus": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "26CE",
+  "unicode": "⛎"
+ },
+ "opticaldisc": {
+  "categoria": "Objetos",
+  "hex": "1F4BF",
+  "unicode": "💿"
+ },
+ "opticaldiscicon": {
+  "categoria": "Objetos",
+  "hex": "1F5B8",
+  "unicode": "🖸"
+ },
+ "orangebook": {
+  "categoria": "Objetos",
+  "hex": "1F4D9",
+  "unicode": "📙"
+ },
+ "outbox": {
+  "categoria": "Objetos",
+  "hex": "1F4E4",
+  "unicode": "📤"
+ },
+ "overlap": {
+  "categoria": "Objetos",
+  "hex": "1F5D7",
+  "unicode": "🗗"
+ },
+ "ox": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F402",
+  "unicode": "🐂"
+ },
+ "package": {
+  "categoria": "Objetos",
+  "hex": "1F4E6",
+  "unicode": "📦"
+ },
+ "page": {
+  "categoria": "Objetos",
+  "hex": "1F5CF",
+  "unicode": "🗏"
+ },
+ "pagefacingup": {
+  "categoria": "Objetos",
+  "hex": "1F4C4",
+  "unicode": "📄"
+ },
+ "pager": {
+  "categoria": "Objetos",
+  "hex": "1F4DF",
+  "unicode": "📟"
+ },
+ "pages": {
+  "categoria": "Objetos",
+  "hex": "1F5D0",
+  "unicode": "🗐"
+ },
+ "pagewithcircledtext": {
+  "categoria": "Objetos",
+  "hex": "1F5DF",
+  "unicode": "🗟"
+ },
+ "pagewithcurl": {
+  "categoria": "Objetos",
+  "hex": "1F4C3",
+  "unicode": "📃"
+ },
+ "palmtree": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F334",
+  "unicode": "🌴"
+ },
+ "pandaface": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F43C",
+  "unicode": "🐼"
+ },
+ "paperclip": {
+  "categoria": "Objetos",
+  "hex": "1F4CE",
+  "unicode": "📎"
+ },
+ "partalternationmark": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "303D",
+  "unicode": "〽"
+ },
+ "partypopper": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F389",
+  "unicode": "🎉"
+ },
+ "passportcontrol": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F6C2",
+  "unicode": "🛂"
+ },
+ "pawprints": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F43E",
+  "unicode": "🐾"
+ },
+ "peach": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F351",
+  "unicode": "🍑"
+ },
+ "pear": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F350",
+  "unicode": "🍐"
+ },
+ "pencil": {
+  "categoria": "Objetos",
+  "hex": "270F",
+  "unicode": "✏"
+ },
+ "penguin": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F427",
+  "unicode": "🐧"
+ },
+ "penoverstampedenvelope": {
+  "categoria": "Objetos",
+  "hex": "1F586",
+  "unicode": "🖆"
+ },
+ "pensive": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F614",
+  "unicode": "😔"
+ },
+ "performingarts": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3AD",
+  "unicode": "🎭"
+ },
+ "perservere": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F623",
+  "unicode": "😣"
+ },
+ "personalcomputer": {
+  "categoria": "Objetos",
+  "hex": "1F4BB",
+  "unicode": "💻"
+ },
+ "phonerightarrowleft": {
+  "categoria": "Objetos",
+  "hex": "1F4F2",
+  "unicode": "📲"
+ },
+ "phonewithpage": {
+  "categoria": "Objetos",
+  "hex": "1F57C",
+  "unicode": "🕼"
+ },
+ "pig": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F416",
+  "unicode": "🐖"
+ },
+ "pigside": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F416",
+  "unicode": "🐖"
+ },
+ "pigsnout": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F43D",
+  "unicode": "🐽"
+ },
+ "pill": {
+  "categoria": "Objetos",
+  "hex": "1F48A",
+  "unicode": "💊"
+ },
+ "pineapple": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F34D",
+  "unicode": "🍍"
+ },
+ "pinedecoration": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F38D",
+  "unicode": "🎍"
+ },
+ "pinkwallet": {
+  "categoria": "Objetos",
+  "hex": "1F45B",
+  "unicode": "👛"
+ },
+ "pisces": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2653",
+  "unicode": "♓"
+ },
+ "pistol": {
+  "categoria": "Objetos",
+  "hex": "1F52B",
+  "unicode": "🔫"
+ },
+ "playingcardblackjoker": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F0CF",
+  "unicode": "🃏"
+ },
+ "policecar": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F693",
+  "unicode": "🚓"
+ },
+ "policecarsrevolvinglight": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F6A8",
+  "unicode": "🚨"
+ },
+ "poo": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F4A9",
+  "unicode": "💩"
+ },
+ "poodle": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F429",
+  "unicode": "🐩"
+ },
+ "portablestereo": {
+  "categoria": "Objetos",
+  "hex": "1F4FE",
+  "unicode": "📾"
+ },
+ "postalhorn": {
+  "categoria": "Objetos",
+  "hex": "1F4EF",
+  "unicode": "📯"
+ },
+ "postbox": {
+  "categoria": "Objetos",
+  "hex": "1F4EE",
+  "unicode": "📮"
+ },
+ "potablewatersystem": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F6B0",
+  "unicode": "🚰"
+ },
+ "potoffood": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F372",
+  "unicode": "🍲"
+ },
+ "poultryleg": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F357",
+  "unicode": "🍗"
+ },
+ "pout": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F64E",
+  "unicode": "🙎"
+ },
+ "pouting": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F621",
+  "unicode": "😡"
+ },
+ "pray": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F64F",
+  "unicode": "🙏"
+ },
+ "present": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F381",
+  "unicode": "🎁"
+ },
+ "princess": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F478",
+  "unicode": "👸"
+ },
+ "printer": {
+  "categoria": "Objetos",
+  "hex": "1F5A8",
+  "unicode": "🖨"
+ },
+ "printericon": {
+  "categoria": "Objetos",
+  "hex": "1F5B6",
+  "unicode": "🖶"
+ },
+ "pushpin": {
+  "categoria": "Objetos",
+  "hex": "1F4CC",
+  "unicode": "📌"
+ },
+ "putlitterinitsplacesymbol": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F6AE",
+  "unicode": "🚮"
+ },
+ "racecar": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3CE",
+  "unicode": "🏎"
+ },
+ "radio": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F4FB",
+  "unicode": "📻"
+ },
+ "radiobutton": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F518",
+  "unicode": "🔘"
+ },
+ "railwaycar": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F683",
+  "unicode": "🚃"
+ },
+ "rainbow": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F308",
+  "unicode": "🌈"
+ },
+ "raincloud": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F327",
+  "unicode": "🌧"
+ },
+ "raisedfist": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "270A",
+  "unicode": "✊"
+ },
+ "raisedhandpartfingers": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F596",
+  "unicode": "🖖"
+ },
+ "raisedhandsfingerssplayed": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F590",
+  "unicode": "🖐"
+ },
+ "ram": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F40F",
+  "unicode": "🐏"
+ },
+ "rat": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F400",
+  "unicode": "🐀"
+ },
+ "recreationalvehicle": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F699",
+  "unicode": "🚙"
+ },
+ "redapple": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F34E",
+  "unicode": "🍎"
+ },
+ "redheart": {
+  "categoria": "Rostos e Emoções",
+  "hex": "2764",
+  "unicode": "❤"
+ },
+ "regionalindicatorb": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F1E7",
+  "unicode": "🇧"
+ },
+ "regionalindicatorc": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F1E8",
+  "unicode": "🇨"
+ },
+ "regionalindicatore": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F1EA",
+  "unicode": "🇪"
+ },
+ "regionalindicatorf": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F1EB",
+  "unicode": "🇫"
+ },
+ "regionalindicatorg": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F1EC",
+  "unicode": "🇬"
+ },
+ "regionalindicatori": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F1EE",
+  "unicode": "🇮"
+ },
+ "regionalindicatorj": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F1EF",
+  "unicode": "🇯"
+ },
+ "regionalindicatork": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F1F0",
+  "unicode": "🇰"
+ },
+ "regionalindicatorn": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F1F3",
+  "unicode": "🇳"
+ },
+ "regionalindicatorp": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F1F5",
+  "unicode": "🇵"
+ },
+ "regionalindicatorr": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F1F7",
+  "unicode": "🇷"
+ },
+ "regionalindicators": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F1F8",
+  "unicode": "🇸"
+ },
+ "regionalindicatort": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F1F9",
+  "unicode": "🇹"
+ },
+ "regionalindicatoru": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F1FA",
+  "unicode": "🇺"
+ },
+ "relieved": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F60C",
+  "unicode": "😌"
+ },
+ "reminder": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F397",
+  "unicode": "🎗"
+ },
+ "restroom": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F6BB",
+  "unicode": "🚻"
+ },
+ "reversehandmiddlefinger": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F595",
+  "unicode": "🖕"
+ },
+ "reverseraisedhandsfingerssplayed": {
+  "categoria": "Objetos",
+  "hex": "1F591",
+  "unicode": "🖑"
+ },
+ "reversethumbsdown": {
+  "categoria": "Objetos",
+  "hex": "1F593",
+  "unicode": "🖓"
+ },
+ "reversethumbsup": {
+  "categoria": "Objetos",
+  "hex": "1F592",
+  "unicode": "🖒"
+ },
+ "reversevictoryhand": {
+  "categoria": "Objetos",
+  "hex": "1F594",
+  "unicode": "🖔"
+ },
+ "revolvinghearts": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F49E",
+  "unicode": "💞"
+ },
+ "riceball": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F359",
+  "unicode": "🍙"
+ },
+ "ricecracker": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F358",
+  "unicode": "🍘"
+ },
+ "right": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F449",
+  "unicode": "👉"
+ },
+ "rightangerbubble": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F5EF",
+  "unicode": "🗯"
+ },
+ "righthandphone": {
+  "categoria": "Objetos",
+  "hex": "1F57D",
+  "unicode": "🕽"
+ },
+ "rightmagnifyingglass": {
+  "categoria": "Objetos",
+  "hex": "1F50E",
+  "unicode": "🔎"
+ },
+ "rightspeaker": {
+  "categoria": "Objetos",
+  "hex": "1F568",
+  "unicode": "🕨"
+ },
+ "rightspeaker3soundwaves": {
+  "categoria": "Objetos",
+  "hex": "1F56A",
+  "unicode": "🕪"
+ },
+ "rightspeechbubble": {
+  "categoria": "Objetos",
+  "hex": "1F5E9",
+  "unicode": "🗩"
+ },
+ "rightthoughtbubble": {
+  "categoria": "Objetos",
+  "hex": "1F5ED",
+  "unicode": "🗭"
+ },
+ "rightwardsarrowwithhook": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "21AA",
+  "unicode": "↪"
+ },
+ "ring": {
+  "categoria": "Objetos",
+  "hex": "1F48D",
+  "unicode": "💍"
+ },
+ "ringingbell": {
+  "categoria": "Objetos",
+  "hex": "1F56D",
+  "unicode": "🕭"
+ },
+ "roastedsweetpotato": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F360",
+  "unicode": "🍠"
+ },
+ "rocket": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F680",
+  "unicode": "🚀"
+ },
+ "rolledupnewspaper": {
+  "categoria": "Objetos",
+  "hex": "1F5DE",
+  "unicode": "🗞"
+ },
+ "rollercoaster": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3A2",
+  "unicode": "🎢"
+ },
+ "rooster": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F413",
+  "unicode": "🐓"
+ },
+ "rose": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F339",
+  "unicode": "🌹"
+ },
+ "rosette": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F3F5",
+  "unicode": "🏵"
+ },
+ "roundpushpin": {
+  "categoria": "Objetos",
+  "hex": "1F4CD",
+  "unicode": "📍"
+ },
+ "rowboat": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F6A3",
+  "unicode": "🚣"
+ },
+ "rugbyfootball": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3C9",
+  "unicode": "🏉"
+ },
+ "running": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F3C3",
+  "unicode": "🏃"
+ },
+ "runningshirt": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3BD",
+  "unicode": "🎽"
+ },
+ "russianflag": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F1F7-1F1FA",
+  "unicode": "🇷🇺"
+ },
+ "saggitarius": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2650",
+  "unicode": "♐"
+ },
+ "sailboat": {
+  "categoria": "Viagens e Lugares",
+  "hex": "26F5",
+  "unicode": "⛵"
+ },
+ "sakebottleandcup": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F376",
+  "unicode": "🍶"
+ },
+ "sandals": {
+  "categoria": "Objetos",
+  "hex": "1FA74",
+  "unicode": "🩴"
+ },
+ "satelliteantenna": {
+  "categoria": "Objetos",
+  "hex": "1F4E1",
+  "unicode": "📡"
+ },
+ "saxophone": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3B7",
+  "unicode": "🎷"
+ },
+ "school": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3EB",
+  "unicode": "🏫"
+ },
+ "schoolsatchel": {
+  "categoria": "Objetos",
+  "hex": "1F392",
+  "unicode": "🎒"
+ },
+ "scorpius": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "264F",
+  "unicode": "♏"
+ },
+ "screamfear": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F631",
+  "unicode": "😱"
+ },
+ "screen": {
+  "categoria": "Objetos",
+  "hex": "1F5B5",
+  "unicode": "🖵"
+ },
+ "scroll": {
+  "categoria": "Objetos",
+  "hex": "1F4DC",
+  "unicode": "📜"
+ },
+ "seat": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F4BA",
+  "unicode": "💺"
+ },
+ "seedling": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F331",
+  "unicode": "🌱"
+ },
+ "shavedice": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F367",
+  "unicode": "🍧"
+ },
+ "sheep": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F411",
+  "unicode": "🐑"
+ },
+ "ship": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F6A2",
+  "unicode": "🚢"
+ },
+ "shootingstar": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F320",
+  "unicode": "🌠"
+ },
+ "shortcake": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F370",
+  "unicode": "🍰"
+ },
+ "shower": {
+  "categoria": "Objetos",
+  "hex": "1F6BF",
+  "unicode": "🚿"
+ },
+ "sidewaysblackdownpointingindex": {
+  "categoria": "Objetos",
+  "hex": "1F5A1",
+  "unicode": "🖡"
+ },
+ "sidewaysblackleftpointingindex": {
+  "categoria": "Objetos",
+  "hex": "1F59A",
+  "unicode": "🖚"
+ },
+ "sidewaysblackrightpointingindex": {
+  "categoria": "Objetos",
+  "hex": "1F59B",
+  "unicode": "🖛"
+ },
+ "sidewaysblackuppointingindex": {
+  "categoria": "Objetos",
+  "hex": "1F5A0",
+  "unicode": "🖠"
+ },
+ "sidewaysdownpointingindex": {
+  "categoria": "Objetos",
+  "hex": "1F59F",
+  "unicode": "🖟"
+ },
+ "sidewaysleftpointingindex": {
+  "categoria": "Objetos",
+  "hex": "1F598",
+  "unicode": "🖘"
+ },
+ "sidewaysrightpointingindex": {
+  "categoria": "Objetos",
+  "hex": "1F599",
+  "unicode": "🖙"
+ },
+ "sidewaysuppointingindex": {
+  "categoria": "Objetos",
+  "hex": "1F59E",
+  "unicode": "🖞"
+ },
+ "silhouetteohjapan": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F5FE",
+  "unicode": "🗾"
+ },
+ "sixpointedstarwithdot": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F52F",
+  "unicode": "🔯"
+ },
+ "skiandskiboot": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3BF",
+  "unicode": "🎿"
+ },
+ "skull": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F480",
+  "unicode": "💀"
+ },
+ "sleeping": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F634",
+  "unicode": "😴"
+ },
+ "sleepy": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F62A",
+  "unicode": "😪"
+ },
+ "sleuthspy": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F575",
+  "unicode": "🕵"
+ },
+ "sliceofpizza": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F355",
+  "unicode": "🍕"
+ },
+ "slotmachine": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3B0",
+  "unicode": "🎰"
+ },
+ "smallbluediamond": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F539",
+  "unicode": "🔹"
+ },
+ "smallfrown": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F641",
+  "unicode": "🙁"
+ },
+ "smallorangediamond": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F538",
+  "unicode": "🔸"
+ },
+ "smallsmile": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F642",
+  "unicode": "🙂"
+ },
+ "smileeyes": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F60A",
+  "unicode": "😊"
+ },
+ "smiletongue": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F60B",
+  "unicode": "😋"
+ },
+ "smirk": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F60F",
+  "unicode": "😏"
+ },
+ "smokingsymbol": {
+  "categoria": "Objetos",
+  "hex": "1F6AC",
+  "unicode": "🚬"
+ },
+ "snail": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F40C",
+  "unicode": "🐌"
+ },
+ "snake": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F40D",
+  "unicode": "🐍"
+ },
+ "snowboarder": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F3C2",
+  "unicode": "🏂"
+ },
+ "snowcloud": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F328",
+  "unicode": "🌨"
+ },
+ "snowflake": {
+  "categoria": "Animais e Natureza",
+  "hex": "2744",
+  "unicode": "❄"
+ },
+ "snowmanwithoutsnow": {
+  "categoria": "Animais e Natureza",
+  "hex": "26C4",
+  "unicode": "⛄"
+ },
+ "snowmountains": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3D4",
+  "unicode": "🏔"
+ },
+ "soccerball": {
+  "categoria": "Atividades e Esportes",
+  "hex": "26BD",
+  "unicode": "⚽"
+ },
+ "softicecream": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F366",
+  "unicode": "🍦"
+ },
+ "softshellfloppy": {
+  "categoria": "Objetos",
+  "hex": "1F5AC",
+  "unicode": "🖬"
+ },
+ "soonwithrightarrow": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F51C",
+  "unicode": "🔜"
+ },
+ "southeastarrow": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2198",
+  "unicode": "↘"
+ },
+ "spaghetti": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F35D",
+  "unicode": "🍝"
+ },
+ "spanishflag": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F1EA-1F1F8",
+  "unicode": "🇪🇸"
+ },
+ "sparkle": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2747",
+  "unicode": "❇"
+ },
+ "sparkles": {
+  "categoria": "Atividades e Esportes",
+  "hex": "2728",
+  "unicode": "✨"
+ },
+ "sparklingheart": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F496",
+  "unicode": "💖"
+ },
+ "speaker": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F508",
+  "unicode": "🔈"
+ },
+ "speaker3soundwaves": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F50A",
+  "unicode": "🔊"
+ },
+ "speakercancellation": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F507",
+  "unicode": "🔇"
+ },
+ "speakeronesoundwave": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F509",
+  "unicode": "🔉"
+ },
+ "speakerwith1soundwave": {
+  "categoria": "Objetos",
+  "hex": "1F569",
+  "unicode": "🕩"
+ },
+ "speakingheadinsilhouette": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F5E3",
+  "unicode": "🗣"
+ },
+ "speechbubble": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F4AC",
+  "unicode": "💬"
+ },
+ "speedboat": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F6A4",
+  "unicode": "🚤"
+ },
+ "spider": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F577",
+  "unicode": "🕷"
+ },
+ "spiderweb": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F578",
+  "unicode": "🕸"
+ },
+ "spiralcalendarpad": {
+  "categoria": "Objetos",
+  "hex": "1F5D3",
+  "unicode": "🗓"
+ },
+ "spiralnotepad": {
+  "categoria": "Objetos",
+  "hex": "1F5D2",
+  "unicode": "🗒"
+ },
+ "spiralshell": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F41A",
+  "unicode": "🐚"
+ },
+ "sportsmedal": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3C5",
+  "unicode": "🏅"
+ },
+ "spurtingwhale": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F433",
+  "unicode": "🐳"
+ },
+ "squaredcl": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F191",
+  "unicode": "🆑"
+ },
+ "squaredcool": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F192",
+  "unicode": "🆒"
+ },
+ "squaredfree": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F193",
+  "unicode": "🆓"
+ },
+ "squaredid": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F194",
+  "unicode": "🆔"
+ },
+ "squaredkatakanakoko": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F201",
+  "unicode": "🈁"
+ },
+ "squaredkatakanasa": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F202",
+  "unicode": "🈂"
+ },
+ "squarednew": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F195",
+  "unicode": "🆕"
+ },
+ "squaredng": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F196",
+  "unicode": "🆖"
+ },
+ "squaredok": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F197",
+  "unicode": "🆗"
+ },
+ "squaredsos": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F198",
+  "unicode": "🆘"
+ },
+ "squaredup": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F199",
+  "unicode": "🆙"
+ },
+ "squaredvs": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F19A",
+  "unicode": "🆚"
+ },
+ "stadium": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F3DF",
+  "unicode": "🏟"
+ },
+ "stampedenvelope": {
+  "categoria": "Objetos",
+  "hex": "1F583",
+  "unicode": "🖃"
+ },
+ "star": {
+  "categoria": "Animais e Natureza",
+  "hex": "2B50",
+  "unicode": "⭐"
+ },
+ "station": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F689",
+  "unicode": "🚉"
+ },
+ "statueofliberty": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F5FD",
+  "unicode": "🗽"
+ },
+ "steamingbowl": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F35C",
+  "unicode": "🍜"
+ },
+ "steamlocomotive": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F682",
+  "unicode": "🚂"
+ },
+ "stockchart": {
+  "categoria": "Objetos",
+  "hex": "1F5E0",
+  "unicode": "🗠"
+ },
+ "stormcloud": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F329",
+  "unicode": "🌩"
+ },
+ "straightruler": {
+  "categoria": "Objetos",
+  "hex": "1F4CF",
+  "unicode": "📏"
+ },
+ "strawberry": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F353",
+  "unicode": "🍓"
+ },
+ "studiomic": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F399",
+  "unicode": "🎙"
+ },
+ "sunbehindcloud": {
+  "categoria": "Animais e Natureza",
+  "hex": "26C5",
+  "unicode": "⛅"
+ },
+ "sunflower": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F33B",
+  "unicode": "🌻"
+ },
+ "sunglasses": {
+  "categoria": "Objetos",
+  "hex": "1F576",
+  "unicode": "🕶"
+ },
+ "sunraincloud": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F326",
+  "unicode": "🌦"
+ },
+ "sunrays": {
+  "categoria": "Animais e Natureza",
+  "hex": "2600",
+  "unicode": "☀"
+ },
+ "sunrise": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F305",
+  "unicode": "🌅"
+ },
+ "sunriseovermountains": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F304",
+  "unicode": "🌄"
+ },
+ "sunsetoverbuildings": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F307",
+  "unicode": "🌇"
+ },
+ "sunwithface": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F31E",
+  "unicode": "🌞"
+ },
+ "surfer": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F3C4",
+  "unicode": "🏄"
+ },
+ "sushi": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F363",
+  "unicode": "🍣"
+ },
+ "suspensionrailway": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F69F",
+  "unicode": "🚟"
+ },
+ "sweat": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F613",
+  "unicode": "😓"
+ },
+ "sweatsplash": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F4A6",
+  "unicode": "💦"
+ },
+ "swimming": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F3CA",
+  "unicode": "🏊"
+ },
+ "syringe": {
+  "categoria": "Objetos",
+  "hex": "1F489",
+  "unicode": "💉"
+ },
+ "tanabatatree": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F38B",
+  "unicode": "🎋"
+ },
+ "tangerine": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F34A",
+  "unicode": "🍊"
+ },
+ "tapecartridge": {
+  "categoria": "Objetos",
+  "hex": "1F5AD",
+  "unicode": "🖭"
+ },
+ "taurus": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2649",
+  "unicode": "♉"
+ },
+ "taxi": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F695",
+  "unicode": "🚕"
+ },
+ "teacupwithouthandle": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F375",
+  "unicode": "🍵"
+ },
+ "tearoffcalendar": {
+  "categoria": "Objetos",
+  "hex": "1F4C6",
+  "unicode": "📆"
+ },
+ "telephoneonmodem": {
+  "categoria": "Objetos",
+  "hex": "1F580",
+  "unicode": "🖀"
+ },
+ "telephonereceiver2": {
+  "categoria": "Objetos",
+  "hex": "1F4DE",
+  "unicode": "📞"
+ },
+ "telescope": {
+  "categoria": "Objetos",
+  "hex": "1F52D",
+  "unicode": "🔭"
+ },
+ "television": {
+  "categoria": "Objetos",
+  "hex": "1F4FA",
+  "unicode": "📺"
+ },
+ "ten": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F51F",
+  "unicode": "🔟"
+ },
+ "tennisball": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3BE",
+  "unicode": "🎾"
+ },
+ "tent": {
+  "categoria": "Viagens e Lugares",
+  "hex": "26FA",
+  "unicode": "⛺"
+ },
+ "thermometer": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F321",
+  "unicode": "🌡"
+ },
+ "thoughtbaloon": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F4AD",
+  "unicode": "💭"
+ },
+ "threebuttonmouse": {
+  "categoria": "Objetos",
+  "hex": "1F5B1",
+  "unicode": "🖱"
+ },
+ "threenetworkedcomputers": {
+  "categoria": "Objetos",
+  "hex": "1F5A7",
+  "unicode": "🖧"
+ },
+ "threeraysabove": {
+  "categoria": "Objetos",
+  "hex": "1F5E4",
+  "unicode": "🗤"
+ },
+ "threeraysbelow": {
+  "categoria": "Objetos",
+  "hex": "1F5E5",
+  "unicode": "🗥"
+ },
+ "threeraysleft": {
+  "categoria": "Objetos",
+  "hex": "1F5E6",
+  "unicode": "🗦"
+ },
+ "threeraysright": {
+  "categoria": "Objetos",
+  "hex": "1F5E7",
+  "unicode": "🗧"
+ },
+ "threespeechbubbles": {
+  "categoria": "Objetos",
+  "hex": "1F5EB",
+  "unicode": "🗫"
+ },
+ "thumbsdown": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F44E",
+  "unicode": "👎"
+ },
+ "thumbsup": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F44D",
+  "unicode": "👍"
+ },
+ "ticket": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3AB",
+  "unicode": "🎫"
+ },
+ "tie": {
+  "categoria": "Objetos",
+  "hex": "1F454",
+  "unicode": "👔"
+ },
+ "tiger": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F405",
+  "unicode": "🐅"
+ },
+ "tigerside": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F405",
+  "unicode": "🐅"
+ },
+ "tired": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F62B",
+  "unicode": "😫"
+ },
+ "toilet": {
+  "categoria": "Objetos",
+  "hex": "1F6BD",
+  "unicode": "🚽"
+ },
+ "tomato": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F345",
+  "unicode": "🍅"
+ },
+ "tongue": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F445",
+  "unicode": "👅"
+ },
+ "tongueout": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F61B",
+  "unicode": "😛"
+ },
+ "tongueoutwink": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F61C",
+  "unicode": "😜"
+ },
+ "tongueoutwink2": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F61D",
+  "unicode": "😝"
+ },
+ "tophat": {
+  "categoria": "Objetos",
+  "hex": "1F3A9",
+  "unicode": "🎩"
+ },
+ "topwithupwardsarrow": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F51D",
+  "unicode": "🔝"
+ },
+ "tornado": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F32A",
+  "unicode": "🌪"
+ },
+ "toykotower": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F5FC",
+  "unicode": "🗼"
+ },
+ "trackball": {
+  "categoria": "Objetos",
+  "hex": "1F5B2",
+  "unicode": "🖲"
+ },
+ "tractor": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F69C",
+  "unicode": "🚜"
+ },
+ "train": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F686",
+  "unicode": "🚆"
+ },
+ "tram": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F68A",
+  "unicode": "🚊"
+ },
+ "tramcar": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F68B",
+  "unicode": "🚋"
+ },
+ "triangularflagonpost": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F6A9",
+  "unicode": "🚩"
+ },
+ "triangularruler": {
+  "categoria": "Objetos",
+  "hex": "1F4D0",
+  "unicode": "📐"
+ },
+ "tridentemblem": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F531",
+  "unicode": "🔱"
+ },
+ "triumph": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F624",
+  "unicode": "😤"
+ },
+ "trolleybus": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F68E",
+  "unicode": "🚎"
+ },
+ "trophy": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3C6",
+  "unicode": "🏆"
+ },
+ "tropicaldrink": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F379",
+  "unicode": "🍹"
+ },
+ "tropicalfish": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F420",
+  "unicode": "🐠"
+ },
+ "trumpet": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3BA",
+  "unicode": "🎺"
+ },
+ "tulip": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F337",
+  "unicode": "🌷"
+ },
+ "turban": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F473",
+  "unicode": "👳"
+ },
+ "turnedokhand": {
+  "categoria": "Objetos",
+  "hex": "1F58F",
+  "unicode": "🖏"
+ },
+ "turtle": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F422",
+  "unicode": "🐢"
+ },
+ "twistedrightwardsarrows": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F500",
+  "unicode": "🔀"
+ },
+ "twobuttonmouse": {
+  "categoria": "Objetos",
+  "hex": "1F5B0",
+  "unicode": "🖰"
+ },
+ "twospeechbubbles": {
+  "categoria": "Objetos",
+  "hex": "1F5EA",
+  "unicode": "🗪"
+ },
+ "umbrella": {
+  "categoria": "Animais e Natureza",
+  "hex": "2602",
+  "unicode": "☂"
+ },
+ "umbrellawithraindrops": {
+  "categoria": "Animais e Natureza",
+  "hex": "2614",
+  "unicode": "☔"
+ },
+ "unamused": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F612",
+  "unicode": "😒"
+ },
+ "up": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F199",
+  "unicode": "🆙"
+ },
+ "updownarrow": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2195",
+  "unicode": "↕"
+ },
+ "upperrightwhitecircle": {
+  "categoria": "Objetos",
+  "hex": "1F53F",
+  "unicode": "🔿"
+ },
+ "uppointingredtriangle": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F53A",
+  "unicode": "🔺"
+ },
+ "uppointingsmallredtrisngle": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F53C",
+  "unicode": "🔼"
+ },
+ "verticaltrafficlight": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F6A6",
+  "unicode": "🚦"
+ },
+ "vibrationmode": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F4F3",
+  "unicode": "📳"
+ },
+ "victoryhand": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "270C",
+  "unicode": "✌"
+ },
+ "videocasette": {
+  "categoria": "Objetos",
+  "hex": "1F4FC",
+  "unicode": "📼"
+ },
+ "videogame": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F579",
+  "unicode": "🕹"
+ },
+ "violin": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F3BB",
+  "unicode": "🎻"
+ },
+ "virgo": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "264D",
+  "unicode": "♍"
+ },
+ "volcano": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F30B",
+  "unicode": "🌋"
+ },
+ "waitress": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F481",
+  "unicode": "💁"
+ },
+ "walking": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F6B6",
+  "unicode": "🚶"
+ },
+ "waningbibbousmoon": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F316",
+  "unicode": "🌖"
+ },
+ "waningcrescentmoon": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F318",
+  "unicode": "🌘"
+ },
+ "warningsign": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "26A0",
+  "unicode": "⚠"
+ },
+ "wastebasket": {
+  "categoria": "Objetos",
+  "hex": "1F5D1",
+  "unicode": "🗑"
+ },
+ "watch": {
+  "categoria": "Viagens e Lugares",
+  "hex": "231A",
+  "unicode": "⌚"
+ },
+ "waterbuffalo": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F403",
+  "unicode": "🐃"
+ },
+ "watercloset": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F6BE",
+  "unicode": "🚾"
+ },
+ "watermelon": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F349",
+  "unicode": "🍉"
+ },
+ "wave": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F44B",
+  "unicode": "👋"
+ },
+ "waving": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F44B",
+  "unicode": "👋"
+ },
+ "wavydash": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "3030",
+  "unicode": "〰"
+ },
+ "waxingcrescentmoon": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F312",
+  "unicode": "🌒"
+ },
+ "waxinggibbousmoon": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F314",
+  "unicode": "🌔"
+ },
+ "weary": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F629",
+  "unicode": "😩"
+ },
+ "wedding": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F492",
+  "unicode": "💒"
+ },
+ "weightlifter": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F3CB",
+  "unicode": "🏋"
+ },
+ "whale": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F40B",
+  "unicode": "🐋"
+ },
+ "wheelchairsymbol": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "267F",
+  "unicode": "♿"
+ },
+ "whitedownpointinglefthand": {
+  "categoria": "Objetos",
+  "hex": "1F597",
+  "unicode": "🖗"
+ },
+ "whiteexclaimationmark": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2755",
+  "unicode": "❕"
+ },
+ "whiteflower": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F4AE",
+  "unicode": "💮"
+ },
+ "whitehardshellfloppy": {
+  "categoria": "Objetos",
+  "hex": "1F5AB",
+  "unicode": "🖫"
+ },
+ "whiteheavycheckmark": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2705",
+  "unicode": "✅"
+ },
+ "whitelargesquare": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2B1C",
+  "unicode": "⬜"
+ },
+ "whitelatincross": {
+  "categoria": "Objetos",
+  "hex": "1F546",
+  "unicode": "🕆"
+ },
+ "whitemediumsmallsquare": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "25FD",
+  "unicode": "◽"
+ },
+ "whitemediumsquare": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "25FB",
+  "unicode": "◻"
+ },
+ "whitemediumstar": {
+  "categoria": "Animais e Natureza",
+  "hex": "2B50",
+  "unicode": "⭐"
+ },
+ "whitepennant": {
+  "categoria": "Objetos",
+  "hex": "1F3F1",
+  "unicode": "🏱"
+ },
+ "whitequestionmark": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "2754",
+  "unicode": "❔"
+ },
+ "whitesmallsquare": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "25AB",
+  "unicode": "▫"
+ },
+ "whitesmilingface": {
+  "categoria": "Rostos e Emoções",
+  "hex": "263A",
+  "unicode": "☺"
+ },
+ "whitesquarebutton": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F533",
+  "unicode": "🔳"
+ },
+ "whitestar": {
+  "categoria": "Objetos",
+  "hex": "2606",
+  "unicode": "☆"
+ },
+ "whitesun": {
+  "categoria": "Objetos",
+  "hex": "1F323",
+  "unicode": "🌣"
+ },
+ "whitesunbehindcloud": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F325",
+  "unicode": "🌥"
+ },
+ "whitesunsmallcloud": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F324",
+  "unicode": "🌤"
+ },
+ "whitetouchtonephone": {
+  "categoria": "Objetos",
+  "hex": "1F57E",
+  "unicode": "🕾"
+ },
+ "windchime": {
+  "categoria": "Atividades e Esportes",
+  "hex": "1F390",
+  "unicode": "🎐"
+ },
+ "window": {
+  "categoria": "Objetos",
+  "hex": "1FA9F",
+  "unicode": "🪟"
+ },
+ "wineglass": {
+  "categoria": "Comidas e Bebidas",
+  "hex": "1F377",
+  "unicode": "🍷"
+ },
+ "winking": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F609",
+  "unicode": "😉"
+ },
+ "wiredkeyboard": {
+  "categoria": "Objetos",
+  "hex": "1F5AE",
+  "unicode": "🖮"
+ },
+ "wolfface": {
+  "categoria": "Animais e Natureza",
+  "hex": "1F43A",
+  "unicode": "🐺"
+ },
+ "woman": {
+  "categoria": "Pessoas e Gestos",
+  "hex": "1F469",
+  "unicode": "👩"
+ },
+ "womanshat": {
+  "categoria": "Objetos",
+  "hex": "1F452",
+  "unicode": "👒"
+ },
+ "womansshirt": {
+  "categoria": "Objetos",
+  "hex": "1F45A",
+  "unicode": "👚"
+ },
+ "womenssymbol": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F6BA",
+  "unicode": "🚺"
+ },
+ "worldmap": {
+  "categoria": "Viagens e Lugares",
+  "hex": "1F5FA",
+  "unicode": "🗺"
+ },
+ "worried": {
+  "categoria": "Rostos e Emoções",
+  "hex": "1F61F",
+  "unicode": "😟"
+ },
+ "wrench": {
+  "categoria": "Objetos",
+  "hex": "1F527",
+  "unicode": "🔧"
+ },
+ "zzz": {
+  "categoria": "Símbolos e Bandeiras",
+  "hex": "1F4A4",
+  "unicode": "💤"
+ }
+}

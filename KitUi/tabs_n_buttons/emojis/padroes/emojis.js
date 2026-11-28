@@ -1,166 +1,56 @@
-/* emojis.js — biblioteca de emojis do catálogo. */
+/* emojis.js — adapta o catálogo gerado (bibliotecas.js) ao formato usado pelo núcleo.
+   Os 136 emojis Unicode foram removidos: cada item agora é um arquivo SVG de uma
+   das 9 bibliotecas, com o Unicode correspondente vindo de unicode-map.json. */
 (function () {
   'use strict';
 
-  var categories = ['Rostos', 'Gestos', 'Pessoas', 'Natureza', 'Comida', 'Objetos', 'Símbolos', 'Bandeiras'];
+  var L = window.KIT_EMOJI_LIBS || { padrao: 'fluent-emoji', categorias: [], ordem: [], bibliotecas: {} };
+  var cats = (L.categorias || []).slice();
+  var padrao = L.padrao || 'fluent-emoji';
+  var libs = L.bibliotecas || {};
 
-  var items = [
-    /* Rostos */
-    { e: '😀', name: 'Sorriso aberto', cat: 'Rostos', keys: 'feliz alegre riso' },
-    { e: '😃', name: 'Sorriso olhos abertos', cat: 'Rostos', keys: 'feliz contente' },
-    { e: '😄', name: 'Sorriso olhos fechados', cat: 'Rostos', keys: 'feliz gargalhada' },
-    { e: '😁', name: 'Sorriso radiante', cat: 'Rostos', keys: 'dentes feliz' },
-    { e: '😆', name: 'Riso alto', cat: 'Rostos', keys: 'gargalhada riso' },
-    { e: '😅', name: 'Sorriso aliviado', cat: 'Rostos', keys: 'suor alivio' },
-    { e: '😂', name: 'Riso com lágrimas', cat: 'Rostos', keys: 'chorar de rir gargalhada' },
-    { e: '🤣', name: 'Rindo no chão', cat: 'Rostos', keys: 'gargalhada rolando' },
-    { e: '😊', name: 'Sorriso gentil', cat: 'Rostos', keys: 'tímido agradável' },
-    { e: '🙂', name: 'Sorriso discreto', cat: 'Rostos', keys: 'neutro leve' },
-    { e: '😉', name: 'Piscadinha', cat: 'Rostos', keys: 'sutil brincalhão' },
-    { e: '😍', name: 'Olhos de coração', cat: 'Rostos', keys: 'amor encantado' },
-    { e: '🥰', name: 'Rosto com corações', cat: 'Rostos', keys: 'amor carinho' },
-    { e: '😎', name: 'Óculos escuros', cat: 'Rostos', keys: 'confiante cool' },
-    { e: '🤓', name: 'Rosto nerd', cat: 'Rostos', keys: 'óculos inteligente' },
-    { e: '🥳', name: 'Rosto festivo', cat: 'Rostos', keys: 'festa comemoração' },
-    { e: '😴', name: 'Dormindo', cat: 'Rostos', keys: 'sono cansado' },
-    { e: '🤔', name: 'Pensando', cat: 'Rostos', keys: 'dúvida reflexão' },
-    { e: '😮', name: 'Surpreso', cat: 'Rostos', keys: 'espanto surpresa' },
-    { e: '😢', name: 'Chorando', cat: 'Rostos', keys: 'triste lágrima' },
-    { e: '😭', name: 'Chorando alto', cat: 'Rostos', keys: 'tristeza soluço' },
-    { e: '😡', name: 'Bravo', cat: 'Rostos', keys: 'raiva furioso' },
-    { e: '🤯', name: 'Cabeça explodindo', cat: 'Rostos', keys: 'choque mente' },
-    { e: '🥶', name: 'Congelado', cat: 'Rostos', keys: 'frio gelado' },
+  function rotulo(nome) {
+    return String(nome || '')
+      .split('-')
+      .filter(Boolean)
+      .map(function (p) { return p.charAt(0).toUpperCase() + p.slice(1); })
+      .join(' ');
+  }
 
-    /* Gestos */
-    { e: '👍', name: 'Joinha', cat: 'Gestos', keys: 'positivo aprovado curtir' },
-    { e: '👎', name: 'Joinha para baixo', cat: 'Gestos', keys: 'negativo reprovado' },
-    { e: '👌', name: 'Okay', cat: 'Gestos', keys: 'perfeito certo' },
-    { e: '✌️', name: 'Paz e vitória', cat: 'Gestos', keys: 'dois dedos vitória' },
-    { e: '🤞', name: 'Dedos cruzados', cat: 'Gestos', keys: 'sorte esperança' },
-    { e: '🤟', name: 'Amo você', cat: 'Gestos', keys: 'língua de sinais amor' },
-    { e: '🤘', name: 'Rock', cat: 'Gestos', keys: 'chifres música' },
-    { e: '👏', name: 'Palmas', cat: 'Gestos', keys: 'aplausos parabéns' },
-    { e: '🙌', name: 'Mãos ao alto', cat: 'Gestos', keys: 'celebração louvor' },
-    { e: '🙏', name: 'Mãos juntas', cat: 'Gestos', keys: 'por favor obrigado reza' },
-    { e: '💪', name: 'Bíceps', cat: 'Gestos', keys: 'força musculoso' },
-    { e: '👋', name: 'Aceno', cat: 'Gestos', keys: 'olá tchau' },
-    { e: '🤝', name: 'Aperto de mão', cat: 'Gestos', keys: 'acordo parceria' },
-    { e: '☝️', name: 'Indicador para cima', cat: 'Gestos', keys: 'um atenção' },
-    { e: '✊', name: 'Punho erguido', cat: 'Gestos', keys: 'força protesto' },
-    { e: '🖐️', name: 'Mão aberta', cat: 'Gestos', keys: 'parar cinco' },
+  function charsDe(hex) {
+    try {
+      return String(hex || '').split('-').map(function (c) {
+        return String.fromCodePoint(parseInt(c, 16));
+      }).join('');
+    } catch (e) {
+      return '';
+    }
+  }
 
-    /* Pessoas */
-    { e: '👶', name: 'Bebê', cat: 'Pessoas', keys: 'criança bebê' },
-    { e: '🧑', name: 'Pessoa', cat: 'Pessoas', keys: 'adulto neutro' },
-    { e: '👩', name: 'Mulher', cat: 'Pessoas', keys: 'feminino' },
-    { e: '👨', name: 'Homem', cat: 'Pessoas', keys: 'masculino' },
-    { e: '🧓', name: 'Pessoa idosa', cat: 'Pessoas', keys: 'idoso velho' },
-    { e: '👵', name: 'Avó', cat: 'Pessoas', keys: 'idosa mulher' },
-    { e: '👨‍💻', name: 'Programador', cat: 'Pessoas', keys: 'desenvolvedor notebook' },
-    { e: '👩‍💻', name: 'Programadora', cat: 'Pessoas', keys: 'desenvolvedora notebook' },
-    { e: '🧑‍🎨', name: 'Artista', cat: 'Pessoas', keys: 'pintor criativo' },
-    { e: '🧑‍🚀', name: 'Astronauta', cat: 'Pessoas', keys: 'espaço foguete' },
-    { e: '🧑‍🍳', name: 'Cozinheiro', cat: 'Pessoas', keys: 'chef cozinha' },
-    { e: '🧑‍🔧', name: 'Mecânico', cat: 'Pessoas', keys: 'conserto ferramenta' },
-    { e: '🕵️', name: 'Detetive', cat: 'Pessoas', keys: 'investigação lupa' },
-    { e: '💂', name: 'Guarda', cat: 'Pessoas', keys: 'soldado proteção' },
-    { e: '🧙', name: 'Mago', cat: 'Pessoas', keys: 'magia fantasia' },
-    { e: '🦸', name: 'Super-herói', cat: 'Pessoas', keys: 'herói poder' },
-
-    /* Natureza */
-    { e: '🌱', name: 'Broto', cat: 'Natureza', keys: 'planta crescimento' },
-    { e: '🌿', name: 'Erva', cat: 'Natureza', keys: 'folha natural' },
-    { e: '🌳', name: 'Árvore', cat: 'Natureza', keys: 'natureza verde' },
-    { e: '🌵', name: 'Cacto', cat: 'Natureza', keys: 'deserto planta' },
-    { e: '🌴', name: 'Palmeira', cat: 'Natureza', keys: 'praia tropical' },
-    { e: '🌸', name: 'Flor de cerejeira', cat: 'Natureza', keys: 'primavera rosa' },
-    { e: '🌻', name: 'Girassol', cat: 'Natureza', keys: 'flor amarela verão' },
-    { e: '🌹', name: 'Rosa', cat: 'Natureza', keys: 'flor amor' },
-    { e: '🍀', name: 'Trevo', cat: 'Natureza', keys: 'sorte verde' },
-    { e: '🍁', name: 'Folha de bordo', cat: 'Natureza', keys: 'outono canadá' },
-    { e: '🌊', name: 'Onda', cat: 'Natureza', keys: 'mar água' },
-    { e: '🔥', name: 'Fogo', cat: 'Natureza', keys: 'chama quente' },
-    { e: '⛰️', name: 'Montanha', cat: 'Natureza', keys: 'pico natureza' },
-    { e: '🌙', name: 'Lua', cat: 'Natureza', keys: 'noite luar' },
-    { e: '☀️', name: 'Sol', cat: 'Natureza', keys: 'dia luz' },
-    { e: '⭐', name: 'Estrela', cat: 'Natureza', keys: 'favorito brilho' },
-    { e: '🌈', name: 'Arco-íris', cat: 'Natureza', keys: 'cores chuva' },
-    { e: '❄️', name: 'Floco de neve', cat: 'Natureza', keys: 'frio inverno' },
-
-    /* Comida */
-    { e: '🍎', name: 'Maçã', cat: 'Comida', keys: 'fruta vermelha' },
-    { e: '🍊', name: 'Tangerina', cat: 'Comida', keys: 'fruta cítrica' },
-    { e: '🍋', name: 'Limão', cat: 'Comida', keys: 'azedo cítrico' },
-    { e: '🍇', name: 'Uvas', cat: 'Comida', keys: 'fruta roxa' },
-    { e: '🍓', name: 'Morango', cat: 'Comida', keys: 'fruta vermelha' },
-    { e: '🍉', name: 'Melancia', cat: 'Comida', keys: 'fruta verão' },
-    { e: '🥑', name: 'Abacate', cat: 'Comida', keys: 'fruta verde' },
-    { e: '🍞', name: 'Pão', cat: 'Comida', keys: 'padaria trigo' },
-    { e: '🧀', name: 'Queijo', cat: 'Comida', keys: 'laticínio' },
-    { e: '🍕', name: 'Pizza', cat: 'Comida', keys: 'italiana queijo' },
-    { e: '🍔', name: 'Hambúrguer', cat: 'Comida', keys: 'lanche carne' },
-    { e: '🌮', name: 'Taco', cat: 'Comida', keys: 'mexicano comida' },
-    { e: '🍣', name: 'Sushi', cat: 'Comida', keys: 'japonês peixe' },
-    { e: '🍜', name: 'Lámen', cat: 'Comida', keys: 'macarrão sopa' },
-    { e: '🍰', name: 'Bolo', cat: 'Comida', keys: 'doce sobremesa' },
-    { e: '☕', name: 'Café', cat: 'Comida', keys: 'bebida quente' },
-    { e: '🍺', name: 'Cerveja', cat: 'Comida', keys: 'bebida bar' },
-    { e: '🍷', name: 'Vinho', cat: 'Comida', keys: 'bebida taça' },
-
-    /* Objetos */
-    { e: '💻', name: 'Notebook', cat: 'Objetos', keys: 'computador laptop' },
-    { e: '🖥️', name: 'Monitor', cat: 'Objetos', keys: 'tela desktop' },
-    { e: '⌨️', name: 'Teclado', cat: 'Objetos', keys: 'digitar' },
-    { e: '🖱️', name: 'Mouse', cat: 'Objetos', keys: 'cursor' },
-    { e: '📱', name: 'Celular', cat: 'Objetos', keys: 'smartphone' },
-    { e: '⌚', name: 'Relógio de pulso', cat: 'Objetos', keys: 'tempo smartwatch' },
-    { e: '🎧', name: 'Fones', cat: 'Objetos', keys: 'áudio música' },
-    { e: '📷', name: 'Câmera', cat: 'Objetos', keys: 'foto fotografia' },
-    { e: '🎥', name: 'Filmadora', cat: 'Objetos', keys: 'vídeo cinema' },
-    { e: '🎨', name: 'Paleta', cat: 'Objetos', keys: 'arte pintura' },
-    { e: '✏️', name: 'Lápis', cat: 'Objetos', keys: 'escrever editar' },
-    { e: '📝', name: 'Bloco de notas', cat: 'Objetos', keys: 'anotar papel' },
-    { e: '📚', name: 'Livros', cat: 'Objetos', keys: 'leitura estudo' },
-    { e: '📦', name: 'Caixa', cat: 'Objetos', keys: 'pacote entrega' },
-    { e: '🔧', name: 'Chave inglesa', cat: 'Objetos', keys: 'ferramenta conserto' },
-    { e: '🔑', name: 'Chave', cat: 'Objetos', keys: 'acesso senha' },
-    { e: '💡', name: 'Lâmpada', cat: 'Objetos', keys: 'ideia luz' },
-    { e: '🧲', name: 'Ímã', cat: 'Objetos', keys: 'atração magnético' },
-
-    /* Símbolos */
-    { e: '❤️', name: 'Coração vermelho', cat: 'Símbolos', keys: 'amor curtir' },
-    { e: '🧡', name: 'Coração laranja', cat: 'Símbolos', keys: 'carinho' },
-    { e: '💚', name: 'Coração verde', cat: 'Símbolos', keys: 'natureza' },
-    { e: '💙', name: 'Coração azul', cat: 'Símbolos', keys: 'confiança' },
-    { e: '💜', name: 'Coração roxo', cat: 'Símbolos', keys: 'criatividade' },
-    { e: '🖤', name: 'Coração preto', cat: 'Símbolos', keys: 'luto' },
-    { e: '🤍', name: 'Coração branco', cat: 'Símbolos', keys: 'pureza' },
-    { e: '💯', name: 'Cem pontos', cat: 'Símbolos', keys: 'perfeito nota' },
-    { e: '✅', name: 'Certo', cat: 'Símbolos', keys: 'aprovado check' },
-    { e: '❌', name: 'Errado', cat: 'Símbolos', keys: 'cancelar erro' },
-    { e: '⚠️', name: 'Aviso', cat: 'Símbolos', keys: 'alerta cuidado' },
-    { e: 'ℹ️', name: 'Informação', cat: 'Símbolos', keys: 'ajuda detalhe' },
-    { e: '🔔', name: 'Sino', cat: 'Símbolos', keys: 'notificação alerta' },
-    { e: '🔒', name: 'Cadeado fechado', cat: 'Símbolos', keys: 'seguro privado' },
-    { e: '🔓', name: 'Cadeado aberto', cat: 'Símbolos', keys: 'desbloqueado' },
-    { e: '♻️', name: 'Reciclagem', cat: 'Símbolos', keys: 'sustentável' },
-    { e: '⚡', name: 'Raio', cat: 'Símbolos', keys: 'energia rápido' },
-    { e: '🎯', name: 'Alvo', cat: 'Símbolos', keys: 'objetivo meta' },
-
-    /* Bandeiras */
-    { e: '🇧🇷', name: 'Brasil', cat: 'Bandeiras', keys: 'bandeira br' },
-    { e: '🇵🇹', name: 'Portugal', cat: 'Bandeiras', keys: 'bandeira pt' },
-    { e: '🇺🇸', name: 'Estados Unidos', cat: 'Bandeiras', keys: 'bandeira eua' },
-    { e: '🇬🇧', name: 'Reino Unido', cat: 'Bandeiras', keys: 'bandeira uk' },
-    { e: '🇫🇷', name: 'França', cat: 'Bandeiras', keys: 'bandeira fr' },
-    { e: '🇩🇪', name: 'Alemanha', cat: 'Bandeiras', keys: 'bandeira de' },
-    { e: '🇯🇵', name: 'Japão', cat: 'Bandeiras', keys: 'bandeira jp' },
-    { e: '🇨🇦', name: 'Canadá', cat: 'Bandeiras', keys: 'bandeira ca' },
-  ];
+  function itemsFor(id) {
+    var b = libs[id];
+    if (!b) return [];
+    return (b.itens || []).map(function (row) {
+      var hex = row[1] || '';
+      return {
+        e: row[0],
+        name: rotulo(row[0]),
+        cat: cats[row[2]] || cats[0] || '',
+        keys: row[0] + ' ' + hex + ' ' + charsDe(hex),
+        hex: hex,
+        unicode: charsDe(hex),
+        lib: id
+      };
+    });
+  }
 
   window.KIT_EMOJIS = {
-    meta: { count: items.length },
-    categories: categories,
-    items: items,
+    categories: cats,
+    ordem: (L.ordem || []).slice(),
+    padrao: padrao,
+    bibliotecas: libs,
+    items: itemsFor(padrao),
+    itemsFor: itemsFor,
+    meta: { count: (libs[padrao] || {}).total || 0 }
   };
 })();

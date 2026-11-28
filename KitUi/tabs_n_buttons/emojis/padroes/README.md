@@ -1,17 +1,20 @@
-# `emojis/padroes` — acervo da aba Emojis
+# `emojis/padroes` — adaptador do acervo da aba Emojis
 
 ## O que fica aqui
 
-Catálogo de 136 glifos divididos em 8 categorias: Rostos, Gestos, Pessoas, Natureza, Comida, Objetos, Símbolos e Bandeiras.
-
 | Arquivo | Papel |
 | :--- | :--- |
-| `emojis.js` | Lista de emojis com caractere, nome, categoria e palavras-chave de busca. |
+| `emojis.js` | Converte `window.KIT_EMOJI_LIBS` (gerado em `../bibliotecas.js`) em `window.KIT_EMOJIS`, no formato consumido por `window.KIT_CORE.E`. |
+
+Os 136 emojis Unicode anteriores foram removidos. Cada item agora representa um arquivo SVG local e traz:
+
+```js
+{ e: 'grinning-face', name: 'Grinning Face', cat: 'Rostos e Emoções',
+  keys: '...', hex: '1F600', unicode: '😀', lib: 'fluent-emoji' }
+```
+
+`cat` vem do índice da categoria no catálogo e `hex`/`unicode` vêm do `unicode-map.json` da respectiva biblioteca. Há também `E.itemsFor(id)`, usado para trocar a biblioteca em prévia e para montar o ZIP com a biblioteca associada ao estilo.
 
 ## Como é usado
 
-Este acervo vem com o Kit UI e é **somente leitura**. A aplicação carrega estes arquivos pelo `index.html` e eles alimentam `window.KIT_CORE.E`.
-
-Esta aba é de consulta: seu acervo é somente leitura.
-
-Para acrescentar um item, adicione o arquivo aqui e cadastre-o no catálogo da aba. Para conteúdo trazido pelo usuário, use `../importados/`.
+O `index.html` carrega `../bibliotecas.js` antes deste arquivo. Este acervo é **somente leitura** e não altera tokens nem o estilo. Para conteúdo trazido pelo usuário, use `../importados/`.

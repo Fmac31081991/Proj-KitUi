@@ -22,7 +22,7 @@
 
   function sheetSubject() {
     if (state.tab === 'icons') return 'ícone ' + state.icon;
-    if (state.tab === 'emojis') return 'emoji ' + state.emoji;
+    if (state.tab === 'emojis') return 'emoji ' + (emojiItemExport().name || state.emoji);
     if (state.tab === 'textures') return 'textura do palco';
     if (state.tab === 'stages') return 'fundo do palco';
     if (state.tab === 'tokens') return 'tokens do estilo';
@@ -89,9 +89,33 @@
     );
   }
 
+  /* Biblioteca associada ao estilo atual — é ela que entra no kit exportado,
+     independentemente da biblioteca em prévia na aba Emojis. */
+  function emojiLibId() {
+    return CORE.emojiLibForStyle
+      ? CORE.emojiLibForStyle()
+      : ((window.KIT_EMOJI_LIBS || {}).padrao || 'fluent-emoji');
+  }
+
+  function emojiItemExport() {
+    const id = emojiLibId();
+    const lista = (E.itemsFor ? E.itemsFor(id) : E.items) || [];
+    return lista.find((i) => i.e === state.emoji) || lista[0] ||
+      E.items.find((i) => i.e === state.emoji) || E.items[0] || {};
+  }
+
+  function emojiExportPath(emoji) {
+    return 'emojis/' + emojiLibId() + '/' + (emoji && emoji.e ? emoji.e : state.emoji) + '.svg';
+  }
+
   function currentEmojiHTML() {
-    const emoji = E.items.find((i) => i.e === state.emoji) || E.items[0];
-    return '<span aria-hidden="true">' + emoji.e + '</span>\n<span class="sr-only">' + emoji.name + '</span>';
+    const emoji = emojiItemExport();
+    /* Itens importados pelo usuário são caracteres Unicode, não SVGs locais. */
+    if (!emoji.hex) {
+      return '<span aria-label="' + escHTML(emoji.name || 'Emoji') + '">' +
+        escHTML(emoji.e || '') + '</span>';
+    }
+    return '<img src="' + escHTML(emojiExportPath(emoji)) + '" width="32" height="32" alt="">';
   }
 
   function snippetCSS() {
@@ -371,20 +395,12 @@
     '    s.setAttribute(\'aria-label\', label);',
     '    s.title = label;',
     '  });',
-    /* Equalizador gráfico: mesmo contrato data-eq-* do componente na aplicação. */
+    /* Equalizador gráfico: mesmo contrato data-eq-* do componente na aplicação.
+       Sem audição e sem DSP: apenas interação e estado visual. */
     '  var eqMax = function (r) { return +r.getAttribute(\'data-eq-range\') || 12; };',
     '  var eqFmt = function (n) { return (Math.round(n * 10) / 10).toFixed(1).replace(\'.\', \',\'); };',
     '  var eqScaleFmt = function (n) { return n % 1 === 0 ? String(n) : eqFmt(n); };',
     '  var eqDb = function (t) { return +(t.getAttribute(\'data-eq-db\') || 0); };',
-    '  var eqSync = function (r) {',
-    '    var a = r._eq; if (!a) return;',
-    '    var ts = r.querySelectorAll(\'[data-eq-track]\'), now = a.ctx.currentTime, i;',
-    '    for (i = 0; i < a.filters.length; i++) a.filters[i].gain.setTargetAtTime(+(ts[i].getAttribute(\'data-eq-db\') || 0), now, 0.02);',
-    '    var by = r.getAttribute(\'data-eq-bypass\') === \'true\';',
-    '    a.dry.gain.setTargetAtTime(by ? 1 : 0, now, 0.02);',
-    '    a.wet.gain.setTargetAtTime(by ? 0 : 1, now, 0.02);',
-    '    a.trim.gain.setTargetAtTime(Math.pow(10, (+r.getAttribute(\'data-eq-out\') || 0) / 20), now, 0.02);',
-    '  };',
     '  var eqPaint = function (r, t) {',
     '    var m = eqMax(r), v = eqDb(t), p = ((m - v) / (m * 2)) * 100;',
     '    var th = t.querySelector(\'[data-eq-thumb]\'), fl = t.querySelector(\'[data-eq-fill]\'), out = t.parentNode.querySelector(\'[data-eq-dbout]\');',
@@ -397,45 +413,7 @@
     '  var eqSet = function (r, t, v) {',
     '    var m = eqMax(r); v = Math.round(v / 0.25) * 0.25;',
     '    v = Math.abs(v) < 0.35 ? 0 : Math.max(-m, Math.min(m, v));',
-    '    t.setAttribute(\'data-eq-db\', String(v)); eqPaint(r, t); eqSync(r);',
-    '  };',
-    '  var eqAudio = function (r) {',
-    '    if (r._eq) return r._eq;',
-    '    var Ctx = window.AudioContext || window.webkitAudioContext; if (!Ctx) return null;',
-    '    var ctx = new Ctx(), ts = r.querySelectorAll(\'[data-eq-track]\'), fs = [], i;',
-    '    var qs = { eq6: 0.95, eq15: 2.1, eq31: 4.3 };',
-    '    for (i = 0; i < ts.length; i++) {',
-    '      var f = ctx.createBiquadFilter(); f.type = \'peaking\';',
-    '      f.frequency.value = +ts[i].getAttribute(\'data-eq-hz\');',
-    '      f.Q.value = qs[r.getAttribute(\'data-eq-spec\')] || 2;',
-    '      f.gain.value = +(ts[i].getAttribute(\'data-eq-db\') || 0); fs.push(f);',
-    '    }',
-    '    var dry = ctx.createGain(), wet = ctx.createGain(), trim = ctx.createGain(), master = ctx.createGain();',
-    '    dry.gain.value = 1; wet.gain.value = 0; master.gain.value = 0.04;',
-    '    master.connect(trim); trim.connect(ctx.destination);',
-    '    var len = Math.floor(ctx.sampleRate * 2), buf = ctx.createBuffer(1, len, ctx.sampleRate), d = buf.getChannelData(0), brown = 0;',
-    '    for (i = 0; i < len; i++) { var w = Math.random() * 2 - 1; brown = (brown + 0.02 * w) / 1.02; d[i] = w * 0.5 + brown * 3; }',
-    '    r._eq = { ctx: ctx, buf: buf, filters: fs, dry: dry, wet: wet, trim: trim, src: null }; return r._eq;',
-    '  };',
-    '  var eqStop = function (r) {',
-    '    if (!r._eq || !r._eq.src) return;',
-    '    try { r._eq.src.stop(); } catch (e) {}',
-    '    try { r._eq.src.disconnect(); } catch (e) {}',
-    '    r._eq.src = null;',
-    '    var b = r.querySelector(\'[data-eq-act="listen"]\');',
-    '    if (b) { b.classList.remove(\'is-active\'); b.setAttribute(\'aria-pressed\', \'false\'); b.textContent = \'Ouvir\'; }',
-    '  };',
-    '  var eqListen = function (r) {',
-    '    if (r._eq && r._eq.src) { eqStop(r); return; }',
-    '    var a = eqAudio(r); if (!a) return;',
-    '    if (a.ctx.resume) a.ctx.resume();',
-    '    var src = a.ctx.createBufferSource(); src.buffer = a.buf; src.loop = true;',
-    '    src.connect(a.dry); if (a.filters.length) src.connect(a.filters[0]); else src.connect(a.wet);',
-    '    for (var i = 0; i < a.filters.length - 1; i++) a.filters[i].connect(a.filters[i + 1]);',
-    '    if (a.filters.length) a.filters[a.filters.length - 1].connect(a.wet);',
-    '    src.start(); a.src = src; eqSync(r);',
-    '    var b = r.querySelector(\'[data-eq-act="listen"]\');',
-    '    if (b) { b.classList.add(\'is-active\'); b.setAttribute(\'aria-pressed\', \'true\'); b.textContent = \'Parar\'; }',
+    '    t.setAttribute(\'data-eq-db\', String(v)); eqPaint(r, t);',
     '  };',
     '  var eqDrag = null;',
     '  document.addEventListener(\'pointerdown\', function (e) {',
@@ -469,11 +447,8 @@
     '    var v = parseFloat(i.value) || 0; v = Math.max(-12, Math.min(12, v));',
     '    r.setAttribute(\'data-eq-out\', String(v));',
     '    var o = r.querySelector(\'[data-eq-out-out]\'); if (o) o.textContent = (v > 0 ? \'+\' : \'\') + eqFmt(v) + \' dB\';',
-    '    eqSync(r);',
     '  });',
-    '  document.addEventListener(\'click\', function (e) {',
-    '    var b = e.target.closest && e.target.closest(\'[data-eq-act]\'); if (!b) return;',
-    '    var r = b.closest(\'[data-eq-root]\'); if (!r) return;',
+    '  var eqAct = function (r, b) {',
     '    var act = b.getAttribute(\'data-eq-act\');',
     '    if (act === \'range\') {',
     '      var m = +b.getAttribute(\'data-eq-value\'); r.setAttribute(\'data-eq-range\', String(m));',
@@ -486,13 +461,32 @@
     '    } else if (act === \'bypass\') {',
     '      var on = r.getAttribute(\'data-eq-bypass\') !== \'true\';',
     '      r.setAttribute(\'data-eq-bypass\', String(on)); r.classList.toggle(\'is-bypassed\', on);',
-    '      b.setAttribute(\'aria-pressed\', String(on)); eqSync(r);',
+    '      b.setAttribute(\'aria-pressed\', String(on));',
     '    } else if (act === \'reset\') {',
     '      var tr = r.querySelectorAll(\'[data-eq-track]\');',
     '      for (var n = 0; n < tr.length; n++) { tr[n].setAttribute(\'data-eq-db\', \'0\'); eqPaint(r, tr[n]); }',
-    '      eqSync(r);',
-    '    } else if (act === \'listen\') { eqListen(r); }',
+    '    }',
+    '  };',
+    '  document.addEventListener(\'click\', function (e) {',
+    '    var b = e.target.closest && e.target.closest(\'[data-eq-act]\'); if (!b) return;',
+    '    var r = b.closest(\'[data-eq-root]\'); if (!r) return; eqAct(r, b);',
     '  });',
+    '  document.addEventListener(\'wheel\', function (e) {',
+    '    var t = e.target.closest && e.target.closest(\'[data-eq-track]\');',
+    '    var o = e.target.closest && e.target.closest(\'.k-eq__out\');',
+    '    var i = o ? o.querySelector(\'[data-eq-out-input]\') : (e.target.closest && e.target.closest(\'[data-eq-out-input]\'));',
+    '    var b = e.target.closest && e.target.closest(\'[data-eq-act]\');',
+    '    var el = t || i || b; if (!el) return;',
+    '    var r = el.closest(\'[data-eq-root]\'); if (!r) return;',
+    '    e.preventDefault();',
+    '    var d = e.deltaY < 0 ? 0.5 : -0.5;',
+    '    if (t) { eqSet(r, t, eqDb(t) + d); }',
+    '    else if (i) {',
+    '      var v = Math.max(-12, Math.min(12, (parseFloat(i.value) || 0) + d)); i.value = String(v);',
+    '      r.setAttribute(\'data-eq-out\', String(v));',
+    '      var ob = r.querySelector(\'[data-eq-out-out]\'); if (ob) ob.textContent = (v > 0 ? \'+\' : \'\') + eqFmt(v) + \' dB\';',
+    '    } else { eqAct(r, b); }',
+    '  }, { passive: false });',
     '}());',
     '<\/script>',
   ].join('\n');
@@ -699,6 +693,8 @@
   function buildReadme() {
     const st = T.styleById(state.style);
     const t = resolvedTokens();
+    const libId = emojiLibId();
+    const lib = ((window.KIT_EMOJI_LIBS || {}).bibliotecas || {})[libId] || {};
     const L = [];
     const add = (s) => L.push(s == null ? '' : String(s));
     const data = new Date().toISOString().slice(0, 10);
@@ -717,6 +713,9 @@
     add('| `README.md` | Este guia: regras completas de layout, tabela de padrões com componentes usados/compatíveis, tabela de componentes, ícones e combinações. |');
     add('| `icons/icons.json` | Lista dos ' + IC.icons.length + ' ícones com id, nome, categoria, aliases e arquivo. |');
     add('| `icons/<id>.svg` | Cada um dos ' + IC.icons.length + ' ícones em arquivo próprio, pronto para copiar. |');
+    add('| `emojis/' + libId + '/` | ' + (lib.total || 0) + ' SVGs da biblioteca ' + (lib.nome || libId) + ' associada a este estilo. |');
+    add('| `emojis/' + libId + '/unicode-map.json` | Relação de cada SVG com seu Unicode, codepoint e categoria. |');
+    add('| `LICENCAS.md` | Licenças e créditos obrigatórios das 9 bibliotecas de emoji. |');
     add();
     add('## Instruções de interface');
     add();
@@ -828,8 +827,71 @@
     add('- Nenhuma dependência externa: fontes do acervo local e SVGs estão dentro do pacote.');
     add('- O `index.html` tem um campo de busca que filtra componentes, padrões e ícones; funciona sem servidor.');
     add('- A variante visual Escuro/Claro da ferramenta não altera este pacote: ela muda só a apresentação no catálogo.');
-    add('- Os ícones são autorais; nenhuma biblioteca de terceiros foi incluída.');
+    add('- Os ícones de interface são autorais; os emojis vêm da biblioteca **' + (lib.nome || libId) +
+      '** (' + (lib.licenca || 'licença não informada') + '), em `emojis/' + libId + '/`.');
+    add('- Respeite as condições descritas em `LICENCAS.md`. O `unicode-map.json` permite localizar o Unicode de cada SVG.');
     return L.join('\n');
+  }
+
+  const EMOJI_BASE = 'tabs_n_buttons/emojis/';
+
+  /* O servidor local pode responder 502 sob rajadas de requisições; cada
+     arquivo tenta algumas vezes antes de ser dado como ausente. */
+  async function fetchTextAsset(path, attempts) {
+    const tentativas = attempts || 3;
+    let ultimo;
+    for (let i = 0; i < tentativas; i++) {
+      try {
+        const res = await fetch(path, { cache: 'force-cache' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return await res.text();
+      } catch (e) {
+        ultimo = e;
+        if (i < tentativas - 1) await new Promise((r) => setTimeout(r, 250 * (i + 1)));
+      }
+    }
+    throw ultimo;
+  }
+
+  /* Traz para o ZIP os SVGs da biblioteca associada ao estilo, mais os
+     marcadores de Unicode e os documentos de licença. */
+  async function emojiZipFiles() {
+    const id = emojiLibId();
+    const lista = (E.itemsFor ? E.itemsFor(id) : E.items) || [];
+    const out = [];
+    const extras = [
+      ['LICENCAS.md', EMOJI_BASE + 'LICENCAS.md'],
+      ['emojis/' + id + '/README.md', EMOJI_BASE + id + '/README.md'],
+      ['emojis/' + id + '/unicode-map.json', EMOJI_BASE + id + '/unicode-map.json'],
+    ];
+    for (const extra of extras) {
+      try {
+        out.push({ name: extra[0], data: await fetchTextAsset(extra[1]) });
+      } catch (e) {
+        console.warn('Kit UI — não foi possível incluir ' + extra[0] + ':', e.message);
+      }
+    }
+
+    let cursor = 0;
+    let done = 0;
+    const total = lista.length;
+    async function worker() {
+      while (cursor < total) {
+        const item = lista[cursor++];
+        try {
+          const data = await fetchTextAsset(EMOJI_BASE + id + '/' + item.e + '.svg');
+          out.push({ name: 'emojis/' + id + '/' + item.e + '.svg', data: data });
+        } catch (e) {
+          console.warn('Kit UI — SVG ' + item.e + ' não incluído:', e.message);
+        }
+        done++;
+        if (done % 250 === 0) toast('Empacotando emojis: ' + done + '/' + total);
+      }
+    }
+    const workers = [];
+    for (let i = 0; i < Math.min(8, Math.max(1, total)); i++) workers.push(worker());
+    await Promise.all(workers);
+    return out;
   }
 
   async function downloadZip() {
@@ -844,7 +906,10 @@
       { name: 'icons/icons.json', data: JSON.stringify(buildIconsJSON(), null, 2) },
     ];
     IC.icons.forEach((icon) => files.push({ name: 'icons/' + icon.id + '.svg', data: iconFile(icon) }));
-    const bytes = window.KIT_ZIP(files);
+    (await emojiZipFiles()).forEach((file) => files.push(file));
+    const bytes = window.KIT_ZIP_ASYNC
+      ? await window.KIT_ZIP_ASYNC(files)
+      : window.KIT_ZIP(files);
     download('kit-' + state.style + '.zip', bytes, 'application/zip');
     return files.length;
   }
@@ -916,8 +981,20 @@
     if (name === 'copy-htmlcss') { copy(await buildSnippet(), 'HTML + CSS copiado'); return true; }
     if (name === 'copy-css') { copy(await buildCSSFile(), 'CSS do kit copiado'); return true; }
     if (name === 'copy-svg') { copy(currentSvg(), 'SVG copiado'); return true; }
-    if (name === 'copy-emoji') { copy(state.emoji, 'Emoji copiado'); return true; }
+    if (name === 'copy-emoji') {
+      copy(emojiItemExport().unicode || state.emoji, 'Unicode do emoji copiado');
+      return true;
+    }
     if (name === 'copy-emoji-html') { copy(currentEmojiHTML(), 'HTML do emoji copiado'); return true; }
+    if (name === 'copy-emoji-svg') {
+      const emoji = emojiItemExport();
+      if (!emoji.hex) {
+        copy(emoji.e || '', 'Caractere do emoji copiado');
+        return true;
+      }
+      copy(emojiExportPath(emoji), 'Caminho do SVG copiado');
+      return true;
+    }
     if (name === 'dl-tokens') {
       download('tokens-' + state.style + '.json', JSON.stringify(tokensJSON(), null, 2), 'application/json');
       return true;
@@ -933,6 +1010,7 @@
   window.KIT_EXPORTAR = {
     openSheet, closeSheet, handleAction,
     sheetSubject, currentEntry, currentCode, currentSvg, currentEmojiHTML,
+    emojiLibId, emojiItemExport, emojiExportPath, emojiZipFiles,
     snippetCSS, buildSnippet, buildCSSFile, buildStandalone, buildIconsJSON,
     buildReadme, iconFile, tokensJSON, downloadZip, download, copy,
   };
